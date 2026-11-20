@@ -165,7 +165,7 @@ lrender();
 var SRC=[
 {n:"衛生福利部 公告訊息",u:"https://www.mohw.gov.tw/rss-18-1.html",c:"衛福部各司署公告、法規預告",m:"官方 RSS",k:function(d){return d.src!=="gazette"&&d.dept!==FD&&!/^(全國|農業部)/.test(d.dept)}},
 {n:"衛生福利部 食品藥物管理署 公告",u:"https://www.fda.gov.tw/tc/rssAnnouncement.ashx",c:"食品、藥品、醫材公告與法規預告",m:"官方 RSS",k:function(d){return d.dept===FD}},
-{n:"農業部 公告",u:"https://www.moa.gov.tw/theme_list.php?theme=publication",c:"農業部及所屬機關公告、法規預告、動植物疫情區域公告",m:"官方 RSS（open_data.php?format=rss&func=publication）",k:function(d){return d.dept==="農業部"}},
+{n:"農業部 公告",u:"https://www.moa.gov.tw/theme_list.php?theme=publication",c:"農業部及所屬機關公告、法規預告、動植物疫情區域公告",m:"官方 RSS（open_data.php?format=rss&func=publication）",k:function(d){return d.dept==="農業部"&&d.src!=="gazette"}},
 {n:"行政院公報資訊網",u:"https://gazette.nat.gov.tw/egFront/index.do",c:"各中央機關法規、預告、公告（篩選食品、農業、衛生相關）",m:"官方開放資料（每日 zip／XML）",k:function(d){return d.src==="gazette"}},
 {n:"全國法規資料庫（法務部）最新訊息",u:"https://law.moj.gov.tw/",c:"各機關法規訂定、修正、廢止訊息",m:"網站地圖（SearchEngineSitemap.aspx）＋最新訊息內文頁（NewsDetail.aspx）",k:function(d){return d.dept.indexOf("全國")===0}}];
 function srender(){var h="";SRC.forEach(function(x){h+='<tr><td>'+esc(x.n)+'</td><td><a href="'+x.u+'" target="_blank" rel="noopener">'+esc(x.u)+'</a></td><td>'+esc(x.c)+'</td><td>'+esc(x.m)+'</td><td>'+LIVE.filter(x.k).length+'</td></tr>'});$("srcb").innerHTML=h}
