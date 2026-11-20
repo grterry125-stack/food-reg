@@ -111,7 +111,7 @@ def main():
         items.append({"title": p.title or body[:40], "url": u, "lastmod": m,
                       "date": d.group(1) if d else "", "body": body[:3000]})
 
-    food = [i for i in items if any(k in i["title"] + i["body"] for k in KEYWORDS)]
+    food = items
     os.makedirs("out", exist_ok=True)
     json.dump({"fetched_at": datetime.now().isoformat(timespec="seconds"),
                "source": "全國法規資料庫（法務部）最新訊息", "total": len(items), "food_related": food},
