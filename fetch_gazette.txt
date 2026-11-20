@@ -16,7 +16,7 @@ from urllib.parse import urljoin, urlparse
 
 BASE = "https://gazette.nat.gov.tw"
 PAGES = [BASE + "/egFront/openData03.do", BASE + "/egFront/openData02.do?action=last"]
-UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
+UA = "food-reg-platform-test/0.1 (contact: grterry125@gmail.com)"   # ← 請改成你的 Email
 
 KEYWORDS = ["食品", "食安", "餐飲", "添加物", "農藥", "動物用藥", "動物藥品", "健康食品", "包裝飲用水",
             "屠宰", "乳品", "過敏原", "營養標示", "衛生標準", "進口查驗", "食品藥物管理署", "動植物防疫檢疫署"]
