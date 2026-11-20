@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>食品法規智慧通報平台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f7f4;--surf:#fff;--ink:#16302b;--mute:#5b706a;--line:#d8e0dc;--brand:#0f5c4d;--brandt:#e1efe9;--hi:#b3261e;--hit:#fbe4e1;--mid:#9a5b00;--midt:#fdeccd;--lo:#2f6b3a;--lot:#dff0e0;--on:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1b18;--surf:#172723;--ink:#e6f0ec;--mute:#9bb2ab;--line:#2b403a;--brand:#5fc5ab;--brandt:#1e3a33;--hi:#ff8a80;--hit:#3b1f1d;--mid:#f0b95a;--midt:#3a2c12;--lo:#8fd19a;--lot:#1b3320;--on:#0f1b18}}
+:root[data-theme="dark"]{--bg:#0f1b18;--surf:#172723;--ink:#e6f0ec;--mute:#9bb2ab;--line:#2b403a;--brand:#5fc5ab;--brandt:#1e3a33;--hi:#ff8a80;--hit:#3b1f1d;--mid:#f0b95a;--midt:#3a2c12;--lo:#8fd19a;--lot:#1b3320;--on:#0f1b18}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.7 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--surf);z-index:10}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);background:var(--surf);border-bottom:1px solid var(--line);z-index:9}
+.bar{max-width:1120px;margin:auto;padding:10px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.logo{font-weight:700;font-size:18px;color:var(--brand);margin-right:auto}
+nav{display:flex;gap:4px}
+nav a{padding:6px 14px;border-radius:6px;color:var(--mute);text-decoration:none;font-weight:500}
+nav a.on{background:var(--brandt);color:var(--brand)}
+main{max-width:1120px;margin:auto;padding:24px 20px 64px}
+.view{display:none}.view.on{display:block}
+.hero{padding:20px 0 8px}
+h1{font-size:clamp(26px,4.5vw,40px);line-height:1.25;margin:0 0 10px;font-weight:700}
+.sub{color:var(--mute);max-width:60ch;margin:0 0 20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:16px 0 24px}
+.stat{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
+.stat b{display:block;font-size:28px;line-height:1.2}
+.stat span{color:var(--mute);font-size:14px}
+.note{background:var(--midt);color:var(--mid);border-radius:8px;padding:10px 14px;font-size:14px;margin:0 0 20px}
+.cats{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:12px}
+.chip{flex:none;border:1px solid var(--line);background:var(--surf);border-radius:999px;padding:4px 14px;cursor:pointer;font-size:14px}
+.chip[aria-pressed="true"]{background:var(--brand);color:var(--on);border-color:var(--brand)}
+.filters{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:10px;margin-bottom:16px}
+.filters input,.filters select,.f input,.f select{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surf)}
+@media(max-width:720px){.filters{grid-template-columns:1fr 1fr}.filters input{grid-column:1/-1}}
+.list{display:grid;gap:10px}
+.item{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:14px 18px;cursor:pointer;display:grid;gap:6px;text-align:left;width:100%}
+.item:hover{border-color:var(--brand)}
+.item h3{margin:0;font-size:17px;line-height:1.5}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;color:var(--mute);font-size:14px}
+.tag{display:inline-block;border-radius:5px;padding:0 8px;font-size:13px;font-weight:500;background:var(--brandt);color:var(--brand)}
+.tag.draft{background:var(--midt);color:var(--mid)}.tag.final{background:var(--lot);color:var(--lo)}.tag.abol{background:var(--hit);color:var(--hi)}
+.imp-高{background:var(--hit);color:var(--hi)}.imp-中{background:var(--midt);color:var(--mid)}.imp-低{background:var(--lot);color:var(--lo)}
+.empty{padding:40px;text-align:center;color:var(--mute);border:1px dashed var(--line);border-radius:10px}
+/* detail */
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);width:min(980px,96vw);max-height:92vh;padding:0}
+dialog::backdrop{background:rgba(0,0,0,.5)}
+.dh{display:flex;gap:12px;align-items:flex-start;padding:18px 22px;background:var(--surf);border-bottom:1px solid var(--line)}
+.dh h2{margin:0;font-size:20px;line-height:1.4;flex:1}
+.x{border:1px solid var(--line);background:none;border-radius:8px;padding:2px 12px;cursor:pointer}
+.cols{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:14px;padding:18px 22px}
+@media(max-width:820px){.cols{grid-template-columns:1fr}}
+.col{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:15px}
+.col h4{margin:0 0 8px;font-size:15px;color:var(--brand)}
+.col ul{margin:0;padding-left:20px}
+.dl{padding:0 22px 20px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:var(--surf)}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--brandt);color:var(--brand)}
+del{background:var(--hit);color:var(--hi)}ins{background:var(--lot);color:var(--lo);text-decoration:none}
+.tw{overflow-x:auto}
+.warn{font-size:13px;color:var(--mute);padding:0 22px 18px}
+.btn{background:var(--brand);color:var(--on);border:0;border-radius:8px;padding:8px 18px;cursor:pointer;font-weight:500}
+.btn.sec{background:none;color:var(--brand);border:1px solid var(--brand)}
+.btn.bad{background:var(--hi);color:var(--on)}
+.f{display:grid;gap:14px;max-width:560px;background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:20px}
+.f label{display:grid;gap:4px;font-weight:500}
+.checks{display:flex;flex-wrap:wrap;gap:8px}
+.checks label{font-weight:400;display:flex;gap:6px;align-items:center;border:1px solid var(--line);border-radius:6px;padding:3px 10px;font-size:14px}
+.ok{background:var(--lot);color:var(--lo);padding:12px 16px;border-radius:8px}
+.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:12px 0 28px;padding:0;list-style:none;counter-reset:s}
+.flow li{background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:14px;counter-increment:s}
+.flow li::before{content:counter(s) ". ";font-weight:700;color:var(--brand)}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.chip input{margin-right:4px}
+.item a{color:var(--brand);font-weight:500}
+footer{border-top:1px solid var(--line);color:var(--mute);font-size:13px;padding:20px;text-align:center}
+@media(prefers-reduced-motion:no-preference){.view.on{animation:f .25s}@keyframes f{from{opacity:.4}to{opacity:1}}}
+</style>
+</head>
+<body>
+<header class="top"><div class="bar">
+<span class="logo">食品法規智慧通報平台</span>
+<nav aria-label="主選單"><a href="#home" data-v="home">最新法規</a><a href="#live" data-v="live">衛福部公告（真實）</a><a href="#subscribe" data-v="subscribe">訂閱通報</a><a href="#admin" data-v="admin">覆核後台</a><a href="#about" data-v="about">系統流程</a></nav>
+</div></header>
+<main>
+
+<section class="view" id="v-home">
+<div class="hero"><h1>政府一公告，您就知道影響什麼</h1>
+<p class="sub">自動蒐集食品法規公告，AI 整理重點與影響對象，專業人員覆核後再通知您。</p></div>
+<p class="note">目前顯示的是「示意資料」，用來展示功能與版面，不是真實公告。正式上線後會改為官方來源資料，內容一律以主管機關公告為準。</p>
+<div class="stats" id="stats"></div>
+<div class="cats" id="cats" role="group" aria-label="法規分類"></div>
+<div class="filters">
+<input id="q" type="search" placeholder="搜尋關鍵字，例如：過敏原、GHP、農藥殘留" aria-label="關鍵字">
+<select id="fa" aria-label="發布機關"><option value="">全部機關</option></select>
+<select id="ft" aria-label="異動類型"><option value="">全部類型</option><option>新增</option><option>修正</option><option>廢止</option><option>預告</option></select>
+<select id="fi" aria-label="影響程度"><option value="">全部影響程度</option><option>高</option><option>中</option><option>低</option></select>
+</div>
+<div class="list" id="list"></div>
+</section>
+
+<section class="view" id="v-live">
+<h1>衛福部公告（真實資料測試）</h1>
+<p class="sub">資料來自衛福部官方 RSS「公告訊息」。每則都連到官方原文，內容以官方公告為準。</p>
+<p class="note" id="lnote"></p>
+<div class="filters" style="grid-template-columns:2fr auto auto">
+<input id="lq" type="search" placeholder="搜尋標題或單位" aria-label="搜尋">
+<label class="chip"><input type="checkbox" id="lf"> 只看食品相關</label>
+<label class="chip"><input type="checkbox" id="lr"> 只看法規類</label>
+</div>
+<div class="list" id="llist"></div>
+<h3 style="margin-top:28px">匯入最新 RSS</h3>
+<p class="sub">網頁無法直接連到政府網站。請在瀏覽器開啟 <a href="https://www.mohw.gov.tw/rss-18-1.html" target="_blank" rel="noopener">衛福部公告 RSS</a> 或 <a href="https://www.fda.gov.tw/tc/rssAnnouncement.ashx" target="_blank" rel="noopener">食藥署公告 RSS</a>，全選複製頁面內容，貼到下方後按「解析」。</p>
+<div class="f" style="max-width:none"><textarea id="lx" rows="5" placeholder="貼上 RSS XML" style="width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surf);color:inherit;font:inherit"></textarea><div class="row"><button class="btn" id="lb">解析</button><button class="btn sec" id="lr0">還原內建資料</button></div><div id="lm" role="status"></div></div>
+</section>
+
+<section class="view" id="v-subscribe">
+<h1>訂閱法規通報</h1>
+<p class="sub">選擇您關心的分類與通知方式，有新法規時寄信給您。</p>
+<form class="f" id="sf" onsubmit="return false">
+<label>Email<input id="se" type="email" placeholder="name@company.com" required></label>
+<label>您的產業<select id="si"><option>食品製造業</option><option>食品進口商</option><option>餐飲業</option><option>品保／食安人員</option><option>顧問／教育單位</option></select></label>
+<div><div style="font-weight:500;margin-bottom:6px">關注分類</div><div class="checks" id="sc"></div></div>
+<label>通知頻率<select id="sfq"><option>重大法規即時通知</option><option>每週摘要</option><option>新法規與重要修正</option></select></label>
+<button class="btn" id="sb">訂閱</button>
+<div id="sm" role="status"></div>
+</form>
+<p class="note" style="margin-top:16px">LINE 通知將於第二階段開放。</p>
+</section>
+
+<section class="view" id="v-admin">
+<h1>人工覆核後台</h1>
+<p class="sub">AI 判讀的結果須經專業人員確認後才會公開。通過覆核的項目會出現在最新法規。</p>
+<div class="list" id="alist"></div>
+</section>
+
+<section class="view" id="v-about">
+<h1>系統流程</h1>
+<p class="sub">從政府公告到使用者收到通知，共六個步驟。</p>
+<ol class="flow">
+<li>蒐集：TFDA、全國法規資料庫、行政院公報</li><li>清理與去重：比對網址與文件雜湊值</li><li>AI 判讀：摘要、分類、影響對象</li><li>專業人員覆核</li><li>更新資料庫，保留歷史版本</li><li>依訂閱寄送 Email</li></ol>
+<h3>第一版範圍</h3>
+<ul><li>12 大食品法規分類</li><li>多機關公告自動蒐集</li><li>AI 摘要、分類與影響對象判讀</li><li>人工覆核後台、關鍵字查詢、Email 通報</li></ul>
+<h3>後續階段</h3>
+<ul><li>第二階段：新舊法規比較、會員訂閱管理、LINE 通知</li><li>第三階段：國際法規監控、企業法規遵循管理</li></ul>
+<h3>使用須知</h3>
+<p class="sub">AI 判讀僅為輔助，不能取代法規原文或專業法律確認；使用前請先確認官方原始公告與現行有效法規。</p>
+</section>
+</main>
+
+<dialog id="dlg" aria-labelledby="dt"></dialog>
+<footer>示意資料 · AI 輔助判讀，非法律意見 · 正式適用請以主管機關公告為準</footer>
+
+<script>
+var CATS=["食品安全基本法規","食品業者管理","GHP／HACCP","食品添加物","食品原料管理","食品標示管理","食品衛生標準","農藥及動物用藥","食品檢驗管理","食品輸入管理","食品追溯追蹤","餐飲及其他管理"];
+var D=[
+{id:1,t:"（示意）食品添加物使用範圍及限量標準修正",ag:"衛生福利部",c:3,ty:"修正",pub:"2026-11-16",eff:"2027-03-01",im:"高",st:"approved",
+ s:"調整特定食品添加物的使用範圍與限量。業者需確認配方與使用量是否仍符合規定。",
+ ch:["新增特定食品類別的使用限制","調整部分添加物的最大使用量"],ind:["食品製造業","食品添加物業者","品保及食安部門"],
+ ck:[["原料","是否涉及新限制"],["製程","使用量是否需要調整"],["檢驗","是否新增檢驗項目"],["文件","更新配方與管理程序"]],
+ df:["使用量上限依原規定","依原適用範圍"],dn:["使用量上限調降並分類規範","新增適用食品類別限制"]},
+{id:2,t:"（示意）包裝食品標示規定修正草案預告",ag:"衛生福利部食品藥物管理署",c:5,ty:"預告",pub:"2026-11-14",eff:null,im:"中",st:"approved",
+ s:"預告修正包裝食品標示事項。目前僅為預告，尚未生效，請留意後續正式公告。",
+ ch:["過敏原標示方式調整","營養標示欄位增修"],ind:["食品製造業","食品包裝業","食品進口商"],
+ ck:[["標示","評估包裝是否需修改"],["文件","追蹤正式公告時程"],["教育訓練","通知研發與品保人員"]],
+ df:["現行過敏原標示格式","現行營養標示欄位"],dn:["草案調整標示格式","草案增修欄位"]},
+{id:3,t:"（示意）農藥殘留容許量標準部分條文修正",ag:"衛生福利部",c:7,ty:"修正",pub:"2026-11-10",eff:"2027-01-01",im:"高",st:"approved",
+ s:"部分農藥在特定作物的殘留容許量調整，進口及自主檢驗業者須留意檢驗標準。",
+ ch:["部分作物容許量調整","新增檢驗對象"],ind:["食品進口商","食品製造業","品保及食安部門"],
+ ck:[["原料","確認供應商檢驗報告"],["檢驗","更新自主檢驗項目"],["採購","通知供應商新標準"]],
+ df:["原容許量","原適用作物"],dn:["修正後容許量","新增適用作物"]},
+{id:4,t:"（示意）食品業者登錄辦法修正公告",ag:"衛生福利部食品藥物管理署",c:1,ty:"修正",pub:"2026-11-08",eff:"2027-02-01",im:"中",st:"approved",
+ s:"調整食品業者登錄的欄位與申報方式，涉及管理制度與文件更新。",
+ ch:["登錄欄位調整","變更登錄期限規定"],ind:["食品製造業","餐飲業"],
+ ck:[["文件","更新登錄資料"],["流程","確認變更申報時程"]],
+ df:["原登錄欄位","原變更申報規定"],dn:["新增欄位","新申報期限"]},
+{id:5,t:"（示意）食品追溯追蹤電子申報範圍擴大預告",ag:"衛生福利部",c:10,ty:"預告",pub:"2026-11-05",eff:null,im:"中",st:"pending",
+ s:"預告擴大指定業別的電子申報範圍，尚待正式公告。",ch:["適用業別擴大"],ind:["食品製造業","食品進口商"],
+ ck:[["系統","評估申報系統需求"],["教育訓練","規劃申報作業訓練"]],df:["現行適用業別"],dn:["預告擴大範圍"]},
+{id:6,t:"（示意）食品微生物衛生標準部分廢止",ag:"衛生福利部",c:6,ty:"廢止",pub:"2026-11-02",eff:"2026-12-01",im:"低",st:"approved",
+ s:"廢止特定過時條文，影響有限，建議確認內部文件是否引用。",ch:["廢止過時條文"],ind:["品保及食安部門"],
+ ck:[["文件","移除過時引用"]],df:["原條文"],dn:["已廢止"]},
+{id:7,t:"（示意）輸入食品邊境查驗作業規定修正",ag:"衛生福利部食品藥物管理署",c:9,ty:"修正",pub:"2026-10-28",eff:"2027-01-15",im:"高",st:"pending",
+ s:"調整輸入食品邊境查驗與申報作業，進口商須確認文件準備流程。",ch:["查驗申報文件調整"],ind:["食品進口商"],
+ ck:[["文件","確認申報文件清單"],["流程","調整報關前準備"]],df:["原申報文件"],dn:["調整後文件"]},
+{id:8,t:"（示意）餐飲業衛生管理指引新增",ag:"衛生福利部",c:11,ty:"新增",pub:"2026-10-20",eff:"2027-04-01",im:"低",st:"approved",
+ s:"新增餐飲業衛生管理參考指引，屬一般資訊更新。",ch:["新增管理指引"],ind:["餐飲業"],
+ ck:[["教育訓練","向現場人員說明"]],df:["（無）"],dn:["新增指引"]}
+];
+var $=function(i){return document.getElementById(i)};
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var cat=-1;
+var tcls={"預告":"draft","新增":"final","修正":"","廢止":"abol"};
+function filt(){var q=$("q").value.trim(),a=$("fa").value,t=$("ft").value,i=$("fi").value;
+return D.filter(function(d){if(d.st!=="approved")return false;
+if(cat>=0&&d.c!==cat)return false;if(a&&d.ag!==a)return false;if(t&&d.ty!==t)return false;if(i&&d.im!==i)return false;
+if(q&&(d.t+d.s+d.ind.join()+CATS[d.c]).indexOf(q)<0)return false;return true})}
+function render(){var L=filt(),h="";
+L.forEach(function(d){h+='<button class="item" data-id="'+d.id+'"><h3>'+esc(d.t)+'</h3><div class="meta"><span class="tag '+tcls[d.ty]+'">'+d.ty+'</span><span class="tag imp-'+d.im+'">影響：'+d.im+'</span><span>'+esc(d.ag)+'</span><span>發布 '+d.pub+'</span><span>'+(d.eff?'生效 '+d.eff:'生效日未定')+'</span><span>'+CATS[d.c]+'</span></div><div>'+esc(d.s)+'</div></button>'});
+$("list").innerHTML=h||'<div class="empty">沒有符合條件的法規。試試清除篩選，或換一個關鍵字。</div>';
+var ap=D.filter(function(d){return d.st==="approved"}),pn=D.length-ap.length;
+var soon=ap.filter(function(d){return d.eff&&d.eff<"2027-02-01"}).length;
+$("stats").innerHTML='<div class="stat"><b>'+ap.length+'</b><span>已發布公告</span></div><div class="stat"><b>'+ap.filter(function(d){return d.pub>="2026-11-12"}).length+'</b><span>近一週異動</span></div><div class="stat"><b>'+pn+'</b><span>待人工覆核</span></div><div class="stat"><b>'+soon+'</b><span>近期即將生效</span></div>';
+var a="";D.filter(function(d){return d.st==="pending"}).forEach(function(d){a+='<div class="item" style="cursor:default"><h3>'+esc(d.t)+'</h3><div class="meta"><span class="tag '+tcls[d.ty]+'">'+d.ty+'</span><span class="tag imp-'+d.im+'">AI 判定影響：'+d.im+'</span><span>'+CATS[d.c]+'</span></div><div>AI 摘要：'+esc(d.s)+'</div><div class="row"><button class="btn" data-ok="'+d.id+'">核准發布</button><button class="btn sec" data-view="'+d.id+'">查看判讀</button><button class="btn bad" data-no="'+d.id+'">退回</button></div></div>'});
+$("alist").innerHTML=a||'<div class="empty">目前沒有待覆核的項目。</div>'}
+function build(){var h='<button class="chip" aria-pressed="true" data-c="-1">全部</button>';
+CATS.forEach(function(c,i){h+='<button class="chip" aria-pressed="false" data-c="'+i+'">'+String(i+1).padStart(2,"0")+' '+c+'</button>'});$("cats").innerHTML=h;
+var ags=[];D.forEach(function(d){if(ags.indexOf(d.ag)<0)ags.push(d.ag)});
+ags.forEach(function(a){$("fa").insertAdjacentHTML("beforeend",'<option>'+esc(a)+'</option>')});
+var s="";CATS.forEach(function(c){s+='<label><input type="checkbox" value="'+c+'">'+c+'</label>'});$("sc").innerHTML=s}
+function show(id){var d=D.filter(function(x){return x.id==+id})[0];if(!d)return;
+var ck="",df="";d.ck.forEach(function(r){ck+='<tr><td>'+r[0]+'</td><td>'+esc(r[1])+'</td></tr>'});
+d.df.forEach(function(o,i){df+='<tr><td>'+(i===0?'標示／條文':'相關規定')+'</td><td><del>'+esc(o)+'</del></td><td><ins>'+esc(d.dn[i]||"")+'</ins></td></tr>'});
+$("dlg").innerHTML='<div class="dh"><h2 id="dt">'+esc(d.t)+'</h2><button class="x" id="cx" aria-label="關閉">關閉</button></div>'+
+'<div class="cols"><div class="col"><h4>官方公告</h4><p>'+esc(d.ag)+'</p><p>公告日期：'+d.pub+'<br>生效日期：'+(d.eff||'尚未訂定')+'<br>類型：'+d.ty+'<br>分類：'+CATS[d.c]+'</p><p>正式內容請查閱官方原始公告（正式版會連結至官方網址）。</p></div>'+
+'<div class="col"><h4>AI 判讀（輔助）</h4><p>'+esc(d.s)+'</p><b>主要異動</b><ul>'+d.ch.map(function(x){return'<li>'+esc(x)+'</li>'}).join("")+'</ul><b>影響對象</b><p>'+d.ind.join("、")+'</p></div>'+
+'<div class="col"><h4>影響評估</h4><p><span class="tag imp-'+d.im+'">影響程度：'+d.im+'</span></p><b>企業應檢查</b><div class="tw"><table><tbody>'+ck+'</tbody></table></div></div></div>'+
+'<div class="dl"><h4 style="margin:0 0 8px">修正前後比較</h4><div class="tw"><table><thead><tr><th>項目</th><th>舊版本</th><th>新版本</th></tr></thead><tbody>'+df+'</tbody></table></div></div>'+
+'<p class="warn">AI 判讀僅供參考，不取代法規原文與專業確認。'+(d.ty==="預告"?'本則為預告，尚未正式生效。':'')+'</p>';
+$("dlg").showModal();$("cx").onclick=function(){$("dlg").close()}}
+document.addEventListener("click",function(e){var t=e.target.closest("[data-id],[data-c],[data-ok],[data-no],[data-view]");if(!t)return;
+if(t.dataset.id)show(t.dataset.id);
+else if(t.dataset.c!==undefined){cat=+t.dataset.c;document.querySelectorAll(".chip").forEach(function(c){c.setAttribute("aria-pressed",c===t)});render()}
+else if(t.dataset.view)show(t.dataset.view);
+else{var id=+(t.dataset.ok||t.dataset.no);D.forEach(function(d){if(d.id===id)d.st=t.dataset.ok?"approved":"rejected"});render()}});
+["q","fa","ft","fi"].forEach(function(i){$(i).addEventListener("input",render)});
+$("sb").onclick=function(){var e=$("se");if(!e.checkValidity()||!e.value){$("sm").innerHTML='<div class="note">請輸入有效的 Email。</div>';e.focus();return}
+var n=document.querySelectorAll("#sc input:checked").length;
+$("sm").innerHTML='<div class="ok">已訂閱 '+esc(e.value)+'（'+(n?n+' 個分類':'全部分類')+'，'+esc($("sfq").value)+'）。此為展示，尚未實際寄信。</div>'};
+function route(){var v=(location.hash||"#live").slice(1);if(!$("v-"+v))v="home";
+document.querySelectorAll(".view").forEach(function(s){s.classList.toggle("on",s.id==="v-"+v)});
+document.querySelectorAll("nav a").forEach(function(a){a.classList.toggle("on",a.dataset.v===v)})}
+var RAW=[[88266,"2026-10-21","醫事司","公告第4次修正「二年期醫師畢業後一般醫學訓練計畫」114學年度PGY2四分組訓練容額，如附件"],[88253,"2026-10-20","心理健康司","公告116年度「精神復健機構改善公共安全設施設備補助計畫」申請作業須知"],[88248,"2026-10-20","口腔健康司","公告115-116年度「口腔親善之家模式試辦計畫」申請作業須知(第二次)"],[88244,"2026-10-20","社會及家庭署","公告衛生福利部116年度老人福利機構評鑑實施計畫"],[88241,"2026-10-19","資訊處","衛生福利部「115年度在宅醫療科技計畫資訊標準與執行規劃」說明會"],[88228,"2026-10-19","心理健康司","公告116年度疑似或社區精神病人照護優化計畫申請作業須知"],[88216,"2026-10-19","附屬醫療及社會福利機構管理會","116年度「偏鄉智慧醫療」補(捐)助科技發展計畫徵求說明書及契約書"],[88174,"2026-10-12","中醫藥司","公告徵求辦理本部116年度補(捐)助「中藥藥用植物種植計畫」"],[88167,"2026-10-08","醫事司","安泰淞鶴診所(新北市)C肝群聚感染事件醫療事故專案調查初步報告"],[88142,"2026-10-05","口腔健康司","公告徵求辦理115-116年度「口腔癌人工智慧工具推動計畫」"],[88139,"2026-10-05","口腔健康司","公告115年度特殊需求者口腔醫學科專科醫師訓練機構第2次認定合格名單及訓練容量"],[88122,"2026-10-01","心理健康司","公告徵求辦理116-117年度「藥癮者社區復健方案布建及服務品質提升計畫」"],[88109,"2026-10-01","心理健康司","公告徵求辦理116-117年度「藥癮治療性社區服務模式多元發展計畫」"],[88081,"2026-09-29","口腔健康司","公告徵求辦理115-116年度「導入牙醫師至無牙醫師執業地區補助計畫」"],[88063,"2026-09-23","醫事司","公告「116年度畢業後綜合臨床醫學訓練選配簡章」，如附件"],[88040,"2026-09-21","醫事司","公告115年「病人安全管理制度及推動成果表揚計畫」"],[87986,"2026-09-16","統計處","敬請支持「115年身心障礙者生活狀況及需求調查」"],[87984,"2026-09-16","口腔健康司","公告116年度「植牙科專科醫師訓練機構認定計畫」"],[87979,"2026-09-16","心理健康司","預告訂定「社區支持服務之內容及執行方式」"],[87928,"2026-09-14","心理健康司","公開徵求補助辦理115年度「布建兒童(青少年)專業精神醫療團隊及心智病房計畫」"]];
+var FK=["食品","食安","餐飲","添加物","農藥","動物用藥","過敏原","營養標示","飲用水","屠宰","乳品","食品藥物管理署"];
+var RK=/預告|廢止|訂定|辦法|標準|規定|草案|修正/;
+function lt(t){return /預告/.test(t)?"預告":/廢止/.test(t)?"廢止":/訂定/.test(t)?"新增":/修正/.test(t)?"修正":"公告"}
+function mk(id,date,dept,title,url){return{id:id,date:date,dept:dept,title:title,url:url||"https://www.mohw.gov.tw/cp-18-"+id+"-1.html",ty:lt(title),food:FK.some(function(k){return title.indexOf(k)>=0}),reg:RK.test(title)}}
+var NEWR=[[88517,"2026-11-18","資訊處","公告「114年度臺灣智慧醫療學校培訓計畫」第二階段實務訓練甄選之審查結果"],[88506,"2026-11-17","心理健康司","第2次公開徵求補助辦理115年度「布建兒童(青少年)專業精神醫療團隊及心智病房計畫」"],[88500,"2026-11-17","心理健康司","發布修正之「精神疾病嚴重病人強制處置費用支付作業要點第十點及第四點附表」"],[88497,"2026-11-17","心理健康司","公告115年度精神復健機構評鑑合格名單"],[88433,"2026-11-13","附屬醫療及社會福利機構管理會","116年度「全院設備智慧管理與ESG永續後勤計畫」補(捐)助科技發展計畫徵求說明書及契約書"],[88457,"2026-11-11","口腔健康司","公告116年度「特殊需求者牙科醫療服務補助計畫」申請作業規定"],[88431,"2026-11-10","附屬醫療及社會福利機構管理會","本部旗山醫院「停車場新建營運移轉(BOT)案」可行性評估公聽會，會議紀錄如附件"],[88430,"2026-11-10","心理健康司","公告徵求辦理本部116年度「大眾政治暴力創傷知情教育計畫」"],[88389,"2026-11-05","心理健康司","公告徵求辦理本部116年度「大眾政治暴力創傷知情教育計畫」"],[88385,"2026-11-05","口腔健康司","公告116年度「原住民族地區口腔衛生教育計畫」申請作業須知"],[88378,"2026-11-05","科技發展組","116年度「衛生福利科技交流及環境建置計畫」補（捐）助科技發展計畫公開徵求"]];
+var ids={};NEWR.forEach(function(r){ids[r[0]]=1});
+var ALLR=NEWR.concat(RAW.filter(function(r){return!ids[r[0]]})).sort(function(a,b){return a[1]<b[1]?1:a[1]>b[1]?-1:b[0]-a[0]});
+var FU="https://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=",FD="食品藥物管理署";
+var FDAR=[[31793,"2026-11-17","自116年1月1日至116年3月31日止，查驗登記啟動之GCP查核案件開放試行線上申辦，並於116年4月1日起採全面線上申辦"],[31795,"2026-11-17","廢止「食品中動物用藥殘留量檢驗方法－Benzimidazole類多重殘留分析」及「食品中動物用藥殘留量檢驗方法－Triclabendazole及其代謝物之檢驗」，並自即日生效。"],[31794,"2026-11-17","修正「食品中動物用藥殘留量檢驗方法－Avermectin類抗生素之檢驗」，並自中華民國一百十六年七月一日生效。"],[31782,"2026-11-11","預告廢止「食品中甲醛之檢驗方法(二)(MOHWA0004.03)」。"],[31786,"2026-11-06","預告修正「適用罕見疾病防治及藥物法之藥物品項」草案"],[31785,"2026-11-06","修正「適用罕見疾病防治及藥物法之藥物品項」"],[31778,"2026-10-15","預告修正「全民健康保險西醫醫療資源不足地區改善方案巡迴地點列屬藥事法第一百零二條所稱無藥事人員執業之偏遠地區列表」附表六、附表七草案。"],[31777,"2026-10-15","預告修正「藥事法第一百零二條所稱無藥事人員執業之偏遠地區與非屬上述偏遠地區列表」附表二、附表十一草案。"],[31744,"2026-10-07","公告修訂「醫療器材臨床試驗計畫案申請須知」，並自115年10月5日生效。"],[31742,"2026-10-06","修正「食品添加物規格檢驗方法－鹿角菜膠」，並自即日生效。"],[31741,"2026-10-06","修正「食品添加物規格檢驗方法－L-麩酸鈉」，並自即日生效。"],[31739,"2026-10-05","預告修正「特定藥品專案核准製造及輸入辦法」第二條、第三條、第六條及「藥物樣品贈品管理辦法」草案"],[31738,"2026-10-05","公告「116-117年度血液製劑預估需求計畫」"],[31740,"2026-10-05","預告修訂「藥品臨床試驗計畫-技術性文件指引」(草案)"],[31737,"2026-10-02","公告自115年10月1日起，指定「數位化醫療器材臨床試驗平台」，供試驗委託者登錄醫療器材臨床試驗相關資料。"],[31736,"2026-10-02","公告「ICH Q5A(R2)：人類或動物來源細胞株衍生之生物技術產品病毒安全性評估」。"],[31735,"2026-09-23","公告廢止「中山醫學大學附設醫院(實驗室名稱：藥物檢測中心)」為本部認證之濫用藥物尿液檢驗機構，並自即日生效。"],[31733,"2026-09-16","公告「ICH M12：藥物交互作用研究指引」及問答集。"],[31728,"2026-09-11","公告修正管制藥品品項(增列Ethyl N-formyl-N-(1-phenylethyl)glycinate等2項管制藥品)"],[31726,"2026-09-10","公告修正「醫療器材回收處理辦法 」第四條、第十四條"]];
+var BASE=ALLR.map(function(r){return mk(r[0],r[1],r[2],r[3])}).concat(FDAR.map(function(r){return mk(r[0],r[1],FD,r[2],FU+r[0])})).sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0}),LIVE=BASE;
+function lrender(){var q=$("lq").value.trim(),f=$("lf").checked,r=$("lr").checked;
+var L=LIVE.filter(function(d){return(!f||d.food)&&(!r||d.reg)&&(!q||(d.title+d.dept).indexOf(q)>=0)});
+$("lnote").textContent="目前 "+LIVE.length+" 則公告；食品相關 "+LIVE.filter(function(d){return d.food}).length+" 則；法規類 "+LIVE.filter(function(d){return d.reg}).length+" 則。"+(window.UPD?"最後自動更新："+UPD+"（每 3 小時一次）。":"內建資料為 2026-11-18 擷取的快照。")+"";
+var h="";L.forEach(function(d){h+='<div class="item" style="cursor:default"><h3>'+esc(d.title)+'</h3><div class="meta"><span class="tag '+tcls[d.ty]+'">'+d.ty+'</span>'+(d.food?'<span class="tag final">食品相關</span>':'')+'<span>'+(d.dept.indexOf("全國")==0?"":"衛生福利部・")+esc(d.dept)+'</span><span>發布 '+d.date+'</span><a href="'+esc(d.url)+'" target="_blank" rel="noopener">官方原文</a></div></div>'});
+$("llist").innerHTML=h||'<div class="empty">沒有符合的公告。這個來源以補助與醫事公告為主，食品法規請再加入食藥署與法規通報來源。</div>'}
+["lq","lf","lr"].forEach(function(i){$(i).addEventListener("input",lrender)});
+$("lr0").onclick=function(){LIVE=BASE;$("lm").innerHTML="";lrender()};
+$("lb").onclick=function(){var x=$("lx").value.trim();if(!x){$("lm").innerHTML='<div class="note">請先貼上 RSS 內容。</div>';return}
+try{var doc=new DOMParser().parseFromString(x,"text/xml");if(doc.querySelector("parsererror"))throw 0;
+var its=doc.querySelectorAll("item"),out=[];
+its.forEach(function(it){var g=function(t){var e=it.getElementsByTagName(t)[0];return e?e.textContent.trim():""};
+var dt=new Date(g("pubDate"));out.push(mk(g("NewsID")||g("link"),isNaN(dt)?"":dt.toISOString().slice(0,10),g("DeptName")||(/fda\.gov\.tw/.test(g("link"))?FD:""),g("title"),g("link").split("&utm_")[0]))});
+if(!out.length)throw 0;var mg={};LIVE.concat(out).forEach(function(d){mg[d.id]=d});LIVE=Object.keys(mg).map(function(k){return mg[k]}).sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0});$("lm").innerHTML='<div class="ok">已解析 '+out.length+' 則公告。</div>';lrender()}
+catch(e){$("lm").innerHTML='<div class="note">無法解析。請確認貼上的是完整的 RSS XML（以 &lt;rss 開頭）。</div>'}};
+fetch("data.json?t="+Date.now()).then(function(r){return r.json()}).then(function(j){if(!j.items||!j.items.length)return;var m={};BASE.forEach(function(d){m[d.id]=d});j.items.forEach(function(x){m[x.id]=mk(x.id,x.date,x.dept,x.title,x.url)});BASE=Object.keys(m).map(function(k){return m[k]}).sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0});LIVE=BASE;window.UPD=j.updated;lrender()}).catch(function(){});
+lrender();
+window.addEventListener("hashchange",route);build();render();route();
+</script>
+</body>
+</html>

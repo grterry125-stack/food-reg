@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+"""把各來源抓到的公告合併成網站讀取的 data.json（累積歷史，最多保留 500 則）"""
+import json, os, re
+from datetime import datetime, timezone, timedelta
+
+OUT = "data.json"
+
+def load(p):
+    try:
+        return json.load(open(p, encoding="utf-8"))
+    except Exception:
+        return {}
+
+def norm_date(s):
+    m = re.search(r"(\d{2,4})[-./](\d{1,2})[-./](\d{1,2})", s or "")
+    if not m:
+        return ""
+    y, mo, d = int(m[1]), int(m[2]), int(m[3])
+    if y < 1911:
+        y += 1911
+    return f"{y:04d}-{mo:02d}-{d:02d}"
+
+old = load(OUT).get("items", [])
+items = {str(i["id"]): i for i in old}
+
+for i in load("out/mohw_items.json").get("all_new", []):
+    items[str(i["news_id"])] = {
+        "id": str(i["news_id"]), "date": i["publish_date"],
+        "dept": i["agency"].replace("衛生福利部・", "", 1) or "衛生福利部",
+        "title": i["title"], "url": i["source_url"]}
+
+for i in load("out/moj_news_food.json").get("food_related", []):
+    items[i["url"]] = {"id": i["url"], "date": norm_date(i.get("date")) or norm_date(i.get("lastmod")),
+                       "dept": "全國法規資料庫", "title": i["title"], "url": i["url"]}
+
+rows = sorted(items.values(), key=lambda x: x.get("date", ""), reverse=True)[:500]
+tw = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
+json.dump({"updated": tw, "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(f"共 {len(rows)} 則，更新時間 {tw}")

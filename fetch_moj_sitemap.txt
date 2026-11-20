@@ -1,0 +1,123 @@
+#!/usr/bin/env python3
+"""
+全國法規資料庫（符合 robots.txt 的抓法）
+
+該站 robots.txt 的規則是：全站禁止，只開放三個路徑：
+  /News/NewsDetail.aspx（最新訊息內文）
+  /LawClass/LawAll.aspx（法規全文頁）
+  /SearchEngineSitemap.aspx（網站地圖）
+所以不碰首頁 Index.aspx，而是：讀網站地圖 → 找出最新的訊息內文頁 → 逐頁讀取。
+（網站地圖的實際格式我沒看過，若讀不到東西，請用 --debug 執行並把輸出貼給我。）
+
+用法：python fetch_moj_sitemap.py            （最新訊息）
+      python fetch_moj_sitemap.py --debug    （顯示細節）
+輸出：out/moj_news_food.json
+"""
+import argparse, html, json, os, re, time, urllib.request
+from datetime import datetime
+from html.parser import HTMLParser
+from urllib.parse import urlparse
+
+BASE = "https://law.moj.gov.tw"
+SITEMAP = BASE + "/SearchEngineSitemap.aspx"
+UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
+KEYWORDS = ["食品", "食安", "餐飲", "添加物", "農藥", "動物用藥", "動物藥品", "健康食品",
+            "包裝飲用水", "屠宰", "乳品", "過敏原", "營養標示", "衛生標準", "衛生福利部"]
+
+def get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode(r.headers.get_content_charset() or "utf-8", "replace")
+
+# ---- robots.txt：用「最長符合」規則判斷（Python 內建的會被 Disallow: / 誤擋，所以自己寫）----
+def load_rules():
+    rules, on = [], False
+    for line in get(BASE + "/robots.txt").splitlines():
+        line = line.split("#")[0].strip()
+        if not line or ":" not in line:
+            continue
+        k, v = [x.strip() for x in line.split(":", 1)]
+        if k.lower() == "user-agent":
+            on = (v == "*")
+        elif on and k.lower() in ("allow", "disallow") and v:
+            rules.append((k.lower(), v))
+    return rules
+
+def allowed(url, rules):
+    u = urlparse(url); path = u.path + ("?" + u.query if u.query else "")
+    best = None
+    for kind, pat in rules:
+        if path.startswith(pat) and (best is None or len(pat) > len(best[1])
+                                     or (len(pat) == len(best[1]) and kind == "allow")):
+            best = (kind, pat)
+    return best is None or best[0] == "allow"
+
+# ---- 網站地圖 ----
+def sitemap_urls(url, rules, depth=0, debug=False):
+    if not allowed(url, rules) or depth > 2:
+        return []
+    xml = get(url); out = []
+    for blk in re.findall(r"<(url|sitemap)>(.*?)</\1>", xml, re.S):
+        loc = re.search(r"<loc>(.*?)</loc>", blk[1], re.S)
+        mod = re.search(r"<lastmod>(.*?)</lastmod>", blk[1], re.S)
+        if not loc: continue
+        u = html.unescape(loc.group(1).strip()); m = mod.group(1).strip() if mod else ""
+        if blk[0] == "sitemap":
+            out += sitemap_urls(u, rules, depth + 1, debug)
+        else:
+            out.append((u, m))
+    if debug: print(f"地圖 {url} 共 {len(out)} 個網址")
+    return out
+
+class Text(HTMLParser):
+    def __init__(s): super().__init__(); s.t=[]; s.skip=0; s.title=""; s._in=False
+    def handle_starttag(s, tag, a):
+        if tag in ("script","style","nav","footer","header"): s.skip += 1
+        if tag == "title": s._in = True
+    def handle_endtag(s, tag):
+        if tag in ("script","style","nav","footer","header"): s.skip = max(0, s.skip-1)
+        if tag == "title": s._in = False
+    def handle_data(s, d):
+        d = " ".join(d.split())
+        if not d: return
+        if s._in: s.title += d
+        elif not s.skip: s.t.append(d)
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--limit", type=int, default=20)
+    ap.add_argument("--delay", type=float, default=3.0)
+    ap.add_argument("--debug", action="store_true")
+    a = ap.parse_args()
+
+    rules = load_rules()
+    if a.debug: print("robots 規則：", rules)
+    urls = sitemap_urls(SITEMAP, rules, debug=a.debug)
+    news = [(u, m) for u, m in urls if "NewsDetail.aspx" in u]
+    num = lambda u: int((re.search(r"(\d+)\s*$", u) or [0, 0])[1])      # 網址最後的編號，越大越新
+    news.sort(key=lambda x: (x[1], num(x[0])), reverse=True)
+    if a.debug: print(f"最新訊息頁 {len(news)} 個，取前 {a.limit} 個"); print(news[:3])
+
+    items = []
+    for u, m in news[:a.limit]:
+        if not allowed(u, rules): continue
+        time.sleep(a.delay)
+        try:
+            p = Text(); p.feed(get(u))
+        except Exception as e:
+            print("失敗：", u, e); continue
+        body = "\n".join(p.t)
+        d = re.search(r"(\d{2,4}[-./]\d{1,2}[-./]\d{1,2})", body)
+        items.append({"title": p.title or body[:40], "url": u, "lastmod": m,
+                      "date": d.group(1) if d else "", "body": body[:3000]})
+
+    food = [i for i in items if any(k in i["title"] + i["body"] for k in KEYWORDS)]
+    os.makedirs("out", exist_ok=True)
+    json.dump({"fetched_at": datetime.now().isoformat(timespec="seconds"),
+               "source": "全國法規資料庫（法務部）最新訊息", "total": len(items), "food_related": food},
+              open("out/moj_news_food.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"讀取 {len(items)} 則，食品相關 {len(food)} 則 → out/moj_news_food.json")
+    for i in items[:10]: print(" -", i["date"], i["title"][:40])
+
+if __name__ == "__main__":
+    main()
