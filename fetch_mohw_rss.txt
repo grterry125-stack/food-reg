@@ -17,6 +17,7 @@ from email.utils import parsedate_to_datetime
 FEEDS = {
     "衛福部公告訊息": "https://www.mohw.gov.tw/rss-18-1.html",
     "食藥署公告": "https://www.fda.gov.tw/tc/rssAnnouncement.ashx",
+    "農業部公告": "https://www.moa.gov.tw/open_data.php?format=rss&func=publication",
 }
 UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 改成你的聯絡方式
 
@@ -52,20 +53,35 @@ def fetch(url):
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read()
 
+def local(tag):
+    return tag.split("}")[-1]
+
 def parse(name, xml_bytes):
     root = ET.fromstring(xml_bytes)
-    for it in root.iter("item"):
-        g = lambda t: (it.findtext(t) or "").strip()
+    for it in root.iter():
+        if local(it.tag) != "item":
+            continue
+        def g(t):
+            for c in it:
+                if local(c.tag) == t:
+                    return (c.text or "").strip()
+            return ""
         title, desc = g("title"), strip_html(g("description"))
+        raw = g("pubDate") or g("date")
         try:
-            pub = parsedate_to_datetime(g("pubDate")).date().isoformat()
+            pub = parsedate_to_datetime(raw).date().isoformat()
         except Exception:
-            pub = ""
+            pub = raw[:10]
+        link = re.sub(r"&utm_.*", "", g("link"))
+        if name.startswith("農業部"):
+            agency = "農業部"
+        else:
+            agency = "衛生福利部・" + (g("DeptName") or ("食品藥物管理署" if "fda.gov.tw" in link else ""))
         yield {
-            "news_id": g("NewsID") or re.sub(r"&utm_.*", "", g("link")),
+            "news_id": g("NewsID") or link,
             "title": title, "publish_date": pub,
-            "agency": "衛生福利部・" + (g("DeptName") or ("食品藥物管理署" if "fda.gov.tw" in g("link") else "")),
-            "source_feed": name, "source_url": re.sub(r"&utm_.*", "", g("link")) or g("source"),
+            "agency": agency,
+            "source_feed": name, "source_url": link or g("source"),
             "summary_raw": desc[:500],
             "public_end_date": g("PublicEndDate") or None,
             "attachments": [{"name": f.get("name"), "url": f.get("url")} for f in it.iter("File")],
