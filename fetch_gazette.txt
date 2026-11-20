@@ -1,0 +1,120 @@
+#!/usr/bin/env python3
+"""
+行政院公報資訊網 開放資料 → 食品／農業／衛生相關公報（只用 Python 標準函式庫）
+
+做法：官方「開放資料」每個出刊日提供一個 zip，裡面有 1 個 XML（該日全部公報）。
+  1. 讀「本月資料」「最新下載」頁，找出 zip 下載連結（連結每天不同，所以要先讀頁面）
+  2. 下載最新的幾個 zip，只讀其中的 XML
+  3. 依關鍵字／篇別篩選，存成 out/gazette_items.json
+會先檢查 robots.txt，不允許的路徑一律不碰。
+用法：python fetch_gazette.txt [--days 5] [--debug]
+"""
+import argparse, html, io, json, os, re, time, urllib.request, zipfile
+import xml.etree.ElementTree as ET
+from datetime import datetime
+from urllib.parse import urljoin, urlparse
+
+BASE = "https://gazette.nat.gov.tw"
+PAGES = [BASE + "/egFront/openData03.do", BASE + "/egFront/openData02.do?action=last"]
+UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
+
+KEYWORDS = ["食品", "食安", "餐飲", "添加物", "農藥", "動物用藥", "動物藥品", "健康食品", "包裝飲用水",
+            "屠宰", "乳品", "過敏原", "營養標示", "衛生標準", "進口查驗", "食品藥物管理署", "動植物防疫檢疫署"]
+KEEP_CHAPTERS = ["衛生勞動篇", "農業環保篇"]     # 這兩篇的公報一律保留；想只留食品相關，清空這個清單
+
+def get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        return r.read()
+
+def load_rules():
+    try:
+        txt = get(BASE + "/robots.txt").decode("utf-8", "replace")
+    except Exception:
+        return []            # 讀不到 robots.txt 視為沒有限制
+    rules, on = [], False
+    for line in txt.splitlines():
+        line = line.split("#")[0].strip()
+        if ":" not in line: continue
+        k, v = [x.strip() for x in line.split(":", 1)]
+        if k.lower() == "user-agent": on = (v == "*")
+        elif on and k.lower() in ("allow", "disallow") and v: rules.append((k.lower(), v))
+    return rules
+
+def allowed(url, rules):
+    u = urlparse(url); path = u.path + ("?" + u.query if u.query else "")
+    best = None
+    for kind, pat in rules:
+        if path.startswith(pat) and (best is None or len(pat) > len(best[1]) or (len(pat) == len(best[1]) and kind == "allow")):
+            best = (kind, pat)
+    return best is None or best[0] == "allow"
+
+def roc_to_iso(s):
+    m = re.search(r"(\d{2,3})年(\d{1,2})月(\d{1,2})日", s or "")
+    if not m: return ""
+    return f"{int(m[1]) + 1911:04d}-{int(m[2]):02d}-{int(m[3]):02d}"
+
+def zip_links(debug):
+    found = {}
+    for p in PAGES:
+        try:
+            page = get(p).decode("utf-8", "replace")
+        except Exception as e:
+            print("讀取失敗：", p, e); continue
+        for m in re.finditer(r'href="([^"]*fileView\.do[^"]*zipfile=([\d\-_]+\.zip)[^"]*)"', page):
+            found[m[2]] = urljoin(BASE + "/egFront/", html.unescape(m[1]))
+    if debug: print("找到 zip：", sorted(found, reverse=True)[:10])
+    return found
+
+def records(zbytes):
+    with zipfile.ZipFile(io.BytesIO(zbytes)) as z:
+        for n in z.namelist():
+            if n.lower().endswith(".xml"):
+                root = ET.fromstring(z.read(n))
+                for rec in root.iter("Record"):
+                    g = lambda t: (rec.findtext(t) or "").strip()
+                    yield {k: g(k) for k in ("MetaId", "Doc_Style_LName", "Chapter", "PubGovName", "Title",
+                           "ThemeSubject", "Keyword", "Category", "Cake", "Date_Published", "Comment_Deadline")}
+
+def wanted(r):
+    text = " ".join([r["Title"], r["ThemeSubject"], r["Keyword"], r["Category"], r["Cake"], r["PubGovName"]])
+    return r["Chapter"] in KEEP_CHAPTERS or any(k in text for k in KEYWORDS)
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--days", type=int, default=5)
+    ap.add_argument("--delay", type=float, default=3.0)
+    ap.add_argument("--debug", action="store_true")
+    a = ap.parse_args()
+    rules = load_rules()
+    if a.debug: print("robots 規則：", rules)
+    links = zip_links(a.debug)
+    if not links:
+        print("沒有找到 zip 下載連結（頁面格式可能不同），請用 --debug 並把輸出貼給我。"); return
+    items, total = [], 0
+    for name in sorted(links, reverse=True)[:a.days]:
+        url = links[name]
+        if not allowed(url, rules):
+            print("robots 不允許：", url); continue
+        time.sleep(a.delay)
+        try:
+            recs = list(records(get(url)))
+        except Exception as e:
+            print("失敗：", name, e); continue
+        total += len(recs)
+        for r in recs:
+            if wanted(r):
+                items.append({"id": "gazette-" + r["MetaId"], "date": roc_to_iso(r["Date_Published"]),
+                              "dept": r["PubGovName"], "title": r["Title"], "src": "gazette",
+                              "url": f"{BASE}/egFront/detail.do?metaid={r['MetaId']}",
+                              "chapter": r["Chapter"], "type": r["Doc_Style_LName"],
+                              "deadline": roc_to_iso(r["Comment_Deadline"]) or None})
+    os.makedirs("out", exist_ok=True)
+    json.dump({"fetched_at": datetime.now().isoformat(timespec="seconds"), "source": "行政院公報資訊網（開放資料）",
+               "total": total, "items": items}, open("out/gazette_items.json", "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+    print(f"讀取 {total} 則公報，保留 {len(items)} 則 → out/gazette_items.json")
+    for i in items[:8]: print(" -", i["date"], i["dept"], i["title"][:36])
+
+if __name__ == "__main__":
+    main()

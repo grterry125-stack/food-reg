@@ -33,6 +33,10 @@ for i in load("out/moj_news_food.json").get("food_related", []):
     items[i["url"]] = {"id": i["url"], "date": norm_date(i.get("date")) or norm_date(i.get("lastmod")),
                        "dept": "全國法規資料庫", "title": i["title"], "url": i["url"]}
 
+for i in load("out/gazette_items.json").get("items", []):
+    items[i["id"]] = {"id": i["id"], "date": i["date"], "dept": i["dept"], "title": i["title"],
+                      "url": i["url"], "src": "gazette"}
+
 rows = sorted(items.values(), key=lambda x: x.get("date", ""), reverse=True)[:500]
 tw = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
 json.dump({"updated": tw, "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
