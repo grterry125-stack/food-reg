@@ -56,6 +56,14 @@ for i in load("out/lawsites_items.json").get("items", []):
         items[i["id"]] = {"id": i["id"], "date": i["date"], "dept": i["dept"], "title": i["title"],
                           "url": i["url"], "src": "lawsite", "via": [i["site"]], "dl": i.get("dl")}
 
+for i in load("out/dep_items.json").get("items", []):
+    ex = items.get(str(i["id"]))
+    if ex:                                   # 衛福部 RSS 已有同一則：只加標記
+        ex["via"] = sorted(set((ex.get("via") or [ex.get("src") or "mohw"]) + ["tcm"]))
+    else:
+        items[str(i["id"])] = {"id": str(i["id"]), "date": i["date"], "dept": i["dept"], "title": i["title"],
+                               "url": i["url"], "src": "tcm", "via": ["tcm"]}
+
 rows = sorted(items.values(), key=lambda x: x.get("date", ""), reverse=True)[:500]
 tw = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
 json.dump({"updated": tw, "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

@@ -1,0 +1,106 @@
+#!/usr/bin/env python3
+"""
+衛福部 中醫藥司「公告訊息」（https://dep.mohw.gov.tw/DOCMAP/lp-890-108.html）→ 公告清單
+
+這頁是一般網頁清單：標題（連結）＋張貼日，一頁 20 則，共約 80 則。
+其中有些公告也出現在衛福部公告訊息 RSS（同一個公告編號），程式用公告編號當 id，
+所以合併後不會重複，只會補上「中醫藥司」這個來源標記。
+會先檢查 robots.txt（沒有這個檔案就視為沒有限制）。輸出 out/dep_items.json。
+用法：python fetch_dep_mohw.txt [--pages 1] [--debug]
+"""
+import argparse, json, os, re, time, urllib.request
+from datetime import datetime
+from html.parser import HTMLParser
+from urllib.parse import urljoin, urlparse
+
+BASE = "https://dep.mohw.gov.tw"
+UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
+DEPT = "中醫藥司"
+PAGE = BASE + "/DOCMAP/lp-890-108{}.html"          # 第 1 頁：lp-890-108.html；第 n 頁：lp-890-108-n-20.html
+
+def get(url, tries=3):
+    last = None
+    for k in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html", "Accept-Language": "zh-TW"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return r.read().decode(r.headers.get_content_charset() or "utf-8", "replace")
+        except Exception as e:
+            last = e
+            if k < tries - 1: time.sleep(10)
+    raise last
+
+def load_rules():
+    try: txt = get(BASE + "/robots.txt", tries=1)
+    except Exception: return []
+    rules, on = [], False
+    for line in txt.splitlines():
+        line = line.split("#")[0].strip()
+        if ":" not in line: continue
+        k, v = [x.strip() for x in line.split(":", 1)]
+        if k.lower() == "user-agent": on = (v == "*")
+        elif on and k.lower() in ("allow", "disallow") and v: rules.append((k.lower(), v))
+    return rules
+
+def allowed(url, rules):
+    u = urlparse(url); path = u.path + ("?" + u.query if u.query else "")
+    best = None
+    for kind, pat in rules:
+        if path.startswith(pat) and (best is None or len(pat) > len(best[1]) or (len(pat) == len(best[1]) and kind == "allow")):
+            best = (kind, pat)
+    return best is None or best[0] == "allow"
+
+LINK = re.compile(r"cp-(\d+)-(\d+)-108\.html")
+
+class List(HTMLParser):
+    def __init__(s, page_url):
+        super().__init__(); s.url = page_url; s.items = []; s.cur = None; s.in_a = False
+    def handle_starttag(s, t, a):
+        if t == "a":
+            m = LINK.search(dict(a).get("href") or "")
+            if m:
+                s.cur = {"nid": m[2], "href": urljoin(s.url, dict(a)["href"]), "title": "", "date": ""}
+                s.items.append(s.cur); s.in_a = True
+    def handle_data(s, d):
+        if s.cur is None: return
+        if s.in_a: s.cur["title"] += d
+        else:
+            m = re.search(r"(\d{2,3})-(\d{1,2})-(\d{1,2})", d)
+            if m and not s.cur["date"]:
+                s.cur["date"] = f"{int(m[1]) + 1911:04d}-{int(m[2]):02d}-{int(m[3]):02d}"
+    def handle_endtag(s, t):
+        if t == "a": s.in_a = False
+
+def parse(html, url):
+    p = List(url); p.feed(html)
+    return [{"id": i["nid"], "date": i["date"], "dept": DEPT, "title": " ".join(i["title"].split()),
+             "url": i["href"], "src": "tcm"} for i in p.items if i["title"].strip()]
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--pages", type=int, default=1)
+    ap.add_argument("--delay", type=float, default=3.0)
+    ap.add_argument("--debug", action="store_true")
+    a = ap.parse_args()
+    rules = load_rules()
+    if a.debug: print("robots 規則：", rules)
+    items = []
+    for n in range(1, a.pages + 1):
+        url = PAGE.format("" if n == 1 else f"-{n}-20")
+        if not allowed(url, rules):
+            print("robots 不允許：", url, "→ 停止。"); break
+        if n > 1: time.sleep(a.delay)
+        try: got = parse(get(url), url)
+        except Exception as e:
+            print("失敗：", url, e); break
+        if a.debug: print(f"第 {n} 頁：{len(got)} 則")
+        items += got
+        if not got: break
+    os.makedirs("out", exist_ok=True)
+    json.dump({"fetched_at": datetime.now().isoformat(timespec="seconds"), "source": "衛福部中醫藥司公告訊息", "items": items},
+              open("out/dep_items.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"讀取 {len(items)} 則 → out/dep_items.json")
+    for i in items[:8]: print(" -", i["date"], i["title"][:40])
+
+if __name__ == "__main__":
+    main()
