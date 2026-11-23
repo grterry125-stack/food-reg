@@ -148,7 +148,7 @@ var BASE=ALLR.map(function(r){return mk(r[0],r[1],r[2],r[3])}).concat(FDAR.map(f
 function lrender(){var q=$("lq").value.trim(),f=$("lf").checked,r=$("lr").checked;
 var L=LIVE.filter(function(d){return(!f||d.food)&&(!r||d.reg)&&(!q||(d.title+d.dept).indexOf(q)>=0)});
 $("lnote").textContent="目前 "+LIVE.length+" 則公告；食品相關 "+LIVE.filter(function(d){return d.food}).length+" 則；法規類 "+LIVE.filter(function(d){return d.reg}).length+" 則。"+(window.UPD?"最後自動更新："+UPD+"（每 3 小時一次）。":"內建資料為 2026-11-18 擷取的快照。")+"";
-var h="";L.forEach(function(d){h+='<div class="item" style="cursor:default"><h3>'+esc(d.title)+'</h3><div class="meta"><span class="tag '+tcls[d.ty]+'">'+d.ty+'</span>'+(d.food?'<span class="tag final">食品相關</span>':'')+'<span>'+(d.src==="gazette"||/^(全國|農業部)/.test(d.dept)?"":"衛生福利部・")+esc(d.dept)+'</span><span>發布 '+d.date+'</span>'+(d.dl?'<span>意見截止 '+d.dl+'</span>':'')+'<a href="'+esc(d.url)+'" target="_blank" rel="noopener">官方原文</a></div></div>'});
+var h="";L.forEach(function(d){h+='<div class="item" style="cursor:default"><h3>'+esc(d.title)+'</h3><div class="meta"><span class="tag '+tcls[d.ty]+'">'+d.ty+'</span>'+(d.food?'<span class="tag final">食品相關</span>':'')+'<span>'+(d.src==="gazette"||d.src==="lawsite"||/^(全國|農業部)/.test(d.dept)?"":"衛生福利部・")+esc(d.dept)+'</span><span>發布 '+d.date+'</span>'+(d.dl?'<span>意見截止 '+d.dl+'</span>':'')+'<a href="'+esc(d.url)+'" target="_blank" rel="noopener">官方原文</a></div></div>'});
 $("llist").innerHTML=h||'<div class="empty">沒有符合的公告。這個來源以補助與醫事公告為主，食品法規請再加入食藥署與法規通報來源。</div>'}
 ["lq","lf","lr"].forEach(function(i){$(i).addEventListener("input",lrender)});
 $("lr0").onclick=function(){LIVE=BASE;$("lm").innerHTML="";lrender()};
@@ -163,11 +163,13 @@ fetch("data.json?t="+Date.now()).then(function(r){return r.json()}).then(functio
 lrender();
 
 var SRC=[
-{n:"衛生福利部 公告訊息",u:"https://www.mohw.gov.tw/rss-18-1.html",c:"衛福部各司署公告、法規預告",m:"官方 RSS",k:function(d){return d.src!=="gazette"&&d.dept!==FD&&!/^(全國|農業部)/.test(d.dept)}},
+{n:"衛生福利部 公告訊息",u:"https://www.mohw.gov.tw/rss-18-1.html",c:"衛福部各司署公告、法規預告",m:"官方 RSS",k:function(d){return d.src!=="gazette"&&d.src!=="lawsite"&&d.dept!==FD&&!/^(全國|農業部)/.test(d.dept)}},
 {n:"衛生福利部 食品藥物管理署 公告",u:"https://www.fda.gov.tw/tc/rssAnnouncement.ashx",c:"食品、藥品、醫材公告與法規預告",m:"官方 RSS",k:function(d){return d.dept===FD}},
 {n:"農業部 公告",u:"https://www.moa.gov.tw/theme_list.php?theme=publication",c:"農業部及所屬機關公告、法規預告、動植物疫情區域公告",m:"官方 RSS（open_data.php?format=rss&func=publication）",k:function(d){return d.dept==="農業部"&&d.src!=="gazette"&&d.src!=="moalaw"}},
 {n:"農業部主管法規共用系統",u:"https://law.moa.gov.tw/index.aspx",c:"農業部法規訂定、修正、廢止與草案預告",m:"網頁最新訊息表（含預告起迄日）；與公報重複的項目只補充資訊",k:function(d){return(d.via||[]).indexOf("moalaw")>=0}},
 {n:"行政院公報資訊網",u:"https://gazette.nat.gov.tw/egFront/index.do",c:"各中央機關法規、預告、公告（篩選食品、農業、衛生相關）",m:"官方開放資料（每日 zip／XML）",k:function(d){return(d.via||[d.src]).indexOf("gazette")>=0}},
+{n:"財政部主管法規共用系統",u:"https://law-out.mof.gov.tw/index.aspx",c:"財政部（含關務署）法規訊息與草案預告",m:"網頁最新訊息表；與公報重複的項目只補充資訊",k:function(d){return(d.via||[]).indexOf("mof")>=0}},
+{n:"環境部主管法規共用系統",u:"https://oaout.moenv.gov.tw/law/index.aspx",c:"環境部法規、行政函釋與草案預告（含容器、餐具、包裝相關）",m:"網頁最新訊息表；與公報重複的項目只補充資訊",k:function(d){return(d.via||[]).indexOf("moenv")>=0}},
 {n:"全國法規資料庫（法務部）最新訊息",u:"https://law.moj.gov.tw/",c:"各機關法規訂定、修正、廢止訊息",m:"網站地圖（SearchEngineSitemap.aspx）＋最新訊息內文頁（NewsDetail.aspx）",k:function(d){return d.dept.indexOf("全國")===0}}];
 function srender(){var h="";SRC.forEach(function(x){h+='<tr><td>'+esc(x.n)+'</td><td><a href="'+x.u+'" target="_blank" rel="noopener">'+esc(x.u)+'</a></td><td>'+esc(x.c)+'</td><td>'+esc(x.m)+'</td><td>'+LIVE.filter(x.k).length+'</td></tr>'});$("srcb").innerHTML=h}
 var _l=lrender;lrender=function(){_l();srender()};

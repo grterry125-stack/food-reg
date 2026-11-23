@@ -1,0 +1,122 @@
+#!/usr/bin/env python3
+"""
+財政部、環境部主管法規共用系統（和農業部同一套系統）最新訊息 → 公告清單（只用 Python 標準函式庫）
+
+它的「最新訊息」是一張網頁表格：序、資料日期、主旨（連到行政院公報）、法規類別，
+草案預告還會附「預告起迄日」。程式會先檢查 robots.txt（沒有這個檔案就視為沒有限制），
+再讀前幾頁，輸出 out/lawsites_items.json。
+連到公報的項目會用公報的編號當 id，這樣與「行政院公報」來源不會重複。
+要增加同類型的部會網站，只要在下方 SITES 加一行。
+用法：python fetch_law_sites.txt [--pages 3] [--debug]
+"""
+import argparse, json, os, re, time, urllib.request
+from datetime import datetime
+from html.parser import HTMLParser
+from urllib.parse import urljoin, urlparse
+
+SITES = [
+    {"key": "mof", "name": "財政部", "base": "https://law-out.mof.gov.tw", "index": "/index.aspx"},
+    {"key": "moenv", "name": "環境部", "base": "https://oaout.moenv.gov.tw", "index": "/law/index.aspx"},
+]
+UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
+GAZETTE = "https://gazette.nat.gov.tw/egFront/detail.do?metaid="
+
+def get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return r.read().decode(r.headers.get_content_charset() or "utf-8", "replace")
+
+def load_rules(base):
+    try:
+        txt = get(base + "/robots.txt")
+    except Exception:
+        return []
+    rules, on = [], False
+    for line in txt.splitlines():
+        line = line.split("#")[0].strip()
+        if ":" not in line: continue
+        k, v = [x.strip() for x in line.split(":", 1)]
+        if k.lower() == "user-agent": on = (v == "*")
+        elif on and k.lower() in ("allow", "disallow") and v: rules.append((k.lower(), v))
+    return rules
+
+def allowed(url, rules):
+    u = urlparse(url); path = u.path + ("?" + u.query if u.query else "")
+    best = None
+    for kind, pat in rules:
+        if path.startswith(pat) and (best is None or len(pat) > len(best[1]) or (len(pat) == len(best[1]) and kind == "allow")):
+            best = (kind, pat)
+    return best is None or best[0] == "allow"
+
+class Rows(HTMLParser):
+    def __init__(s):
+        super().__init__(); s.rows=[]; s.cur=None; s.cell=None; s.href=None
+    def handle_starttag(s, t, a):
+        a = dict(a)
+        if t == "tr": s.cur = []
+        elif t in ("td", "th") and s.cur is not None: s.cell = {"text": "", "href": None}
+        elif t == "a" and s.cell is not None and s.cell["href"] is None: s.cell["href"] = a.get("href")
+    def handle_data(s, d):
+        if s.cell is not None: s.cell["text"] += d
+    def handle_endtag(s, t):
+        if t in ("td", "th") and s.cell is not None and s.cur is not None:
+            s.cell["text"] = " ".join(s.cell["text"].split()); s.cur.append(s.cell); s.cell = None
+        elif t == "tr" and s.cur is not None:
+            s.rows.append(s.cur); s.cur = None
+
+def iso(roc):
+    m = re.search(r"(\d{2,3})\.(\d{1,2})\.(\d{1,2})", roc or "")
+    return f"{int(m[1]) + 1911:04d}-{int(m[2]):02d}-{int(m[3]):02d}" if m else ""
+
+def parse(html, page_url, site):
+    p = Rows(); p.feed(html); out = []
+    for cells in p.rows:
+        if len(cells) < 3 or not re.search(r"\d{2,3}\.\d{1,2}\.\d{1,2}", cells[1]["text"]):
+            continue
+        c = cells[2]; href = urljoin(page_url, c["href"]) if c["href"] else ""
+        title = re.sub(r"\s*（預告起迄日.*$", "", c["text"]).strip()
+        dl = None
+        m = re.search(r"預告起迄日[：:]\s*[\d.]+\s*～\s*([\d.]+)", c["text"])
+        if m: dl = iso(m[1])
+        mid = re.search(r"metaid=(\d+)|metaId/(\d+)", href, re.I)
+        mid = (mid[1] or mid[2]) if mid else None
+        nid = re.search(r"[?&]id=(\d+)", href)
+        out.append({"id": ("gazette-" + mid) if mid else "lawsite-" + site["key"] + "-" + (nid[1] if nid else re.sub(r"\W", "", href)[-30:]),
+                    "date": iso(cells[1]["text"]), "dept": site["name"], "title": title,
+                    "url": (GAZETTE + mid) if mid else href, "src": "lawsite", "site": site["key"],
+                    "kind": cells[3]["text"] if len(cells) > 3 else "", "dl": dl})
+    return out
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--pages", type=int, default=3)
+    ap.add_argument("--delay", type=float, default=3.0)
+    ap.add_argument("--debug", action="store_true")
+    a = ap.parse_args()
+    items = []
+    for site in SITES:
+        rules = load_rules(site["base"])
+        if a.debug: print(site["name"], "robots 規則：", rules)
+        for n in range(1, a.pages + 1):
+            path = site["index"] if n == 1 else (site["index"] + f"?page={n}")
+            url = site["base"] + path
+            if not allowed(url, rules):
+                print(site["name"], "robots 不允許：", url, "→ 停止。"); break
+            time.sleep(a.delay)
+            try:
+                got = parse(get(url), url, site)
+            except Exception as e:
+                print(site["name"], "失敗：", url, e); break
+            if a.debug: print(f"{site['name']} 第 {n} 頁：{len(got)} 則")
+            items += got
+            if not got: break
+        print(site["name"], "累計", len(items), "則")
+    os.makedirs("out", exist_ok=True)
+    json.dump({"fetched_at": datetime.now().isoformat(timespec="seconds"),
+               "source": "財政部、環境部主管法規共用系統（最新訊息）", "items": items},
+              open("out/lawsites_items.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"讀取 {len(items)} 則 → out/lawsites_items.json")
+    for i in items[:8]: print(" -", i["dept"], i["date"], i["title"][:30], ("｜截止 " + i["dl"]) if i["dl"] else "")
+
+if __name__ == "__main__":
+    main()
