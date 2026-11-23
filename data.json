@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 09:15",
+ "updated": "2026-11-23 10:07",
  "items": [
   {
    "id": "88560",
@@ -21,7 +21,11 @@
    "dept": "農業部",
    "title": "農業部公告：公告美國馬里蘭州自高病原性家禽流行性感冒非疫區刪除，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169616",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169626",
@@ -29,7 +33,11 @@
    "dept": "農業部",
    "title": "農業部令：修正「農業部因應美國關稅海洋捕撈產業支持措施作業原則」第2點、第3點、第7點規定，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169626",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169639",
@@ -37,7 +45,11 @@
    "dept": "農業部",
    "title": "農業部令：修正「一百十五年度遠洋漁船靠港整補補助措施」部分規定，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169639",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169638",
@@ -45,7 +57,11 @@
    "dept": "農業部",
    "title": "農業部令：修正「一百十五年度遠洋漁船作業補助措施」，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169638",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169634",
@@ -53,7 +69,18 @@
    "dept": "勞動部",
    "title": "勞動部令：修正「勞工退休金月提繳分級表」，自116年1月1日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169634",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
+  },
+  {
+   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200674",
+   "date": "2026-11-20",
+   "dept": "全國法規資料庫",
+   "title": "有關修正「臺中市政府民政局辦理區公所民政業務考核實施計畫」第三點，部分格式調整，並自116年1月1日起生效，原115年11月18日中市民行字第1150032856號函附件予以抽換，請查照。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200674"
   },
   {
    "id": "88496",
@@ -124,7 +151,11 @@
    "dept": "環境部",
    "title": "環境部公告：修正「限制含汞產品輸入」依據，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169583",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169593",
@@ -132,7 +163,11 @@
    "dept": "農業部",
    "title": "農業部公告：修正「農業部農田水利署桃園管理處農田水利設施範圍」，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169593",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169590",
@@ -140,7 +175,11 @@
    "dept": "環境部",
    "title": "環境部公告：預告「廢機動車輛回收貯存清除處理方法及設施標準」修正草案",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169590",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": "2026-12-03"
   },
   {
    "id": "gazette-169582",
@@ -148,7 +187,18 @@
    "dept": "農業部",
    "title": "農業部公告：預告「森林法施行細則」第5條之1修正草案",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169582",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": "2026-12-03"
+  },
+  {
+   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200675",
+   "date": "2026-11-19",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺南市政府衛生局組織規程」第三條、第四條、第十三條、「臺南市政府衛生局編制表」；「臺南市政府衛生局編制表」並自115年8月1日生效-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200675"
   },
   {
    "id": "88517",
@@ -212,7 +262,11 @@
    "dept": "環境部",
    "title": "環境部公告：修正「免洗餐具限制使用對象及實施方式」公告事項第4項，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169558",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169569",
@@ -220,7 +274,11 @@
    "dept": "農業部",
    "title": "農業部令：修正「漁船船員管理規則」",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169569",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169550",
@@ -228,7 +286,11 @@
    "dept": "農業部",
    "title": "農業部公告：公告美國科羅拉多州、賓夕法尼亞州、紐澤西州、密西根州、佛蒙特州、羅德島州為高病原性家禽流行性感冒非疫區，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169550",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169562",
@@ -236,7 +298,11 @@
    "dept": "環境部",
    "title": "環境部公告：預告「容器回收清除處理費費率」公告事項第4項及第1項附表修正草案",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169562",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": "2026-12-02"
   },
   {
    "id": "gazette-169568",
@@ -244,7 +310,11 @@
    "dept": "農業部",
    "title": "農業部公告：預告「鮪延繩釣漁船赴大西洋作業管理辦法」部分條文及第50條附件10修正草案",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169568",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": "2026-12-02"
   },
   {
    "id": "gazette-169544",
@@ -252,7 +322,11 @@
    "dept": "勞動部",
    "title": "勞動部令：修正「勞工職業災害保險投保薪資分級表」，自116年1月1日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169544",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "88506",
@@ -358,7 +432,11 @@
    "dept": "環境部",
    "title": "環境部令：修正「事業及污水下水道系統水污染防治費收費辦法」第11條、第27條條文",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169507",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169506",
@@ -366,7 +444,11 @@
    "dept": "環境部",
    "title": "環境部公告：修正「照明光源販賣業者應設置資源回收設施及其它應遵行事項」公告事項第1項、第5項，名稱並修正為「照明光源販賣業者應設置資源回收設施及其他應遵行事項」，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169506",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169508",
@@ -374,7 +456,11 @@
    "dept": "環境部",
    "title": "環境部公告：預告「鋼鐵業集塵灰高溫冶煉設施戴奧辛管制及排放標準」修正草案",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169508",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": "2026-12-17"
   },
   {
    "id": "gazette-169533",
@@ -382,7 +468,11 @@
    "dept": "農業部",
    "title": "農業部公告：預告「農業部補助及獎勵農業保險保險人辦法」第4條修正草案",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169533",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": "2027-01-18"
   },
   {
    "id": "gazette-169534",
@@ -390,7 +480,11 @@
    "dept": "農業部",
    "title": "農業部書函：更正第032卷第182期本部115年10月1日農綜字第1150013511號令「民間參與農業及資源循環再利用設施公共建設接管營運辦法」第3條至第6條、第8條、第10條、第11條、第15條、第16條、第18條修正條文對照表如勘誤表",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169534",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169517",
@@ -398,7 +492,11 @@
    "dept": "衛生福利部",
    "title": "衛生福利部公告：廢止「食品中動物用藥殘留量檢驗方法－Benzimidazole類多重殘留分析」、「食品中動物用藥殘留量檢驗方法－Triclabendazole及其代謝物之檢驗」，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169517",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169516",
@@ -406,7 +504,11 @@
    "dept": "衛生福利部",
    "title": "衛生福利部公告：修正「食品中動物用藥殘留量檢驗方法－Avermectin類抗生素之檢驗」，自116年7月1日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169516",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169537",
@@ -414,7 +516,11 @@
    "dept": "勞動部",
    "title": "勞動部令：修正「勞工職業災害保險及保護法第十條規定參加保險辦法」第12條條文及第8條附表",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169537",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169518",
@@ -422,7 +528,11 @@
    "dept": "勞動部",
    "title": "勞動部令：修正「不當勞動行為裁決委員案件審理給付報酬標準」",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169518",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169526",
@@ -430,7 +540,11 @@
    "dept": "勞動部",
    "title": "勞動部令：修正「勞工保險投保薪資分級表」，自116年1月1日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169526",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169522",
@@ -438,7 +552,11 @@
    "dept": "勞動部",
    "title": "勞動部令：訂定「友善職場育兒彈性工作安排措施獎勵及補助要點」，自116年1月1日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169522",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200637",
@@ -530,7 +648,11 @@
    "dept": "農業部",
    "title": "農業部令：修正「農業部因應美國關稅養殖產業支持措施作業原則」第3點、第8點規定，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169498",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169499",
@@ -538,7 +660,11 @@
    "dept": "農業部農業試驗所",
    "title": "農業部農業試驗所公告：預告「農業部農業試驗所辦理農機性能測定收費標準」草案",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169499",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": "2027-01-15"
   },
   {
    "id": "gazette-169497",
@@ -546,7 +672,11 @@
    "dept": "衛生福利部",
    "title": "衛生福利部令：修正「精神疾病嚴重病人強制處置費用支付作業要點」第10點規定及第4點附表，自115年9月1日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169497",
-   "src": "gazette"
+   "src": "gazette",
+   "via": [
+    "gazette"
+   ],
+   "dl": null
   },
   {
    "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200575",
