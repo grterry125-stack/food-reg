@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 10:50",
+ "updated": "2026-11-23 12:13",
  "items": [
   {
    "id": "88560",
@@ -22,6 +22,34 @@
     "mohw",
     "tcm"
    ]
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10048",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告修正「水土保持服務團績效考核評鑑項目及配分表」(如附件)，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10048"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10047",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告變更「臺南市左鎮區光榮休閒農業區」劃定範圍，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10047"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10046",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告變更「臺南市楠西區梅嶺休閒農業區」劃定範圍，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10046"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10045",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告變更「臺南市七股區溪南休閒農業區」劃定範圍，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10045"
   },
   {
    "id": "gazette-169616",
@@ -112,6 +140,27 @@
    "dept": "農業部",
    "title": "公告「一百十五年度直轄市、縣（市）政府執行社區農村再生績效考評計畫」",
    "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10042"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10044",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "公告美國佛羅里達州自高病原性家禽流行性感冒非疫區刪除，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10044"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10043",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "公告漁船船員管理規則第十二條附表二所定各類基本安全訓練之課程內容、時數及見習船員訓練費用，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10043"
+  },
+  {
+   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200676",
+   "date": "2026-11-20",
+   "dept": "全國法規資料庫",
+   "title": "行政院函：調增軍公教員工專業加給及主管職務加給，並俟115年度中央政府總預算追加預算案奉總統公布後，溯自115年7月1日生效-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200676"
   },
   {
    "id": "88496",
