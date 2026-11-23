@@ -35,7 +35,17 @@ for i in load("out/moj_news_food.json").get("food_related", []):
 
 for i in load("out/gazette_items.json").get("items", []):
     items[i["id"]] = {"id": i["id"], "date": i["date"], "dept": i["dept"], "title": i["title"],
-                      "url": i["url"], "src": "gazette"}
+                      "url": i["url"], "src": "gazette", "via": ["gazette"], "dl": i.get("deadline")}
+
+for i in load("out/moalaw_items.json").get("items", []):
+    ex = items.get(i["id"])
+    if ex:                                   # 公報已有這則：只補充資訊，不重複
+        via = ex.get("via") or [ex.get("src") or "other"]
+        ex["via"] = sorted(set(via + ["moalaw"]))
+        ex["dl"] = ex.get("dl") or i.get("dl")
+    else:
+        items[i["id"]] = {"id": i["id"], "date": i["date"], "dept": "農業部", "title": i["title"],
+                          "url": i["url"], "src": "moalaw", "via": ["moalaw"], "dl": i.get("dl")}
 
 rows = sorted(items.values(), key=lambda x: x.get("date", ""), reverse=True)[:500]
 tw = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
