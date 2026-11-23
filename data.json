@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 10:23",
+ "updated": "2026-11-23 10:28",
  "items": [
   {
    "id": "88560",
@@ -169,7 +169,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169583",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moenv"
    ],
    "dl": null
   },
@@ -194,7 +195,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169590",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moenv"
    ],
    "dl": "2026-12-03"
   },
@@ -282,7 +284,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169558",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moenv"
    ],
    "dl": null
   },
@@ -320,7 +323,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169562",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moenv"
    ],
    "dl": "2026-12-02"
   },
@@ -346,6 +350,18 @@
    "src": "gazette",
    "via": [
     "gazette"
+   ],
+   "dl": null
+  },
+  {
+   "id": "lawsite-moenv-44255",
+   "date": "2026-11-18",
+   "dept": "環境部",
+   "title": "關於已註冊通過抵換專案，倘其專案邊界涵蓋應繳納碳費排放源且計入期涵蓋114年1月1日（碳費制度實施）以後者，其減量額度核發原則",
+   "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44255",
+   "src": "lawsite",
+   "via": [
+    "moenv"
    ],
    "dl": null
   },
@@ -455,7 +471,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169507",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moenv"
    ],
    "dl": null
   },
@@ -467,7 +484,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169506",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moenv"
    ],
    "dl": null
   },
@@ -479,7 +497,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169508",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moenv"
    ],
    "dl": "2026-12-17"
   },
@@ -755,6 +774,18 @@
    "dl": null
   },
   {
+   "id": "gazette-169465",
+   "date": "2026-11-13",
+   "dept": "環境部",
+   "title": "環境部公告：修正「照明光源回收清除處理費費率」，除另定生效日期者外，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169465",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
+  },
+  {
    "id": "gazette-169457",
    "date": "2026-11-12",
    "dept": "農業部",
@@ -765,6 +796,42 @@
     "moalaw"
    ],
    "dl": null
+  },
+  {
+   "id": "gazette-169431",
+   "date": "2026-11-12",
+   "dept": "環境部",
+   "title": "環境部公告：預告「限制產品過度包裝檢驗收費標準」第1條修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169431",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-11-26"
+  },
+  {
+   "id": "gazette-169430",
+   "date": "2026-11-12",
+   "dept": "環境部",
+   "title": "環境部公告：預告「限制產品過度包裝個案審查收費標準」第1條修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169430",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-11-26"
+  },
+  {
+   "id": "gazette-169429",
+   "date": "2026-11-12",
+   "dept": "環境部",
+   "title": "環境部公告：預告「國外減量額度認可準則」草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169429",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-12-14"
   },
   {
    "id": "88457",
@@ -815,6 +882,66 @@
    "src": "moalaw",
    "via": [
     "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169376",
+   "date": "2026-11-10",
+   "dept": "環境部",
+   "title": "環境部公告：修正「限制含壬基酚及壬基酚聚乙氧基醇之清潔劑輸入」依據，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169376",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169364",
+   "date": "2026-11-10",
+   "dept": "環境部",
+   "title": "環境部公告：預告「老舊車輛汰舊換新空氣污染物減量補助辦法」第2條、第5條、第6條及第8條附表修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169364",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-11-24"
+  },
+  {
+   "id": "gazette-169363",
+   "date": "2026-11-10",
+   "dept": "環境部",
+   "title": "環境部公告：預告「交通工具排放空氣污染物審查費證書費收費標準」第2條、第3條修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169363",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2027-01-11"
+  },
+  {
+   "id": "gazette-169349",
+   "date": "2026-11-09",
+   "dept": "環境部",
+   "title": "環境部公告：預告廢止「環境部資源回收費率審議委員會設置辦法」",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169349",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-11-23"
+  },
+  {
+   "id": "gazette-169333",
+   "date": "2026-11-09",
+   "dept": "環境部",
+   "title": "環境部公告：修正「一般廢棄物清除處理方式」公告事項附表1，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169333",
+   "src": "lawsite",
+   "via": [
+    "moenv"
    ],
    "dl": null
   },
@@ -871,6 +998,18 @@
    "dl": null
   },
   {
+   "id": "gazette-169322",
+   "date": "2026-11-06",
+   "dept": "環境部",
+   "title": "環境部令：修正「廢容器回收貯存清除處理方法及設施標準」部分條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169322",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
+  },
+  {
    "id": "88389",
    "date": "2026-11-05",
    "dept": "心理健康司",
@@ -890,6 +1029,18 @@
    "dept": "科技發展組",
    "title": "116年度「衛生福利科技交流及環境建置計畫」補（捐）助科技發展計畫公開徵求",
    "url": "https://www.mohw.gov.tw/cp-18-88378-1.html"
+  },
+  {
+   "id": "gazette-169275",
+   "date": "2026-11-05",
+   "dept": "環境部",
+   "title": "環境部令：修正「廢乾電池回收貯存清除處理方法及設施標準」",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169275",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169261",
@@ -960,6 +1111,42 @@
    "src": "lawsite",
    "via": [
     "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "lawsite-moenv-44234",
+   "date": "2026-10-29",
+   "dept": "環境部",
+   "title": "廢棄物清理法115年7月15日修正公布後，有關「違反廢棄物清理法罰鍰額度裁罰準則」之適用，應分別依相關規定有無實質變更及是否牴觸修正後法律予以判斷",
+   "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44234",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
+  },
+  {
+   "id": "lawsite-moenv-44233",
+   "date": "2026-10-29",
+   "dept": "環境部",
+   "title": "有關公私場所固定污染源使用草酸水溶液之揮發性有機物空氣污染防制費排放量計量原則",
+   "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44233",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169137",
+   "date": "2026-10-29",
+   "dept": "環境部",
+   "title": "環境部公告：修正「乾電池回收清除處理費費率」依據，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169137",
+   "src": "lawsite",
+   "via": [
+    "moenv"
    ],
    "dl": null
   },
@@ -1127,6 +1314,18 @@
    "dl": "2026-12-21"
   },
   {
+   "id": "lawsite-moenv-44225",
+   "date": "2026-10-21",
+   "dept": "環境部",
+   "title": "修正「土壤及地下水污染改善貸款信用保證實施要點」第23點，自即日生效",
+   "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44225",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
+  },
+  {
    "id": "88253",
    "date": "2026-10-20",
    "dept": "心理健康司",
@@ -1170,6 +1369,54 @@
     "mof"
    ],
    "dl": null
+  },
+  {
+   "id": "gazette-168992",
+   "date": "2026-10-20",
+   "dept": "環境部",
+   "title": "環境部公告：預告廢止「空氣中臭氧自動檢驗方法－紫外光吸收法（NIEA A420.13C）」",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168992",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-12-21"
+  },
+  {
+   "id": "gazette-168990",
+   "date": "2026-10-20",
+   "dept": "環境部",
+   "title": "環境部公告：預告「土壤中重金屬檢測方法－王水消化法（NIEA S321.66B）」草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168990",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-12-21"
+  },
+  {
+   "id": "gazette-168989",
+   "date": "2026-10-20",
+   "dept": "環境部",
+   "title": "環境部公告：預告廢止「土壤中重金屬檢測方法－王水消化法（NIEA S321.65B）」",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168989",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-12-21"
+  },
+  {
+   "id": "gazette-168985",
+   "date": "2026-10-20",
+   "dept": "環境部",
+   "title": "環境部公告：預告「空氣中臭氧自動檢驗方法－紫外光吸收法（NIEA A420.14C）」草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168985",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-12-21"
   },
   {
    "id": "88241",
@@ -1248,6 +1495,30 @@
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31777"
   },
   {
+   "id": "lawsite-moenv-44217",
+   "date": "2026-10-15",
+   "dept": "環境部",
+   "title": "訂定「溫室氣體管理基金專案貸款信用保證及利息補貼實施要點」，自115年11月30日生效",
+   "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44217",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
+  },
+  {
+   "id": "lawsite-moenv-44215",
+   "date": "2026-10-14",
+   "dept": "環境部",
+   "title": "訂定「環境部及所屬機關（構）文件資料使用 AI 管理原則」，並自即日生效",
+   "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44215",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
+  },
+  {
    "id": "gazette-168871",
    "date": "2026-10-13",
    "dept": "財政部",
@@ -1258,6 +1529,18 @@
     "mof"
    ],
    "dl": null
+  },
+  {
+   "id": "gazette-168854",
+   "date": "2026-10-13",
+   "dept": "環境部",
+   "title": "環境部公告：預告「事業廢棄物貯存清除處理方法及設施標準」第27條修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168854",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": "2026-12-14"
   },
   {
    "id": "88174",
