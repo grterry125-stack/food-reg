@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 15:41",
+ "updated": "2026-11-23 18:23",
  "items": [
   {
    "id": "88560",
@@ -64,6 +64,25 @@
    "dept": "全國法規資料庫",
    "title": "新北市政府交通事件裁決處115年11月23日新北裁管字第1155050475號函:修正「新北市政府交通事件裁決處沒入車輛拍賣及委託廠商銷毀作業要點」第2點、第5點、第9點，並自即日生效。-全國法規資料庫",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200677"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10049",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告委託區漁會辦理見習漁船船員手冊相關作業，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10049"
+  },
+  {
+   "id": "gazette-169677",
+   "date": "2026-11-23",
+   "dept": "財政部",
+   "title": "財政部令：修正「稅務違章案件裁罰金額或倍數參考表」遺產及贈與稅法第44條、第45條及第46條規定部分，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169677",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169616",
