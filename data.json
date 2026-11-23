@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 10:12",
+ "updated": "2026-11-23 10:23",
  "items": [
   {
    "id": "88560",
@@ -85,6 +85,18 @@
    "dept": "全國法規資料庫",
    "title": "有關修正「臺中市政府民政局辦理區公所民政業務考核實施計畫」第三點，部分格式調整，並自116年1月1日起生效，原115年11月18日中市民行字第1150032856號函附件予以抽換，請查照。-全國法規資料庫",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200674"
+  },
+  {
+   "id": "gazette-169629",
+   "date": "2026-11-20",
+   "dept": "財政部",
+   "title": "財政部令：有關「所得稅法」第43條之3、第71條、第75條之相關規定，自發布日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169629",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
   },
   {
    "id": "88496",
@@ -569,6 +581,18 @@
    "dl": null
   },
   {
+   "id": "gazette-169524",
+   "date": "2026-11-17",
+   "dept": "財政部",
+   "title": "財政部令：修正「民間參與公共建設甄審委員會組織及評審辦法」部分條文，名稱並修正為「民間參與公共建設甄審會組織及評審辦法」",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169524",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
    "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200637",
    "date": "2026-11-16",
    "dept": "全國法規資料庫",
@@ -904,6 +928,18 @@
    "dl": null
   },
   {
+   "id": "gazette-169173",
+   "date": "2026-10-30",
+   "dept": "財政部",
+   "title": "財政部公告：預告「民間機構參與重大公共建設適用免納營利事業所得稅辦法」部分條文修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169173",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": "2026-12-29"
+  },
+  {
    "id": "gazette-169151",
    "date": "2026-10-29",
    "dept": "農業部",
@@ -912,6 +948,18 @@
    "src": "moalaw",
    "via": [
     "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169136",
+   "date": "2026-10-29",
+   "dept": "財政部",
+   "title": "財政部關務署令：修正「船舶需用物品申請驗放作業要點」第4點附件3，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169136",
+   "src": "lawsite",
+   "via": [
+    "mof"
    ],
    "dl": null
   },
@@ -940,6 +988,18 @@
    "dl": null
   },
   {
+   "id": "lawsite-mof-77048",
+   "date": "2026-10-28",
+   "dept": "財政部",
+   "title": "財政部函：訂定「財政部辦理採購案件保密作業原則」，並自即日生效",
+   "url": "https://law-out.mof.gov.tw/NewsContent.aspx?id=77048",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
    "id": "gazette-169084",
    "date": "2026-10-27",
    "dept": "農業部",
@@ -950,6 +1010,30 @@
     "moalaw"
    ],
    "dl": "2026-12-28"
+  },
+  {
+   "id": "gazette-169082",
+   "date": "2026-10-27",
+   "dept": "財政部",
+   "title": "財政部令：修正「財政部獎勵使用統一發票及電子發票績優營業人實施要點」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169082",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169081",
+   "date": "2026-10-27",
+   "dept": "財政部",
+   "title": "財政部令：修正「軍用物品進口免稅辦法」第3條、第8條條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169081",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
   },
   {
    "id": "gazette-169083",
@@ -988,6 +1072,18 @@
    "dl": null
   },
   {
+   "id": "gazette-169048",
+   "date": "2026-10-22",
+   "dept": "財政部",
+   "title": "財政部令：訂定115年版「關稅海關緝私法令彙編」發行後相關釋示函令適用原則",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169048",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
    "id": "88266",
    "date": "2026-10-21",
    "dept": "醫事司",
@@ -1019,6 +1115,18 @@
    "dl": null
   },
   {
+   "id": "gazette-169010",
+   "date": "2026-10-21",
+   "dept": "財政部",
+   "title": "財政部公告：預告「國有非公用不動產出租管理辦法」第20條修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169010",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": "2026-12-21"
+  },
+  {
    "id": "88253",
    "date": "2026-10-20",
    "dept": "心理健康司",
@@ -1040,6 +1148,30 @@
    "url": "https://www.mohw.gov.tw/cp-18-88244-1.html"
   },
   {
+   "id": "gazette-168996",
+   "date": "2026-10-20",
+   "dept": "財政部",
+   "title": "財政部公告：預告「產業創新條例緩課所得稅適用辦法」第6條、第8條、第11條修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168996",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": "2026-12-21"
+  },
+  {
+   "id": "gazette-168995",
+   "date": "2026-10-20",
+   "dept": "財政部",
+   "title": "財政部令：修正「納稅者權利保護官辦理納稅者權利保護事項作業要點」部分規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168995",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
    "id": "88241",
    "date": "2026-10-19",
    "dept": "資訊處",
@@ -1052,6 +1184,54 @@
    "dept": "心理健康司",
    "title": "公告116年度疑似或社區精神病人照護優化計畫申請作業須知",
    "url": "https://www.mohw.gov.tw/cp-18-88228-1.html"
+  },
+  {
+   "id": "gazette-168973",
+   "date": "2026-10-19",
+   "dept": "財政部",
+   "title": "財政部令：修正「遺產稅納稅義務人查詢被繼承人財產參考資料作業要點」、「稽徵機關單一窗口受理查詢被繼承人金融遺產資料作業要點」第2點規定、「遺產稅申報稅額試算服務作業要點」部分規定、「遺產稅跨局臨櫃申辦作業要點」第3點、第4點、第6點規定及「遺產及贈與稅電子申辦作業要點」第10點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168973",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168970",
+   "date": "2026-10-19",
+   "dept": "財政部",
+   "title": "財政部公告：預告「遺產及贈與稅法施行細則」部分條文修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168970",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": "2026-12-18"
+  },
+  {
+   "id": "gazette-168964",
+   "date": "2026-10-19",
+   "dept": "財政部",
+   "title": "財政部公告：預告「稅務違章案件減免處罰標準」第13條、第14條修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168964",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": "2026-12-18"
+  },
+  {
+   "id": "gazette-168961",
+   "date": "2026-10-19",
+   "dept": "財政部",
+   "title": "財政部令：修正「遺產稅案件同意移轉證明書申請及核發作業要點」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168961",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
   },
   {
    "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31778",
@@ -1068,6 +1248,18 @@
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31777"
   },
   {
+   "id": "gazette-168871",
+   "date": "2026-10-13",
+   "dept": "財政部",
+   "title": "財政部令：訂定115年版「印花稅使用牌照稅娛樂稅法令彙編」發行後相關釋示函令適用原則",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168871",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
    "id": "88174",
    "date": "2026-10-12",
    "dept": "中醫藥司",
@@ -1080,6 +1272,18 @@
    "dept": "醫事司",
    "title": "安泰淞鶴診所(新北市)C肝群聚感染事件醫療事故專案調查初步報告",
    "url": "https://www.mohw.gov.tw/cp-18-88167-1.html"
+  },
+  {
+   "id": "gazette-168799",
+   "date": "2026-10-08",
+   "dept": "財政部",
+   "title": "財政部公告：公告機動調降大豆沙拉油及飼料用豆粉（粕）等2項貨品關稅稅率，實施期間自115年10月1日至116年3月31日，實施期間如遇稅則修正，機動稅率自動終止實施，改依修正後稅率課徵",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168799",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
   },
   {
    "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31744",
@@ -1101,6 +1305,30 @@
    "dept": "食品藥物管理署",
    "title": "修正「食品添加物規格檢驗方法－L-麩酸鈉」，並自即日生效。",
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31741"
+  },
+  {
+   "id": "gazette-168743",
+   "date": "2026-10-06",
+   "dept": "財政部",
+   "title": "財政部關務署令：修正「自主管理保稅倉庫稽核作業規定」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168743",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168742",
+   "date": "2026-10-06",
+   "dept": "財政部",
+   "title": "財政部關務署令：修正「自主管理保稅倉庫審查作業規定」第6點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168742",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
   },
   {
    "id": "88139",
@@ -1145,11 +1373,143 @@
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31736"
   },
   {
+   "id": "gazette-168678",
+   "date": "2026-10-02",
+   "dept": "財政部",
+   "title": "財政部關務署令：修正「海關管理保稅工廠業務執行注意事項」第11點、第19點、第20點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168678",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168642",
+   "date": "2026-10-01",
+   "dept": "財政部",
+   "title": "財政部公告：公告機動調降牛肉、烘焙用奶粉、奶油、無水奶油及小麥等22項貨品關稅稅率，實施期間自115年10月1日至116年3月31日，實施期間如遇稅則修正，機動稅率自動終止實施，改依修正後稅率課徵",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168642",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168641",
+   "date": "2026-10-01",
+   "dept": "財政部",
+   "title": "財政部令：修正「國有不動產撥用要點」第7點、第14點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168641",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168624",
+   "date": "2026-09-30",
+   "dept": "財政部",
+   "title": "財政部公告：公告機動調降卜特蘭一型水泥、汽油、柴油及液化石油氣4項貨品貨物稅應徵稅額",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168624",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168618",
+   "date": "2026-09-30",
+   "dept": "財政部",
+   "title": "財政部令：修正「海關管理保稅運貨工具辦法」",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168618",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168585",
+   "date": "2026-09-24",
+   "dept": "財政部",
+   "title": "行政院公告：公告自115年10月1日至116年3月31日，機動調減進口黃豆、小麥、玉米3項貨物應徵之營業稅100％",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168585",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168567",
+   "date": "2026-09-24",
+   "dept": "財政部",
+   "title": "財政部令：有關財政部95年3月17日台財稅字第09504717030號函等63則釋示函令",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168567",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168566",
+   "date": "2026-09-24",
+   "dept": "財政部",
+   "title": "財政部令：取得中華民國居留證車主之車輛供身心障礙者使用且符合相關規定者免徵使用牌照稅，自115年1月30日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168566",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168565",
+   "date": "2026-09-24",
+   "dept": "財政部",
+   "title": "財政部令：修正「免稅商店設置管理辦法」部分條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168565",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-168561",
+   "date": "2026-09-24",
+   "dept": "財政部",
+   "title": "財政部令：修正「緝私案件裁罰金額或倍數參考表」「海關緝私條例」第27條第1項、第28條、第35條、第36條、第37條第3項規定部分，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168561",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
+  },
+  {
    "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31735",
    "date": "2026-09-23",
    "dept": "食品藥物管理署",
    "title": "公告廢止「中山醫學大學附設醫院(實驗室名稱：藥物檢測中心)」為本部認證之濫用藥物尿液檢驗機構，並自即日生效。",
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31735"
+  },
+  {
+   "id": "gazette-168501",
+   "date": "2026-09-22",
+   "dept": "財政部",
+   "title": "財政部令：修正「海關緝私案件減免處罰標準」第4條條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168501",
+   "src": "lawsite",
+   "via": [
+    "mof"
+   ],
+   "dl": null
   },
   {
    "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31733",
