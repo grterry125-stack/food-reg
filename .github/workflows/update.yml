@@ -16,6 +16,9 @@ jobs:
       - name: 衛福部與食藥署 RSS
         run: python fetch_mohw_rss.txt
         continue-on-error: true
+      - name: 中醫藥司公告
+        run: python fetch_dep_mohw.txt
+        continue-on-error: true
       - name: 行政院公報開放資料
         run: python fetch_gazette.txt
         continue-on-error: true
