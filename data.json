@@ -1,19 +1,27 @@
 {
- "updated": "2026-11-23 10:28",
+ "updated": "2026-11-23 10:50",
  "items": [
   {
    "id": "88560",
    "date": "2026-11-23",
    "dept": "中醫藥司",
    "title": "116年度「國際疾病分類第11版傳統醫學章節I (ICD-11 TM1)通用診斷系統場域驗證計畫」採購案招標公告",
-   "url": "https://www.mohw.gov.tw/cp-18-88560-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88560-1.html",
+   "via": [
+    "mohw",
+    "tcm"
+   ]
   },
   {
    "id": "88559",
    "date": "2026-11-23",
    "dept": "中醫藥司",
    "title": "116年度「擴增中藥材數位智慧辨識模組及使用者介面試行計畫」採購案招標公告",
-   "url": "https://www.mohw.gov.tw/cp-18-88559-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88559-1.html",
+   "via": [
+    "mohw",
+    "tcm"
+   ]
   },
   {
    "id": "gazette-169616",
@@ -97,6 +105,13 @@
     "mof"
    ],
    "dl": null
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10042",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "公告「一百十五年度直轄市、縣（市）政府執行社區農村再生績效考評計畫」",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10042"
   },
   {
    "id": "88496",
@@ -219,6 +234,27 @@
    "dept": "全國法規資料庫",
    "title": "修正「臺南市政府衛生局組織規程」第三條、第四條、第十三條、「臺南市政府衛生局編制表」；「臺南市政府衛生局編制表」並自115年8月1日生效-全國法規資料庫",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200675"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10041",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "公告臺中市烏日區及大安區為辦理餘甘子及辣椒115年薔琵颱風農業天然災害低利貸款地區",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10041"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10040",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "公告雲林縣臺西鄉為辦理香蕉115年薔琵颱風農業天然災害低利貸款地區",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10040"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10039",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "公告彰化縣埔鹽鄉及二林鎮為辦理木瓜115年薔琵颱風農業天然災害低利貸款地區",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10039"
   },
   {
    "id": "88517",
@@ -1547,7 +1583,11 @@
    "date": "2026-10-12",
    "dept": "中醫藥司",
    "title": "公告徵求辦理本部116年度補(捐)助「中藥藥用植物種植計畫」",
-   "url": "https://www.mohw.gov.tw/cp-18-88174-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88174-1.html",
+   "via": [
+    "mohw",
+    "tcm"
+   ]
   },
   {
    "id": "88167",
@@ -1816,11 +1856,198 @@
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31726"
   },
   {
+   "id": "87566",
+   "date": "2026-08-24",
+   "dept": "中醫藥司",
+   "title": "訂定「國家中醫研究院籌備推動小組設置要點」，並自115年8月18日生效，請查照。",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-87566-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "87012",
+   "date": "2026-06-26",
+   "dept": "中醫藥司",
+   "title": "公告展延112年及114年度中醫醫院評鑑合格醫院之評鑑效期",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-87012-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "86153",
+   "date": "2026-04-17",
+   "dept": "中醫藥司",
+   "title": "115年度「推動中藥查驗登記法規優化暨中藥廠合規專業輔導計畫」採購案招標公告",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-86153-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "86095",
+   "date": "2026-04-13",
+   "dept": "中醫藥司",
+   "title": "得供食品原料使用之中藥材品項及其產品屬性認定基準(草案)",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-754-86095-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
    "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200635",
    "date": "2026-03-13",
    "dept": "全國法規資料庫",
    "title": "修正「臺南市災害防救會報設置要點」第三點，並自即日生效-全國法規資料庫",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200635"
+  },
+  {
+   "id": "84679",
+   "date": "2025-12-01",
+   "dept": "中醫藥司",
+   "title": "公告115年度「中醫臨床技能測驗及師資培訓計畫」",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84679-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "84617",
+   "date": "2025-11-24",
+   "dept": "中醫藥司",
+   "title": "公告徵求辦理本部115年度「中醫專科醫師訓練試辦計畫」。",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84617-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "84251",
+   "date": "2025-10-17",
+   "dept": "中醫藥司",
+   "title": "115年度「精進中藥典品質規範及國際推廣交流」採購案公告",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84251-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "84132",
+   "date": "2025-10-02",
+   "dept": "中醫藥司",
+   "title": "114年度「中西藥交互作用資料探勘與分析」採購案招標公告",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84132-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "84108",
+   "date": "2025-09-30",
+   "dept": "中醫藥司",
+   "title": "公告徵求辦理本部115年度補(捐)助「中藥藥用植物種植計畫」",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84108-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "84026",
+   "date": "2025-09-22",
+   "dept": "中醫藥司",
+   "title": "公告115年度「中醫醫療機構負責醫師訓練計畫」",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84026-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "83007",
+   "date": "2025-07-09",
+   "dept": "中醫藥司",
+   "title": "公告「114年度中醫醫院評鑑作業程序」及「114年度中醫醫院評鑑基準」",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-83007-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "82622",
+   "date": "2025-05-29",
+   "dept": "中醫藥司",
+   "title": "「健康臺灣深耕計畫」中醫相關績效指標說明會",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-82622-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "82217",
+   "date": "2025-04-18",
+   "dept": "中醫藥司",
+   "title": "114 年度「推動中藥新藥法規優化暨精進中藥新藥臨床試驗審查機制」採購案招標公告",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-82217-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "82192",
+   "date": "2025-04-15",
+   "dept": "中醫藥司",
+   "title": "中藥材農藥殘留檢驗方法",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-752-82192-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "81912",
+   "date": "2025-03-18",
+   "dept": "中醫藥司",
+   "title": "新增核釋藥事法第103第2項後段「領有經營中藥證明文件之中藥從業人員，並修習中藥課程達適當標準，得繼續經營中藥販 賣業務」規定",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-755-81912-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "81503",
+   "date": "2025-02-12",
+   "dept": "中醫藥司",
+   "title": "第3次公告徵求辦理本部114-115年度「建立中醫社區健康照護網絡計畫」（臺北區）",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-81503-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
+  },
+  {
+   "id": "81070",
+   "date": "2025-01-03",
+   "dept": "中醫藥司",
+   "title": "第2次公告徵求辦理本部114-115年度「建立中醫社區健康照護網絡計畫」（北區）",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-81070-108.html",
+   "src": "tcm",
+   "via": [
+    "tcm"
+   ]
   }
  ]
 }
