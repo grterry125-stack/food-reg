@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 18:23",
+ "updated": "2026-11-23 21:24",
  "items": [
   {
    "id": "88560",
@@ -81,6 +81,72 @@
    "src": "lawsite",
    "via": [
     "mof"
+   ],
+   "dl": null
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10056",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告臺東縣臺東市及鹿野鄉為辦理木瓜、香瓜及楊桃等農作物115年薔琵颱風農業天然災害現金救助地區。",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10056"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10054",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告臺北市士林區及內湖區為辦理香蕉及塑膠布溫網室-塑膠布(網)115年薔琵颱風農業天然災害現金救助地區。",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10054"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10051",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告屏東縣枋山鄉及恆春鎮為辦理大豆等作物115年薔琵颱風農業天然災害低利貸款地區。",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10051"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10053",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告臺北市士林區及內湖區為辦理香蕉及塑膠布溫網室-塑膠布（網）115年薔琵颱風農業天然災害低利貸款地區。",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10053"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10052",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告屏東縣枋山鄉及恆春鎮為辦理大豆等作物115年薔琵颱風農業天然災害現金救助地區。",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10052"
+  },
+  {
+   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10050",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告臺東縣臺東市及鹿野鄉為辦理木瓜、香瓜及楊桃等農作物115年薔琵颱風農業天然災害低利貸款地區。",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10050"
+  },
+  {
+   "id": "gazette-169663",
+   "date": "2026-11-23",
+   "dept": "環境部",
+   "title": "環境部令：修正「廢照明光源回收貯存清除處理方法及設施標準」部分條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169663",
+   "src": "lawsite",
+   "via": [
+    "moenv"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169662",
+   "date": "2026-11-23",
+   "dept": "環境部",
+   "title": "環境部令：修正「環境部再生資源再生利用管理辦法」部分條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169662",
+   "src": "lawsite",
+   "via": [
+    "moenv"
    ],
    "dl": null
   },
