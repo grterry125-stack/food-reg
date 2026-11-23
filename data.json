@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 10:07",
+ "updated": "2026-11-23 10:12",
  "items": [
   {
    "id": "88560",
@@ -23,7 +23,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169616",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": null
   },
@@ -35,7 +36,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169626",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": null
   },
@@ -47,7 +49,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169639",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": null
   },
@@ -59,7 +62,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169638",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": null
   },
@@ -165,7 +169,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169593",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": null
   },
@@ -189,7 +194,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169582",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": "2026-12-03"
   },
@@ -276,7 +282,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169569",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": null
   },
@@ -288,7 +295,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169550",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": null
   },
@@ -312,7 +320,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169568",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": "2026-12-02"
   },
@@ -470,7 +479,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169533",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": "2027-01-18"
   },
@@ -650,7 +660,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169498",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": null
   },
@@ -662,7 +673,8 @@
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169499",
    "src": "gazette",
    "via": [
-    "gazette"
+    "gazette",
+    "moalaw"
    ],
    "dl": "2027-01-15"
   },
@@ -707,6 +719,30 @@
    "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10018"
   },
   {
+   "id": "gazette-169484",
+   "date": "2026-11-13",
+   "dept": "農業部",
+   "title": "農業部令：修正「非都市土地變更作專案輔導畜牧事業設施計畫審查作業要點」，自116年1月1日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169484",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169457",
+   "date": "2026-11-12",
+   "dept": "農業部",
+   "title": "農業部公告：公告加拿大安大略省自高病原性家禽流行性感冒非疫區刪除，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169457",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
    "id": "88457",
    "date": "2026-11-11",
    "dept": "口腔健康司",
@@ -721,6 +757,18 @@
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31782"
   },
   {
+   "id": "gazette-169415",
+   "date": "2026-11-11",
+   "dept": "農業部",
+   "title": "農業部公告：預告「農田水利事業照舊使用土地與農田水利事業作業基金非事業用土地交換辦法」草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169415",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": "2027-01-11"
+  },
+  {
    "id": "88431",
    "date": "2026-11-10",
    "dept": "附屬醫療及社會福利機構管理會",
@@ -733,6 +781,30 @@
    "dept": "心理健康司",
    "title": "公告徵求辦理本部116年度「大眾政治暴力創傷知情教育計畫」",
    "url": "https://www.mohw.gov.tw/cp-18-88430-1.html"
+  },
+  {
+   "id": "gazette-169377",
+   "date": "2026-11-10",
+   "dept": "農業部",
+   "title": "農業部令：修正「糧商登記規費收費標準」",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169377",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169342",
+   "date": "2026-11-08",
+   "dept": "農業部",
+   "title": "農業部公告：公告加拿大魁北克省自高病原性家禽流行性感冒非疫區刪除，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169342",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
   },
   {
    "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31786",
@@ -763,6 +835,18 @@
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200608"
   },
   {
+   "id": "gazette-169343",
+   "date": "2026-11-06",
+   "dept": "農業部",
+   "title": "農業部公告：公告美國奧勒岡州自高病原性家禽流行性感冒非疫區刪除，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169343",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
    "id": "88389",
    "date": "2026-11-05",
    "dept": "心理健康司",
@@ -784,11 +868,155 @@
    "url": "https://www.mohw.gov.tw/cp-18-88378-1.html"
   },
   {
+   "id": "gazette-169261",
+   "date": "2026-11-04",
+   "dept": "農業部",
+   "title": "農業部令：修正「種苗業者應具備條件及設備標準」第2條、第4條、第8條條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169261",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169254",
+   "date": "2026-11-04",
+   "dept": "農業部",
+   "title": "農業部令：修正「動物及其產品進出金門馬祖地區檢查規則」部分條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169254",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169239",
+   "date": "2026-11-03",
+   "dept": "農業部",
+   "title": "農業部公告：修正「遠洋漁業條例第十七條第一項所定與我國相互執行公海登檢之國家及指定船舶」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169239",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169151",
+   "date": "2026-10-29",
+   "dept": "農業部",
+   "title": "農業部農田水利署令：修正「農業部農田水利署推廣管路灌溉作業要點」部分規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169151",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169117",
+   "date": "2026-10-28",
+   "dept": "農業部",
+   "title": "農業部令：修正「廚餘養豬場輔導轉型飼料補助要點」第4點、第8點、第9點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169117",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169116",
+   "date": "2026-10-28",
+   "dept": "農業部",
+   "title": "農業部令：修正「乳品加工廠收購酪農原料生乳驗收及計價要點」，名稱並修正為「乳品工廠收購酪農原料生乳驗收及計價要點」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169116",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169084",
+   "date": "2026-10-27",
+   "dept": "農業部",
+   "title": "農業部公告：預告「政府部門執勤犬照護管理規則」修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169084",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": "2026-12-28"
+  },
+  {
+   "id": "gazette-169083",
+   "date": "2026-10-25",
+   "dept": "農業部",
+   "title": "農業部令：修正「漁業天然災害災情查報及救助作業程序」第5點規定，自115年10月22日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169083",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169076",
+   "date": "2026-10-24",
+   "dept": "農業部",
+   "title": "農業部公告：公告美國內布拉斯加州自高病原性家禽流行性感冒非疫區刪除，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169076",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "gazette-169052",
+   "date": "2026-10-22",
+   "dept": "農業部",
+   "title": "農業部令：修正「違反動物傳染病防治條例第二十八條第一項第一款公告禁止搬運廢棄物案件裁罰基準」第2點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169052",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
    "id": "88266",
    "date": "2026-10-21",
    "dept": "醫事司",
    "title": "公告第4次修正「⼆年期醫師畢業後⼀般醫學訓練計畫」114學年度PGY2四分組訓練容額，如附件",
    "url": "https://dep.mohw.gov.tw/DOMA/cp-964-88265-106.html"
+  },
+  {
+   "id": "gazette-169026",
+   "date": "2026-10-21",
+   "dept": "農業部",
+   "title": "農業部令：修正「飼料管理法第二十九條第二款所定使用禁止搬運至豬隻飼養場所之廢棄物案件裁罰基準」第2點規定，自115年10月22日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169026",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
+  },
+  {
+   "id": "moalaw-httpslawmoagovtwNewsContentaspxid9387",
+   "date": "2026-10-21",
+   "dept": "農業部",
+   "title": "「農業部農村發展及水土保持署保育治理及農路設施改善工程提報審查作業要點」修正為「保育治理及農路設施改善工程提報審查作業要點」，並修正第二點、第三點、第七點",
+   "url": "https://law.moa.gov.tw/NewsContent.aspx?id=9387",
+   "src": "moalaw",
+   "via": [
+    "moalaw"
+   ],
+   "dl": null
   },
   {
    "id": "88253",
