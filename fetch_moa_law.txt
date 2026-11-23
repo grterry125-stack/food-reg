@@ -14,7 +14,7 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
 
 BASE = "https://law.moa.gov.tw"
-UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
+UA = "food-reg-platform-test/0.1 (contact: grterry125-stack@example.com)"
 GAZETTE = "https://gazette.nat.gov.tw/egFront/detail.do?metaid="
 
 def get(url):
