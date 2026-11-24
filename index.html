@@ -95,15 +95,16 @@ footer{border-top:1px solid var(--line);color:var(--mute);font-size:13px;padding
 <h1>最新法規公告</h1>
 <p class="sub">彙整下列來源網站的最新公告，每則都連到官方原文，內容以官方公告為準。</p>
 <p class="note" id="lnote"></p>
-<div class="filters" style="grid-template-columns:2fr auto auto">
+<div class="filters" style="grid-template-columns:2fr auto auto auto">
 <input id="lq" type="search" placeholder="搜尋標題或單位" aria-label="搜尋">
+<select id="ls" aria-label="來源網站"><option value="">全部來源</option></select>
 <label class="chip"><input type="checkbox" id="lf"> 只看食品相關</label>
 <label class="chip"><input type="checkbox" id="lr"> 只看法規類</label>
 </div>
 <div class="list" id="llist"></div>
 <h3 style="margin-top:28px">匯入最新 RSS</h3>
 <p class="sub">網頁無法直接連到政府網站。請在瀏覽器開啟 <a href="https://www.mohw.gov.tw/rss-18-1.html" target="_blank" rel="noopener">衛福部公告 RSS</a> 或 <a href="https://www.fda.gov.tw/tc/rssAnnouncement.ashx" target="_blank" rel="noopener">食藥署公告 RSS</a>，全選複製頁面內容，貼到下方後按「解析」。</p>
-<div class="f" style="max-width:none"><textarea id="lx" rows="5" placeholder="貼上 RSS XML" style="width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surf);color:inherit;font:inherit"></textarea><div class="row"><button class="btn" id="lb">解析</button><button class="btn sec" id="lr0">還原內建資料</button></div><div id="lm" role="status"></div></div>
+<div class="f" style="max-width:none"><textarea id="lx" rows="5" placeholder="貼上 RSS XML" style="width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surf);color:inherit;font:inherit"></textarea><div class="row"><button class="btn" id="lb">解析</button><button class="btn sec" id="lr0">清除匯入的資料</button></div><div id="lm" role="status"></div></div>
 </section>
 
 <section class="view" id="v-sources">
@@ -129,53 +130,44 @@ footer{border-top:1px solid var(--line);color:var(--mute);font-size:13px;padding
 <footer>資料來自政府網站公開資訊 · 非法律意見 · 正式適用請以主管機關公告為準</footer>
 
 <script>var $=function(i){return document.getElementById(i)};
-function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 var tcls={"預告":"draft","新增":"final","修正":"","廢止":"abol"};
-function route(){var v=(location.hash||"#live").slice(1);if(!$("v-"+v))v="home";
-document.querySelectorAll(".view").forEach(function(s){s.classList.toggle("on",s.id==="v-"+v)});
-document.querySelectorAll("nav a").forEach(function(a){a.classList.toggle("on",a.dataset.v===v)})}
-var RAW=[[88266,"2026-10-21","醫事司","公告第4次修正「二年期醫師畢業後一般醫學訓練計畫」114學年度PGY2四分組訓練容額，如附件"],[88253,"2026-10-20","心理健康司","公告116年度「精神復健機構改善公共安全設施設備補助計畫」申請作業須知"],[88248,"2026-10-20","口腔健康司","公告115-116年度「口腔親善之家模式試辦計畫」申請作業須知(第二次)"],[88244,"2026-10-20","社會及家庭署","公告衛生福利部116年度老人福利機構評鑑實施計畫"],[88241,"2026-10-19","資訊處","衛生福利部「115年度在宅醫療科技計畫資訊標準與執行規劃」說明會"],[88228,"2026-10-19","心理健康司","公告116年度疑似或社區精神病人照護優化計畫申請作業須知"],[88216,"2026-10-19","附屬醫療及社會福利機構管理會","116年度「偏鄉智慧醫療」補(捐)助科技發展計畫徵求說明書及契約書"],[88174,"2026-10-12","中醫藥司","公告徵求辦理本部116年度補(捐)助「中藥藥用植物種植計畫」"],[88167,"2026-10-08","醫事司","安泰淞鶴診所(新北市)C肝群聚感染事件醫療事故專案調查初步報告"],[88142,"2026-10-05","口腔健康司","公告徵求辦理115-116年度「口腔癌人工智慧工具推動計畫」"],[88139,"2026-10-05","口腔健康司","公告115年度特殊需求者口腔醫學科專科醫師訓練機構第2次認定合格名單及訓練容量"],[88122,"2026-10-01","心理健康司","公告徵求辦理116-117年度「藥癮者社區復健方案布建及服務品質提升計畫」"],[88109,"2026-10-01","心理健康司","公告徵求辦理116-117年度「藥癮治療性社區服務模式多元發展計畫」"],[88081,"2026-09-29","口腔健康司","公告徵求辦理115-116年度「導入牙醫師至無牙醫師執業地區補助計畫」"],[88063,"2026-09-23","醫事司","公告「116年度畢業後綜合臨床醫學訓練選配簡章」，如附件"],[88040,"2026-09-21","醫事司","公告115年「病人安全管理制度及推動成果表揚計畫」"],[87986,"2026-09-16","統計處","敬請支持「115年身心障礙者生活狀況及需求調查」"],[87984,"2026-09-16","口腔健康司","公告116年度「植牙科專科醫師訓練機構認定計畫」"],[87979,"2026-09-16","心理健康司","預告訂定「社區支持服務之內容及執行方式」"],[87928,"2026-09-14","心理健康司","公開徵求補助辦理115年度「布建兒童(青少年)專業精神醫療團隊及心智病房計畫」"]];
-var FK=["食品","食安","餐飲","添加物","農藥","動物用藥","過敏原","營養標示","飲用水","屠宰","乳品","食品藥物管理署"];
+var FK=["食品","食安","餐飲","添加物","農藥","動物用藥","過敏原","營養標示","飲用水","屠宰","乳品","中藥材","動植物","防疫"];
 var RK=/預告|廢止|訂定|辦法|標準|規定|草案|修正/;
 function lt(t){return /預告/.test(t)?"預告":/廢止/.test(t)?"廢止":/訂定/.test(t)?"新增":/修正/.test(t)?"修正":"公告"}
-function mk(id,date,dept,title,url,src,via,dl){return{src:src,via:via,dl:dl,id:id,date:date,dept:dept,title:title,url:url||"https://www.mohw.gov.tw/cp-18-"+id+"-1.html",ty:lt(title),food:FK.some(function(k){return title.indexOf(k)>=0}),reg:RK.test(title)}}
-var NEWR=[[88517,"2026-11-18","資訊處","公告「114年度臺灣智慧醫療學校培訓計畫」第二階段實務訓練甄選之審查結果"],[88506,"2026-11-17","心理健康司","第2次公開徵求補助辦理115年度「布建兒童(青少年)專業精神醫療團隊及心智病房計畫」"],[88500,"2026-11-17","心理健康司","發布修正之「精神疾病嚴重病人強制處置費用支付作業要點第十點及第四點附表」"],[88497,"2026-11-17","心理健康司","公告115年度精神復健機構評鑑合格名單"],[88433,"2026-11-13","附屬醫療及社會福利機構管理會","116年度「全院設備智慧管理與ESG永續後勤計畫」補(捐)助科技發展計畫徵求說明書及契約書"],[88457,"2026-11-11","口腔健康司","公告116年度「特殊需求者牙科醫療服務補助計畫」申請作業規定"],[88431,"2026-11-10","附屬醫療及社會福利機構管理會","本部旗山醫院「停車場新建營運移轉(BOT)案」可行性評估公聽會，會議紀錄如附件"],[88430,"2026-11-10","心理健康司","公告徵求辦理本部116年度「大眾政治暴力創傷知情教育計畫」"],[88389,"2026-11-05","心理健康司","公告徵求辦理本部116年度「大眾政治暴力創傷知情教育計畫」"],[88385,"2026-11-05","口腔健康司","公告116年度「原住民族地區口腔衛生教育計畫」申請作業須知"],[88378,"2026-11-05","科技發展組","116年度「衛生福利科技交流及環境建置計畫」補（捐）助科技發展計畫公開徵求"]];
-var ids={};NEWR.forEach(function(r){ids[r[0]]=1});
-var ALLR=NEWR.concat(RAW.filter(function(r){return!ids[r[0]]})).sort(function(a,b){return a[1]<b[1]?1:a[1]>b[1]?-1:b[0]-a[0]});
-var FU="https://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=",FD="食品藥物管理署";
-var FDAR=[[31793,"2026-11-17","自116年1月1日至116年3月31日止，查驗登記啟動之GCP查核案件開放試行線上申辦，並於116年4月1日起採全面線上申辦"],[31795,"2026-11-17","廢止「食品中動物用藥殘留量檢驗方法－Benzimidazole類多重殘留分析」及「食品中動物用藥殘留量檢驗方法－Triclabendazole及其代謝物之檢驗」，並自即日生效。"],[31794,"2026-11-17","修正「食品中動物用藥殘留量檢驗方法－Avermectin類抗生素之檢驗」，並自中華民國一百十六年七月一日生效。"],[31782,"2026-11-11","預告廢止「食品中甲醛之檢驗方法(二)(MOHWA0004.03)」。"],[31786,"2026-11-06","預告修正「適用罕見疾病防治及藥物法之藥物品項」草案"],[31785,"2026-11-06","修正「適用罕見疾病防治及藥物法之藥物品項」"],[31778,"2026-10-15","預告修正「全民健康保險西醫醫療資源不足地區改善方案巡迴地點列屬藥事法第一百零二條所稱無藥事人員執業之偏遠地區列表」附表六、附表七草案。"],[31777,"2026-10-15","預告修正「藥事法第一百零二條所稱無藥事人員執業之偏遠地區與非屬上述偏遠地區列表」附表二、附表十一草案。"],[31744,"2026-10-07","公告修訂「醫療器材臨床試驗計畫案申請須知」，並自115年10月5日生效。"],[31742,"2026-10-06","修正「食品添加物規格檢驗方法－鹿角菜膠」，並自即日生效。"],[31741,"2026-10-06","修正「食品添加物規格檢驗方法－L-麩酸鈉」，並自即日生效。"],[31739,"2026-10-05","預告修正「特定藥品專案核准製造及輸入辦法」第二條、第三條、第六條及「藥物樣品贈品管理辦法」草案"],[31738,"2026-10-05","公告「116-117年度血液製劑預估需求計畫」"],[31740,"2026-10-05","預告修訂「藥品臨床試驗計畫-技術性文件指引」(草案)"],[31737,"2026-10-02","公告自115年10月1日起，指定「數位化醫療器材臨床試驗平台」，供試驗委託者登錄醫療器材臨床試驗相關資料。"],[31736,"2026-10-02","公告「ICH Q5A(R2)：人類或動物來源細胞株衍生之生物技術產品病毒安全性評估」。"],[31735,"2026-09-23","公告廢止「中山醫學大學附設醫院(實驗室名稱：藥物檢測中心)」為本部認證之濫用藥物尿液檢驗機構，並自即日生效。"],[31733,"2026-09-16","公告「ICH M12：藥物交互作用研究指引」及問答集。"],[31728,"2026-09-11","公告修正管制藥品品項(增列Ethyl N-formyl-N-(1-phenylethyl)glycinate等2項管制藥品)"],[31726,"2026-09-10","公告修正「醫療器材回收處理辦法 」第四條、第十四條"]];
-var BASE=ALLR.map(function(r){return mk(r[0],r[1],r[2],r[3])}).concat(FDAR.map(function(r){return mk(r[0],r[1],FD,r[2],FU+r[0])})).sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0}),LIVE=BASE;
-function lrender(){var q=$("lq").value.trim(),f=$("lf").checked,r=$("lr").checked;
-var L=LIVE.filter(function(d){return(!f||d.food)&&(!r||d.reg)&&(!q||(d.title+d.dept).indexOf(q)>=0)});
-$("lnote").textContent="目前 "+LIVE.length+" 則公告；食品相關 "+LIVE.filter(function(d){return d.food}).length+" 則；法規類 "+LIVE.filter(function(d){return d.reg}).length+" 則。"+(window.UPD?"最後自動更新："+UPD+"（每 3 小時一次）。":"內建資料為 2026-11-18 擷取的快照。")+"";
-var h="";L.forEach(function(d){h+='<div class="item" style="cursor:default"><h3>'+esc(d.title)+'</h3><div class="meta"><span class="tag '+tcls[d.ty]+'">'+d.ty+'</span>'+(d.food?'<span class="tag final">食品相關</span>':'')+'<span>'+(d.src==="gazette"||d.src==="lawsite"||/^(全國|農業部)/.test(d.dept)?"":"衛生福利部・")+esc(d.dept)+'</span><span>發布 '+d.date+'</span>'+(d.dl?'<span>意見截止 '+d.dl+'</span>':'')+'<a href="'+esc(d.url)+'" target="_blank" rel="noopener">官方原文</a></div></div>'});
-$("llist").innerHTML=h||'<div class="empty">沒有符合的公告。這個來源以補助與醫事公告為主，食品法規請再加入食藥署與法規通報來源。</div>'}
-["lq","lf","lr"].forEach(function(i){$(i).addEventListener("input",lrender)});
-$("lr0").onclick=function(){LIVE=BASE;$("lm").innerHTML="";lrender()};
-$("lb").onclick=function(){var x=$("lx").value.trim();if(!x){$("lm").innerHTML='<div class="note">請先貼上 RSS 內容。</div>';return}
-try{var doc=new DOMParser().parseFromString(x,"text/xml");if(doc.querySelector("parsererror"))throw 0;
-var its=doc.querySelectorAll("item"),out=[];
-its.forEach(function(it){var g=function(t){var e=it.getElementsByTagName(t)[0];return e?e.textContent.trim():""};
-var dt=new Date(g("pubDate"));out.push(mk(g("NewsID")||g("link"),isNaN(dt)?"":dt.toISOString().slice(0,10),g("DeptName")||(/fda\.gov\.tw/.test(g("link"))?FD:""),g("title"),g("link").split("&utm_")[0]))});
-if(!out.length)throw 0;var mg={};LIVE.concat(out).forEach(function(d){mg[d.id]=d});LIVE=Object.keys(mg).map(function(k){return mg[k]}).sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0});$("lm").innerHTML='<div class="ok">已解析 '+out.length+' 則公告。</div>';lrender()}
-catch(e){$("lm").innerHTML='<div class="note">無法解析。請確認貼上的是完整的 RSS XML（以 &lt;rss 開頭）。</div>'}};
-fetch("data.json?t="+Date.now()).then(function(r){return r.json()}).then(function(j){if(!j.items||!j.items.length)return;var m={};BASE.forEach(function(d){m[d.id]=d});j.items.forEach(function(x){m[x.id]=mk(x.id,x.date,x.dept,x.title,x.url,x.src,x.via,x.dl)});BASE=Object.keys(m).map(function(k){return m[k]}).sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0});LIVE=BASE;window.UPD=j.updated;lrender()}).catch(function(){});
-lrender();
-
+function mk(x){var t=x.title||"";return{uid:x.uid,k:x.k,sn:x.sn,date:x.date||"",dept:x.dept||"",title:t,url:x.url,dl:x.dl,ty:lt(t),food:FK.some(function(k){return t.indexOf(k)>=0}),reg:RK.test(t)}}
 var SRC=[
-{n:"衛生福利部 公告訊息",u:"https://www.mohw.gov.tw/rss-18-1.html",c:"衛福部各司署公告、法規預告",m:"官方 RSS",k:function(d){return d.src!=="gazette"&&d.src!=="lawsite"&&d.dept!=="中醫藥司"&&d.dept!==FD&&!/^(全國|農業部)/.test(d.dept)}},
-{n:"衛生福利部 食品藥物管理署 公告",u:"https://www.fda.gov.tw/tc/rssAnnouncement.ashx",c:"食品、藥品、醫材公告與法規預告",m:"官方 RSS",k:function(d){return d.dept===FD}},
-{n:"衛生福利部 中醫藥司 公告訊息",u:"https://dep.mohw.gov.tw/DOCMAP/lp-890-108.html",c:"中醫藥司公告（含得供食品原料使用之中藥材、中藥材農藥殘留檢驗等）",m:"網頁公告清單；與衛福部公告 RSS 重複的項目只加標記",k:function(d){return d.dept==="中醫藥司"||(d.via||[]).indexOf("tcm")>=0}},
-{n:"農業部 公告",u:"https://www.moa.gov.tw/theme_list.php?theme=publication",c:"農業部及所屬機關公告、法規預告、動植物疫情區域公告",m:"官方 RSS（open_data.php?format=rss&func=publication）",k:function(d){return d.dept==="農業部"&&d.src!=="gazette"&&d.src!=="moalaw"}},
-{n:"農業部主管法規共用系統",u:"https://law.moa.gov.tw/index.aspx",c:"農業部法規訂定、修正、廢止與草案預告",m:"網頁最新訊息表（含預告起迄日）；與公報重複的項目只補充資訊",k:function(d){return(d.via||[]).indexOf("moalaw")>=0}},
-{n:"行政院公報資訊網",u:"https://gazette.nat.gov.tw/egFront/browseVolume.do?action=doQuery&log=browseLog&clickfunc=01",c:"各中央機關法規、預告、公告（篩選食品、農業、衛生相關）",m:"官方開放資料（每日 zip／XML），內容與卷期瀏覽頁相同",k:function(d){return(d.via||[d.src]).indexOf("gazette")>=0}},
-{n:"財政部主管法規共用系統",u:"https://law-out.mof.gov.tw/index.aspx",c:"財政部（含關務署）法規訊息與草案預告",m:"網頁最新訊息表；與公報重複的項目只補充資訊",k:function(d){return(d.via||[]).indexOf("mof")>=0}},
-{n:"環境部主管法規共用系統",u:"https://oaout.moenv.gov.tw/law/index.aspx",c:"環境部法規、行政函釋與草案預告（含容器、餐具、包裝相關）",m:"網頁最新訊息表；與公報重複的項目只補充資訊",k:function(d){return(d.via||[]).indexOf("moenv")>=0}},
-{n:"全國法規資料庫（法務部）最新訊息",u:"https://law.moj.gov.tw/",c:"各機關法規訂定、修正、廢止訊息",m:"網站地圖（SearchEngineSitemap.aspx）＋最新訊息內文頁（NewsDetail.aspx）",k:function(d){return d.dept.indexOf("全國")===0}}];
-function srender(){var h="";SRC.forEach(function(x){h+='<tr><td>'+esc(x.n)+'</td><td><a href="'+x.u+'" target="_blank" rel="noopener">'+esc(x.u)+'</a></td><td>'+esc(x.c)+'</td><td>'+esc(x.m)+'</td><td>'+LIVE.filter(x.k).length+'</td></tr>'});$("srcb").innerHTML=h}
-var _l=lrender;lrender=function(){_l();srender()};
-lrender();
-window.addEventListener("hashchange",route);route();
+{k:"mohw",n:"衛生福利部 公告訊息",u:"https://www.mohw.gov.tw/rss-18-1.html",c:"衛福部各司署公告、法規預告",m:"官方 RSS"},
+{k:"fda",n:"衛生福利部 食品藥物管理署 公告",u:"https://www.fda.gov.tw/tc/rssAnnouncement.ashx",c:"食品、藥品、醫材公告與法規預告",m:"官方 RSS"},
+{k:"tcm",n:"衛生福利部 中醫藥司 公告訊息",u:"https://dep.mohw.gov.tw/DOCMAP/lp-890-108.html",c:"中醫藥司公告（含得供食品原料使用之中藥材等）",m:"網頁公告清單"},
+{k:"moa",n:"農業部 公告",u:"https://www.moa.gov.tw/theme_list.php?theme=publication",c:"農業部公告、法規預告、動植物疫情區域公告",m:"官方 RSS"},
+{k:"gazette",n:"行政院公報資訊網",u:"https://gazette.nat.gov.tw/egFront/browseVolume.do?action=doQuery&log=browseLog&clickfunc=01",c:"各中央機關法規、預告、公告（篩選食品、農業、衛生相關）",m:"官方開放資料（每日 zip／XML），內容與卷期瀏覽頁相同"},
+{k:"moalaw",n:"農業部主管法規共用系統",u:"https://law.moa.gov.tw/index.aspx",c:"農業部法規訂定、修正、廢止與草案預告",m:"網頁最新訊息表"},
+{k:"mof",n:"財政部主管法規共用系統",u:"https://law-out.mof.gov.tw/index.aspx",c:"財政部（含關務署）法規訊息與草案預告",m:"網頁最新訊息表"},
+{k:"moenv",n:"環境部主管法規共用系統",u:"https://oaout.moenv.gov.tw/law/",c:"環境部法規、行政函釋與草案預告",m:"網頁最新訊息表"},
+{k:"moj",n:"全國法規資料庫（法務部）最新訊息",u:"https://law.moj.gov.tw/Index.aspx",c:"各機關法規訂定、修正、廢止訊息",m:"網站地圖＋最新訊息內文頁（NewsDetail.aspx）"}];
+var LIVE=[],UPD="";
+SRC.forEach(function(s){$("ls").insertAdjacentHTML("beforeend",'<option value="'+s.k+'">'+esc(s.n)+'</option>')});
+function route(){var v=(location.hash||"#live").slice(1);if(!$("v-"+v))v="live";
+document.querySelectorAll(".view").forEach(function(s){s.classList.toggle("on",s.id==="v-"+v)});
+document.querySelectorAll("nav a").forEach(function(a){a.classList.toggle("on",a.dataset.v===v)})}
+function lrender(){var q=$("lq").value.trim(),f=$("lf").checked,r=$("lr").checked,s=$("ls").value;
+var L=LIVE.filter(function(d){return(!s||d.k===s)&&(!f||d.food)&&(!r||d.reg)&&(!q||(d.title+d.dept+d.sn).indexOf(q)>=0)});
+$("lnote").textContent="共 "+LIVE.length+" 則；符合目前條件 "+L.length+" 則。每個來源各自列出，同一則公告在不同來源出現時會分別顯示。"+(UPD?"最後自動更新："+UPD+"（時間以台灣為準）。":"");
+var h="";L.slice(0,300).forEach(function(d){h+='<div class="item" style="cursor:default"><h3>'+esc(d.title)+'</h3><div class="meta"><span class="tag '+tcls[d.ty]+'">'+d.ty+'</span>'+(d.food?'<span class="tag final">食品相關</span>':'')+'<span class="tag">來源：'+esc(d.sn)+'</span><span>'+esc(d.dept)+'</span><span>發布 '+esc(d.date)+'</span>'+(d.dl?'<span>意見截止 '+esc(d.dl)+'</span>':'')+'<a href="'+esc(d.url)+'" target="_blank" rel="noopener">官方原文</a></div></div>'});
+if(L.length>300)h+='<div class="empty">只顯示前 300 則，請用搜尋或來源篩選縮小範圍。</div>';
+$("llist").innerHTML=h||'<div class="empty">沒有符合的公告。試試清除篩選或換一個關鍵字。</div>';
+var t="";SRC.forEach(function(x){t+='<tr><td>'+esc(x.n)+'</td><td><a href="'+x.u+'" target="_blank" rel="noopener">'+esc(x.u)+'</a></td><td>'+esc(x.c)+'</td><td>'+esc(x.m)+'</td><td>'+LIVE.filter(function(d){return d.k===x.k}).length+'</td></tr>'});$("srcb").innerHTML=t}
+["lq","lf","lr","ls"].forEach(function(i){$(i).addEventListener("input",lrender)});
+$("lr0").onclick=function(){LIVE=LIVE.filter(function(d){return d.k!=="import"});$("lm").innerHTML="";lrender()};
+$("lb").onclick=function(){var x=$("lx").value.trim();if(!x){$("lm").innerHTML='<div class="note">請先貼上 RSS 內容。</div>';return}
+try{var doc=new DOMParser().parseFromString(x,"text/xml");if(doc.querySelector("parsererror"))throw 0;var out=[];
+doc.querySelectorAll("item").forEach(function(it){var g=function(t){var e=it.getElementsByTagName(t)[0];return e?e.textContent.trim():""};var dt=new Date(g("pubDate"));
+out.push(mk({uid:"import:"+g("link"),k:"import",sn:"手動匯入",date:isNaN(dt)?"":dt.toISOString().slice(0,10),dept:g("DeptName"),title:g("title"),url:g("link").split("&utm_")[0]}))});
+if(!out.length)throw 0;LIVE=out.concat(LIVE);$("lm").innerHTML='<div class="ok">已匯入 '+out.length+' 則。</div>';lrender()}
+catch(e){$("lm").innerHTML='<div class="note">無法解析。請確認貼上的是完整的 RSS XML（以 &lt;rss 開頭）。</div>'}};
+fetch("data.json?t="+Date.now()).then(function(r){return r.json()}).then(function(j){UPD=j.updated||"";LIVE=(j.items||[]).map(mk);lrender()}).catch(function(){lrender()});
+window.addEventListener("hashchange",route);route();lrender();
 </script>
 </body>
 </html>

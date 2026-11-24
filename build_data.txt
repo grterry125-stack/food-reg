@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""把各來源抓到的公告合併成網站讀取的 data.json（累積歷史，最多保留 500 則）"""
-import json, os, re
+"""把各來源抓到的公告合併成網站讀取的 data.json。
+每個來源的結果各自獨立列出，不因相似或相同而合併；同一則公告出現在不同來源，就會各顯示一筆，
+並標明來源與該來源自己的連結。累積歷史，最多保留 1500 則。"""
+import json, re
 from datetime import datetime, timezone, timedelta
 
 OUT = "data.json"
+FEEDS = {"衛福部公告訊息": ("mohw", "衛福部公告訊息"), "食藥署公告": ("fda", "食藥署公告"),
+         "農業部公告": ("moa", "農業部公告")}
+SITES = {"mof": "財政部主管法規", "moenv": "環境部主管法規"}
 
 def load(p):
     try:
@@ -20,51 +25,33 @@ def norm_date(s):
         y += 1911
     return f"{y:04d}-{mo:02d}-{d:02d}"
 
-old = load(OUT).get("items", [])
-items = {str(i["id"]): i for i in old}
+items = {i["uid"]: i for i in load(OUT).get("items", []) if i.get("uid") and i.get("k")}
+
+def put(k, sn, id_, date, dept, title, url, dl=None):
+    uid = f"{k}:{id_}"
+    items[uid] = {"uid": uid, "k": k, "sn": sn, "date": date, "dept": dept, "title": title, "url": url, "dl": dl}
 
 for i in load("out/mohw_items.json").get("all_new", []):
-    items[str(i["news_id"])] = {
-        "id": str(i["news_id"]), "date": i["publish_date"],
-        "dept": i["agency"].replace("衛生福利部・", "", 1) or "衛生福利部",
-        "title": i["title"], "url": i["source_url"]}
-
-for i in load("out/moj_news_food.json").get("food_related", []):
-    items[i["url"]] = {"id": i["url"], "date": norm_date(i.get("date")) or norm_date(i.get("lastmod")),
-                       "dept": "全國法規資料庫", "title": i["title"], "url": i["url"]}
+    k, sn = FEEDS.get(i.get("source_feed"), ("mohw", "衛福部公告訊息"))
+    put(k, sn, i["news_id"], i["publish_date"], i["agency"], i["title"], i["source_url"])
 
 for i in load("out/gazette_items.json").get("items", []):
-    items[i["id"]] = {"id": i["id"], "date": i["date"], "dept": i["dept"], "title": i["title"],
-                      "url": i["url"], "src": "gazette", "via": ["gazette"], "dl": i.get("deadline")}
+    put("gazette", "行政院公報資訊網", i["id"], i["date"], i["dept"], i["title"], i["url"], i.get("deadline"))
 
 for i in load("out/moalaw_items.json").get("items", []):
-    ex = items.get(i["id"])
-    if ex:                                   # 公報已有這則：只補充資訊，不重複
-        via = ex.get("via") or [ex.get("src") or "other"]
-        ex["via"] = sorted(set(via + ["moalaw"]))
-        ex["dl"] = ex.get("dl") or i.get("dl")
-    else:
-        items[i["id"]] = {"id": i["id"], "date": i["date"], "dept": "農業部", "title": i["title"],
-                          "url": i["url"], "src": "moalaw", "via": ["moalaw"], "dl": i.get("dl")}
+    put("moalaw", "農業部主管法規", i["id"], i["date"], "農業部", i["title"], i["url"], i.get("dl"))
 
 for i in load("out/lawsites_items.json").get("items", []):
-    ex = items.get(i["id"])
-    if ex:
-        ex["via"] = sorted(set((ex.get("via") or [ex.get("src") or "other"]) + [i["site"]]))
-        ex["dl"] = ex.get("dl") or i.get("dl")
-    else:
-        items[i["id"]] = {"id": i["id"], "date": i["date"], "dept": i["dept"], "title": i["title"],
-                          "url": i["url"], "src": "lawsite", "via": [i["site"]], "dl": i.get("dl")}
+    put(i["site"], SITES.get(i["site"], i["site"]), i["id"], i["date"], i["dept"], i["title"], i["url"], i.get("dl"))
 
 for i in load("out/dep_items.json").get("items", []):
-    ex = items.get(str(i["id"]))
-    if ex:                                   # 衛福部 RSS 已有同一則：只加標記
-        ex["via"] = sorted(set((ex.get("via") or [ex.get("src") or "mohw"]) + ["tcm"]))
-    else:
-        items[str(i["id"])] = {"id": str(i["id"]), "date": i["date"], "dept": i["dept"], "title": i["title"],
-                               "url": i["url"], "src": "tcm", "via": ["tcm"]}
+    put("tcm", "中醫藥司公告訊息", i["id"], i["date"], "衛生福利部・中醫藥司", i["title"], i["url"])
 
-rows = sorted(items.values(), key=lambda x: x.get("date", ""), reverse=True)[:500]
+for i in load("out/moj_news_food.json").get("food_related", []):
+    put("moj", "全國法規資料庫最新訊息", i["url"], norm_date(i.get("date")) or norm_date(i.get("lastmod")),
+        "全國法規資料庫", i["title"], i["url"])
+
+rows = sorted(items.values(), key=lambda x: (x.get("date") or ""), reverse=True)[:1500]
 tw = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
 json.dump({"updated": tw, "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"共 {len(rows)} 則，更新時間 {tw}")

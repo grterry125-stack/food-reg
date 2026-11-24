@@ -18,7 +18,7 @@ SITES = [
     {"key": "mof", "name": "財政部", "base": "https://law-out.mof.gov.tw", "index": "/index.aspx"},
     {"key": "moenv", "name": "環境部", "base": "https://oaout.moenv.gov.tw", "index": "/law/"},
 ]
-UA = "food-reg-platform-test/0.1 (contact: grterry125-stack@example.com)"   # ← 請改成你的 Email
+UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
 GAZETTE = "https://gazette.nat.gov.tw/egFront/detail.do?metaid="
 
 def get(url, tries=3):
@@ -91,7 +91,7 @@ def parse(html, page_url, site):
         nid = re.search(r"[?&]id=(\d+)", href)
         out.append({"id": ("gazette-" + mid) if mid else "lawsite-" + site["key"] + "-" + (nid[1] if nid else re.sub(r"\W", "", href)[-30:]),
                     "date": iso(cells[1]["text"]), "dept": site["name"], "title": title,
-                    "url": (GAZETTE + mid) if mid else href, "src": "lawsite", "site": site["key"],
+                    "url": href, "src": "lawsite", "site": site["key"],
                     "kind": cells[3]["text"] if len(cells) > 3 else "", "dl": dl})
     return out
 
