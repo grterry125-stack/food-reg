@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24 21:22",
+ "updated": "2026-11-25 00:16",
  "moj_bad": [],
  "items": [
   {
@@ -51,6 +51,16 @@
    "title": "公告徵求辦理本部116年度補(捐)助「中醫專科醫師訓練試辦計畫」",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-88581-108.html",
    "dl": null
+  },
+  {
+   "uid": "moenv:gazette-169689",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-24",
+   "dept": "環境部",
+   "title": "環境部公告：預告「應設置紙餐具回收設施之販賣業者範圍、設施設置、規格及其他應遵行事項」公告事項第1項修正草案",
+   "url": "https://join.gov.tw/policies/gazette/metaId/169689",
+   "dl": "2026-12-08"
   },
   {
    "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10056",
@@ -3230,6 +3240,16 @@
    "dept": "衛生福利部・食品藥物管理署",
    "title": "公告修正「醫療器材回收處理辦法 」第四條、第十四條",
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31726",
+   "dl": null
+  },
+  {
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31725",
+   "k": "fda",
+   "sn": "食藥署公告",
+   "date": "2026-09-03",
+   "dept": "衛生福利部・食品藥物管理署",
+   "title": "廢止「食品中殘留農藥檢驗方法－殺蟎劑三亞蟎之檢驗」，並自即日生效。",
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31725",
    "dl": null
   },
   {
