@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24 08:09",
+ "updated": "2026-11-24 08:31",
  "items": [
   {
    "uid": "mohw:88560",
@@ -622,6 +622,26 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200610",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-18",
+   "dept": "全國法規資料庫",
+   "title": "本所訂定「臺中市霧峰區公所門禁管理要點」，並自即日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200610",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200607",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-18",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月18日新北府法規字第1152159668號令:修正「新北市政府綠美化環境景觀處組織規程」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200607",
+   "dl": null
+  },
+  {
    "uid": "mohw:88506",
    "k": "mohw",
    "sn": "衛福部公告訊息",
@@ -792,6 +812,36 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200605",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-17",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市政府勞工局補助辦理勞工休閒活動實施要點」第二點及第六點附表，並自中華民國116年1月1日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200605",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200578",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-17",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市食品藥物安全處生物安全會作業要點」第二點、第三點、第五點 ，並自即日起適用，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200578",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200576",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-17",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府殯葬事務審議諮詢會設置要點」部分規定。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200576",
+   "dl": null
+  },
+  {
    "uid": "moalaw:gazette-169499",
    "k": "moalaw",
    "sn": "農業部主管法規",
@@ -832,6 +882,36 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200606",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-16",
+   "dept": "全國法規資料庫",
+   "title": "訂定「高雄市檢舉違反藥事法及醫療器材管理法案件獎勵辦法」，自發布日施行。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200606",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200577",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-16",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺南市公立游泳池使用管理辦法」第二條、第四條",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200577",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200551",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-16",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府衛生局辦理敬老愛心卡醫療費用補助作業要點」第三點。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200551",
+   "dl": null
+  },
+  {
    "uid": "moalaw:gazette-169484",
    "k": "moalaw",
    "sn": "農業部主管法規",
@@ -849,6 +929,56 @@
    "dept": "環境部",
    "title": "環境部公告：修正「照明光源回收清除處理費費率」，除另定生效日期者外，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169465&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200575",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-13",
+   "dept": "全國法規資料庫",
+   "title": "訂定「嘉義縣產業園區廣告物設置管理要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200575",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200574",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-13",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺南市遊民安置及輔導辦法」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200574",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200558",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-13",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺北市高氯離子混凝土建築物善後處理自治條例」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200558",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200549",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-13",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市政府教育局調用市立中小學教師服務實施要點」第一點、第二點、第七點，名稱並修正為「臺中市政府教育局調用市立中小學及市立幼兒園教師服務實施要點」，自即日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200549",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200533",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-13",
+   "dept": "全國法規資料庫",
+   "title": "修正「政府科技發展計畫先期作業實施要點」第三點、第四點，並自即日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200533",
    "dl": null
   },
   {
@@ -892,6 +1022,66 @@
    "dl": "2026-12-14"
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200573",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "訂定「嘉義縣青年事務發展會報及青年諮詢小組設置要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200573",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200562",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府殯葬管理所職場霸凌防治及申訴調查處理要點」第一點、第三點及第五點附件二，名稱並修正為「桃園市政府殯葬管理處職場霸凌防治及申訴調查處理要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200562",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200561",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府殯葬管理所因性別所產生之歧視防治及申訴處理要點」，名稱並修正為「桃園市政府殯葬管理處因性別所產生之歧視防治及申訴處理要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200561",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200553",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "「臺中市文山溫水游泳池管理要點」自中華民國一百十五年十一月十五日停止適用，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200553",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200550",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市精神護理之家收費標準核定作業原則」第四點附表。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200550",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200534",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市精神復健機構收費標準核定作業原則」第一點及第四點附表。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200534",
+   "dl": null
+  },
+  {
    "uid": "mohw:88457",
    "k": "mohw",
    "sn": "衛福部公告訊息",
@@ -920,6 +1110,76 @@
    "title": "農業部公告：預告「農田水利事業照舊使用土地與農田水利事業作業基金非事業用土地交換辦法」草案",
    "url": "https://join.gov.tw/policies/gazette/metaId/169415",
    "dl": "2027-01-11"
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200560",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-11",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市一定規模以下建築物免辦理變更使用執照管理辦法」第三條、第四條。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200560",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200536",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-11",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺南市政府教育局組織規程」部分條文、「臺南市政府教育局編制表」；「臺南市政府教育局編制表」，並自一百十五年十一月一日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200536",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200535",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-11",
+   "dept": "全國法規資料庫",
+   "title": "修正本所「臺中市中區區公所場地管理要點」，並自即日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200535",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200520",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-11",
+   "dept": "全國法規資料庫",
+   "title": "訂定「臺中市大雅區公所職員未補休未支領加班費獎勵要點」，並自即日起生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200520",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200519",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-11",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市墳墓遷葬作業要點」第二點、第四點、第五點。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200519",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200507",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-11",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月11日新北府法規字第1152122941號令:修正「新北市立高級中等學校教師每週教學節數標準」第15條及第3條附表一。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200507",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200506",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-11",
+   "dept": "全國法規資料庫",
+   "title": "停止適用「臺中市政府勞工局事務工作檢核小組設置要點」，並自即日起生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200506",
+   "dl": null
   },
   {
    "uid": "mohw:88431",
@@ -982,6 +1242,46 @@
    "dl": "2027-01-11"
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200563",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-10",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府殯葬管理處115年11月10日新北殯儀字第1155123306號函:修正「新北市政府殯葬管理處聯合奠祭捐款作業要點」第9點，並自115年11月1日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200563",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200559",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-10",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣政府及所屬機關學校聘僱人員考核要點」第5點及第6點附件二",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200559",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200556",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-10",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺北市補助工商團體及廠商推展貿易計畫申請須知」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200556",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200488",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-10",
+   "dept": "全國法規資料庫",
+   "title": "修正「指定能源用戶使用蒸汽鍋爐應遵行之節約能源規定現場檢查程序作業要點」第4點附件1、附件2、第5點附件4，並自即日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200488",
+   "dl": null
+  },
+  {
    "uid": "moenv:gazette-169333",
    "k": "moenv",
    "sn": "環境部主管法規",
@@ -989,6 +1289,26 @@
    "dept": "環境部",
    "title": "環境部公告：修正「一般廢棄物清除處理方式」公告事項附表1，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169333&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200552",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-09",
+   "dept": "全國法規資料庫",
+   "title": "訂定「嘉義縣文創示範區進駐要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200552",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200503",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-09",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市政府環境保護局后里游泳池管理要點」，並將名稱修正為「臺中市政府環境保護局所屬資源回收焚化廠回饋游泳池管理要點」，並自中華民國115年11月15日起生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200503",
    "dl": null
   },
   {
@@ -1042,6 +1362,56 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200609",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-06",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月6日新北府勞育字第1152135572號公告:預告修正「新北市各勞工中心場地使用收費標準」第2條附表。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200609",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200608",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-06",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月6日新北府教中字第1152197927號令:修正「新北市高級中等以上學校原住民學生獎學金發給要點」第2點、第5點，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200608",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200487",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-06",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市環境教育獎初審績優獎勵要點」，名稱並修正為「桃園市環境教育獎獎勵要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200487",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200486",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-06",
+   "dept": "全國法規資料庫",
+   "title": "訂定「臺中市政府民政局經管供宗教使用土地出租作業要點」，並自即日起生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200486",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200460",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-06",
+   "dept": "全國法規資料庫",
+   "title": "「臺中市政府教育局辦理國民中學學生成績評量補充規定」自即日起停止適用，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200460",
+   "dl": null
+  },
+  {
    "uid": "mohw:88389",
    "k": "mohw",
    "sn": "衛福部公告訊息",
@@ -1082,6 +1452,66 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200557",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-05",
+   "dept": "全國法規資料庫",
+   "title": "廢止「臺北市路跑比賽或活動課徵娛樂稅之認定原則」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200557",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200532",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-05",
+   "dept": "全國法規資料庫",
+   "title": "檢送本部訂定之「兼辦政風業務人員工作績效評核要點」（含總說明及逐點說明）1份，並自一百十五年十一月五日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200532",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200485",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-05",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府殯葬業務提成獎金支給要點」第二點、第三點及第三點附表一、附表二。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200485",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200466",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-05",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府建築工程處115年11月5日新北築法字第1152235262號函:修正「新北市政府違章建築拆除大隊國家賠償事件處理委員會設置要點」名稱為「新北市政府建築工程處國家賠償事件處理委員會設置要點」，並修正全文，自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200466",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200463",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-05",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺南市政府及所屬機關學校約聘僱人員進用管理考核要點」，並自即日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200463",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200430",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-05",
+   "dept": "全國法規資料庫",
+   "title": "修正「中央各機關（含事業機構）派赴國外進修、研究、實習人員補助項目及數額表」，並自中華民國一百十六年一月一日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200430",
+   "dl": null
+  },
+  {
    "uid": "moalaw:gazette-169261",
    "k": "moalaw",
    "sn": "農業部主管法規",
@@ -1102,6 +1532,56 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200555",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-04",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺北市政府財政局經管市有非公用不動產提供使用作業要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200555",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200432",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-04",
+   "dept": "全國法規資料庫",
+   "title": "有關修正「臺中市政府社會局早期療育自費療育單位資格審查作業規定」案，自中華民國116年1月1日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200432",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200421",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-04",
+   "dept": "全國法規資料庫",
+   "title": "訂定「桃園市政府人工智慧應用內控管理要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200421",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200420",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-04",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府消防局115年11月4日新北消人字第1152148758號函:停止適用「新北市政府消防局女性隊員勤務指派原則」，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200420",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200416",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-04",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月4日新北府法規字第1152103338號令:修正「新北市河川高灘地綠美化園區場地使用收費標準」第3條。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200416",
+   "dl": null
+  },
+  {
    "uid": "moalaw:gazette-169239",
    "k": "moalaw",
    "sn": "農業部主管法規",
@@ -1109,6 +1589,146 @@
    "dept": "農業部",
    "title": "農業部公告：修正「遠洋漁業條例第十七條第一項所定與我國相互執行公海登檢之國家及指定船舶」，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169239&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200554",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-03",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺北市政府所屬各機關歲入預算執行考核作業要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200554",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200408",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-03",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月3日新北府研資字第1152436693號函:訂定「新北市政府人工智慧應用內控管理要點」，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200408",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200406",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-03",
+   "dept": "全國法規資料庫",
+   "title": "行政院函：訂定「一百十五年軍公教人員年終工作獎金發給注意事項」，自即日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200406",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200405",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-03",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市補發建築執照謄本及複印建築圖說收費標準」第二條。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200405",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200404",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-03",
+   "dept": "全國法規資料庫",
+   "title": "訂定「臺中市政府文化局臺中州廳文化園區管理要點」，並自即日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200404",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200388",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-03",
+   "dept": "全國法規資料庫",
+   "title": "修正「各機關單位預算執行要點」第四十一點、第五十一點，並自即日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200388",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200465",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-02",
+   "dept": "全國法規資料庫",
+   "title": "訂定「臺中市立美術館文創與品牌營運發展諮詢暨審議委員會作業要點」如附件，並自即日起生效，請查照轉知。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200465",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200462",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-02",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺南市政府體育局編制表」，並自中華民國一百十五年十一月四日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200462",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200461",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-02",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺南市政府體育局編制表」，並自中華民國一百十五年十一月四日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200461",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200403",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-02",
+   "dept": "全國法規資料庫",
+   "title": "修正「經濟部公共工程優質獎評選及獎勵作業要點」第三點及第八點附件，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200403",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200402",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-02",
+   "dept": "全國法規資料庫",
+   "title": "「桃園市政府各機關接受中央補助之納入預算證明書開立作業規定」停止適用。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200402",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200401",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-02",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市國民小學藝術才能班學生甄選鑑定工作酬勞費用基準」第三點附表，並自即日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200401",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200377",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-02",
+   "dept": "全國法規資料庫",
+   "title": "訂定「桃園市政府農業局辦理老人與身心障礙者於農業法人及團體消費補助作業要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200377",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200375",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-02",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月2日新北府秘文字第1152099334號函:修正「新北市政府所屬各機關學校發文代字編訂原則」第8點附件二，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200375",
    "dl": null
   },
   {
@@ -1120,6 +1740,46 @@
    "title": "財政部公告：預告「民間機構參與重大公共建設適用免納營利事業所得稅辦法」部分條文修正草案",
    "url": "https://join.gov.tw/policies/gazette/metaId/169173",
    "dl": "2026-12-29"
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200387",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-30",
+   "dept": "全國法規資料庫",
+   "title": "修正「 臺中市政府秘書處編制表」，並自中華民國一百十五年十一月一日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200387",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200378",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-30",
+   "dept": "全國法規資料庫",
+   "title": "訂定「臺中市政府都市發展局職場霸凌防治措施與申訴及調查處理規範」，並自即日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200378",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200374",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-30",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市災害防救辦公室設置要點」第四點，並自即日生效，請查照轉知。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200374",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200370",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-30",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺北市里民活動場所租金補助辦法」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200370",
+   "dl": null
   },
   {
    "uid": "moalaw:gazette-169151",
@@ -1172,6 +1832,46 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200431",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-29",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府環境保護局115年10月29日新北環秘字第1152115556號函:訂定「新北市政府環境保護局勞工退休準備金監督委員會設置要點」，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200431",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200407",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-29",
+   "dept": "全國法規資料庫",
+   "title": "修正「澎湖縣政府編制表」，並自中華民國一百十五年十一月一日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200407",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200376",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-29",
+   "dept": "全國法規資料庫",
+   "title": "訂定「桃園市政府衛生局辦理敬老愛心卡醫療費用補助作業要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200376",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200371",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-29",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺北市萬華區公所收受捐款收支管理要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200371",
+   "dl": null
+  },
+  {
    "uid": "moalaw:gazette-169117",
    "k": "moalaw",
    "sn": "農業部主管法規",
@@ -1202,6 +1902,26 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200419",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-28",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年10月28日新北府城設字第11521335361號令:修正「新北市都市設計及土地使用開發許可審議作業要點」，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200419",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200372",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-28",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺北市政府交通局性騷擾防治措施申訴及調查處理要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200372",
+   "dl": null
+  },
+  {
    "uid": "moalaw:gazette-169084",
    "k": "moalaw",
    "sn": "農業部主管法規",
@@ -1229,6 +1949,26 @@
    "dept": "財政部",
    "title": "財政部令：修正「軍用物品進口免稅辦法」第3條、第8條條文",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169081&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200418",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-27",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年10月27日新北府教衛環字第1152077120號令:修正「新北市公立高級中等以下學校校園場地開放使用要點」名稱為「新北市立高級中等以下學校校園場地開放使用要點」，並修正部分規定及第3點附件一、附件二，自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200418",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200369",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-27",
+   "dept": "全國法規資料庫",
+   "title": "訂定「臺北市政府警察局人工智慧使用規範」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200369",
    "dl": null
   },
   {
@@ -1269,6 +2009,16 @@
    "dept": "財政部",
    "title": "財政部令：訂定115年版「關稅海關緝私法令彙編」發行後相關釋示函令適用原則",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169048&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200417",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-22",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年10月22日新北府教國字第1152068706號令:修正「新北市國民小學教師每週授課節數補充規定」第4點，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200417",
    "dl": null
   },
   {
@@ -1319,6 +2069,16 @@
    "dept": "環境部",
    "title": "修正「土壤及地下水污染改善貸款信用保證實施要點」第23點，自即日生效",
    "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44225",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200368",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-21",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺北市高級中等以下學校及幼兒園特殊教育輔具流通原則」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200368",
    "dl": null
   },
   {
@@ -1502,6 +2262,26 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200505",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-15",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府主計處及所屬主計機構績優主計人員選拔表揚要點」第五點。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200505",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200504",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-15",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府主計處及所屬主計機構績優主計人員選拔表揚要點」第五點。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200504",
+   "dl": null
+  },
+  {
    "uid": "moenv:lawsite-moenv-44215",
    "k": "moenv",
    "sn": "環境部主管法規",
@@ -1559,6 +2339,16 @@
    "dept": "衛生福利部・食品藥物管理署",
    "title": "公告修訂「醫療器材臨床試驗計畫案申請須知」， 並自115年10月5日生效。",
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31744",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200373",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-07",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺北戲劇獎獎勵要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200373",
    "dl": null
   },
   {
@@ -1789,6 +2579,16 @@
    "dept": "衛生福利部・食品藥物管理署",
    "title": "公告修正「醫療器材回收處理辦法 」第四條、第十四條",
    "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31726",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200464",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-09-02",
+   "dept": "全國法規資料庫",
+   "title": "廢止「臺南市政府辦理身心障礙者輔具費用補助審核作業要點」，並自即日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200464",
    "dl": null
   },
   {
