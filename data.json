@@ -1,2229 +1,1975 @@
 {
- "updated": "2026-11-24 05:58",
+ "updated": "2026-11-24 08:09",
  "items": [
   {
-   "id": "88560",
+   "uid": "mohw:88560",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-23",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "116年度「國際疾病分類第11版傳統醫學章節I (ICD-11 TM1)通用診斷系統場域驗證計畫」採購案招標公告",
    "url": "https://www.mohw.gov.tw/cp-18-88560-1.html",
-   "via": [
-    "mohw",
-    "tcm"
-   ]
-  },
-  {
-   "id": "88559",
-   "date": "2026-11-23",
-   "dept": "中醫藥司",
-   "title": "116年度「擴增中藥材數位智慧辨識模組及使用者介面試行計畫」採購案招標公告",
-   "url": "https://www.mohw.gov.tw/cp-18-88559-1.html",
-   "via": [
-    "mohw",
-    "tcm"
-   ]
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10048",
-   "date": "2026-11-23",
-   "dept": "農業部",
-   "title": "公告修正「水土保持服務團績效考核評鑑項目及配分表」(如附件)，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10048"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10047",
-   "date": "2026-11-23",
-   "dept": "農業部",
-   "title": "公告變更「臺南市左鎮區光榮休閒農業區」劃定範圍，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10047"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10046",
-   "date": "2026-11-23",
-   "dept": "農業部",
-   "title": "公告變更「臺南市楠西區梅嶺休閒農業區」劃定範圍，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10046"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10045",
-   "date": "2026-11-23",
-   "dept": "農業部",
-   "title": "公告變更「臺南市七股區溪南休閒農業區」劃定範圍，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10045"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200682",
-   "date": "2026-11-23",
-   "dept": "全國法規資料庫",
-   "title": "訂定「臺中市市立高級中等學校教師甄選作業要點」，並自即日起生效，請查照。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200682"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200677",
-   "date": "2026-11-23",
-   "dept": "全國法規資料庫",
-   "title": "新北市政府交通事件裁決處115年11月23日新北裁管字第1155050475號函:修正「新北市政府交通事件裁決處沒入車輛拍賣及委託廠商銷毀作業要點」第2點、第5點、第9點，並自即日生效。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200677"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10049",
-   "date": "2026-11-23",
-   "dept": "農業部",
-   "title": "公告委託區漁會辦理見習漁船船員手冊相關作業，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10049"
-  },
-  {
-   "id": "gazette-169677",
-   "date": "2026-11-23",
-   "dept": "財政部",
-   "title": "財政部令：修正「稅務違章案件裁罰金額或倍數參考表」遺產及贈與稅法第44條、第45條及第46條規定部分，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169677",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
    "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10056",
+   "uid": "mohw:88559",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
+   "date": "2026-11-23",
+   "dept": "衛生福利部・中醫藥司",
+   "title": "116年度「擴增中藥材數位智慧辨識模組及使用者介面試行計畫」採購案招標公告",
+   "url": "https://www.mohw.gov.tw/cp-18-88559-1.html",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10056",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-23",
    "dept": "農業部",
    "title": "公告臺東縣臺東市及鹿野鄉為辦理木瓜、香瓜及楊桃等農作物115年薔琵颱風農業天然災害現金救助地區。",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10056"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10056",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10054",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10054",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-23",
    "dept": "農業部",
    "title": "公告臺北市士林區及內湖區為辦理香蕉及塑膠布溫網室-塑膠布(網)115年薔琵颱風農業天然災害現金救助地區。",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10054"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10054",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10051",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10051",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-23",
    "dept": "農業部",
    "title": "公告屏東縣枋山鄉及恆春鎮為辦理大豆等作物115年薔琵颱風農業天然災害低利貸款地區。",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10051"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10051",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10053",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10053",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-23",
    "dept": "農業部",
    "title": "公告臺北市士林區及內湖區為辦理香蕉及塑膠布溫網室-塑膠布（網）115年薔琵颱風農業天然災害低利貸款地區。",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10053"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10053",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10052",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10052",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-23",
    "dept": "農業部",
    "title": "公告屏東縣枋山鄉及恆春鎮為辦理大豆等作物115年薔琵颱風農業天然災害現金救助地區。",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10052"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10052",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10050",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10050",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-23",
    "dept": "農業部",
    "title": "公告臺東縣臺東市及鹿野鄉為辦理木瓜、香瓜及楊桃等農作物115年薔琵颱風農業天然災害低利貸款地區。",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10050"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10050",
+   "dl": null
   },
   {
-   "id": "gazette-169663",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10049",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告委託區漁會辦理見習漁船船員手冊相關作業，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10049",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10048",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告修正「水土保持服務團績效考核評鑑項目及配分表」(如附件)，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10048",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10047",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告變更「臺南市左鎮區光榮休閒農業區」劃定範圍，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10047",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10046",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告變更「臺南市楠西區梅嶺休閒農業區」劃定範圍，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10046",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10045",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "公告變更「臺南市七股區溪南休閒農業區」劃定範圍，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10045",
+   "dl": null
+  },
+  {
+   "uid": "mof:gazette-169677",
+   "k": "mof",
+   "sn": "財政部主管法規",
+   "date": "2026-11-23",
+   "dept": "財政部",
+   "title": "財政部令：修正「稅務違章案件裁罰金額或倍數參考表」遺產及贈與稅法第44條、第45條及第46條規定部分，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169677&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moenv:gazette-169663",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-23",
    "dept": "環境部",
    "title": "環境部令：修正「廢照明光源回收貯存清除處理方法及設施標準」部分條文",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169663",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169663&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169662",
+   "uid": "moenv:gazette-169662",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-23",
    "dept": "環境部",
    "title": "環境部令：修正「環境部再生資源再生利用管理辦法」部分條文",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169662",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169662&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169616",
-   "date": "2026-11-20",
-   "dept": "農業部",
-   "title": "農業部公告：公告美國馬里蘭州自高病原性家禽流行性感冒非疫區刪除，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169616",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
+   "uid": "tcm:88560",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
+   "date": "2026-11-23",
+   "dept": "衛生福利部・中醫藥司",
+   "title": "116年度「國際疾病分類第11版傳統醫學章節I (ICD-11 TM1)通用診斷系統場域驗證計畫」採購案招標公告",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-88560-108.html",
    "dl": null
   },
   {
-   "id": "gazette-169626",
-   "date": "2026-11-20",
-   "dept": "農業部",
-   "title": "農業部令：修正「農業部因應美國關稅海洋捕撈產業支持措施作業原則」第2點、第3點、第7點規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169626",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
+   "uid": "tcm:88559",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
+   "date": "2026-11-23",
+   "dept": "衛生福利部・中醫藥司",
+   "title": "116年度「擴增中藥材數位智慧辨識模組及使用者介面試行計畫」採購案招標公告",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-88559-108.html",
    "dl": null
   },
   {
-   "id": "gazette-169639",
-   "date": "2026-11-20",
-   "dept": "農業部",
-   "title": "農業部令：修正「一百十五年度遠洋漁船靠港整補補助措施」部分規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169639",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169638",
-   "date": "2026-11-20",
-   "dept": "農業部",
-   "title": "農業部令：修正「一百十五年度遠洋漁船作業補助措施」，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169638",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169634",
-   "date": "2026-11-20",
-   "dept": "勞動部",
-   "title": "勞動部令：修正「勞工退休金月提繳分級表」，自116年1月1日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169634",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
-   "dl": null
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200674",
-   "date": "2026-11-20",
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200682",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-23",
    "dept": "全國法規資料庫",
-   "title": "有關修正「臺中市政府民政局辦理區公所民政業務考核實施計畫」第三點，部分格式調整，並自116年1月1日起生效，原115年11月18日中市民行字第1150032856號函附件予以抽換，請查照。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200674"
-  },
-  {
-   "id": "gazette-169629",
-   "date": "2026-11-20",
-   "dept": "財政部",
-   "title": "財政部令：有關「所得稅法」第43條之3、第71條、第75條之相關規定，自發布日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169629",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "title": "訂定「臺中市市立高級中等學校教師甄選作業要點」，並自即日起生效，請查照。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200682",
    "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10042",
-   "date": "2026-11-20",
-   "dept": "農業部",
-   "title": "公告「一百十五年度直轄市、縣（市）政府執行社區農村再生績效考評計畫」",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10042"
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200677",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-23",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府交通事件裁決處115年11月23日新北裁管字第1155050475號函:修正「新北市政府交通事件裁決處沒入車輛拍賣及委託廠商銷毀作業要點」第2點、第5點、第9點，並自即日生效。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200677",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10044",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10044",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-20",
    "dept": "農業部",
    "title": "公告美國佛羅里達州自高病原性家禽流行性感冒非疫區刪除，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10044"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10044",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10043",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10043",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-20",
    "dept": "農業部",
    "title": "公告漁船船員管理規則第十二條附表二所定各類基本安全訓練之課程內容、時數及見習船員訓練費用，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10043"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10043",
+   "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200676",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10042",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-20",
-   "dept": "全國法規資料庫",
-   "title": "行政院函：調增軍公教員工專業加給及主管職務加給，並俟115年度中央政府總預算追加預算案奉總統公布後，溯自115年7月1日生效-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200676"
+   "dept": "農業部",
+   "title": "公告「一百十五年度直轄市、縣（市）政府執行社區農村再生績效考評計畫」",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10042",
+   "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200681",
+   "uid": "moalaw:gazette-169639",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "農業部令：修正「一百十五年度遠洋漁船靠港整補補助措施」部分規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169639&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:gazette-169638",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "農業部令：修正「一百十五年度遠洋漁船作業補助措施」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169638&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:gazette-169626",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "農業部令：修正「農業部因應美國關稅海洋捕撈產業支持措施作業原則」第2點、第3點、第7點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169626&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "mof:gazette-169629",
+   "k": "mof",
+   "sn": "財政部主管法規",
+   "date": "2026-11-20",
+   "dept": "財政部",
+   "title": "財政部令：有關「所得稅法」第43條之3、第71條、第75條之相關規定，自發布日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169629&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200681",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
    "date": "2026-11-20",
    "dept": "全國法規資料庫",
    "title": "增訂並修正農業發展條例條文-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200681"
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200681",
+   "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200680",
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200680",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
    "date": "2026-11-20",
    "dept": "全國法規資料庫",
    "title": "修正水土保持法條文-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200680"
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200680",
+   "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200679",
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200679",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
    "date": "2026-11-20",
    "dept": "全國法規資料庫",
    "title": "修正中華民國刑法條文-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200679"
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200679",
+   "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200678",
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200678",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
    "date": "2026-11-20",
    "dept": "全國法規資料庫",
    "title": "修正山坡地保育利用條例條文-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200678"
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200678",
+   "dl": null
   },
   {
-   "id": "88496",
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200676",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-20",
+   "dept": "全國法規資料庫",
+   "title": "行政院函：調增軍公教員工專業加給及主管職務加給，並俟115年度中央政府總預算追加預算案奉總統公布後，溯自115年7月1日生效-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200676",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200674",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-20",
+   "dept": "全國法規資料庫",
+   "title": "有關修正「臺中市政府民政局辦理區公所民政業務考核實施計畫」第三點，部分格式調整，並自116年1月1日起生效，原115年11月18日中市民行字第1150032856號函附件予以抽換，請查照。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200674",
+   "dl": null
+  },
+  {
+   "uid": "mohw:88496",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-19",
-   "dept": "附屬醫療及社會福利機構管理會",
+   "dept": "衛生福利部・附屬醫療及社會福利機構管理會",
    "title": "115年度「附設護理之家智慧用電安全監測及異常預警通知計畫」補(捐)助科技發展計畫徵求說明書及契約書",
-   "url": "https://www.mohw.gov.tw/cp-18-88496-1.html"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200639",
-   "date": "2026-11-19",
-   "dept": "全國法規資料庫",
-   "title": "修正「桃園市政府都市發展局職場霸凌防治措施及申訴處理規範」第二點、第八點。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200639"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200638",
-   "date": "2026-11-19",
-   "dept": "全國法規資料庫",
-   "title": "「一百十四年農林漁牧業普查各級普查組織設置要點」自即日停止適用-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200638"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10038",
-   "date": "2026-11-19",
-   "dept": "農業部",
-   "title": "公告雲林縣臺西鄉為辦理香蕉115年薔琵颱風農業天然災害現金救助地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10038"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10037",
-   "date": "2026-11-19",
-   "dept": "農業部",
-   "title": "公告彰化縣埔鹽鄉及二林鎮為辦理木瓜115年薔琵颱風農業天然災害現金救助地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10037"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10036",
-   "date": "2026-11-19",
-   "dept": "農業部",
-   "title": "公告臺中市烏日區及大安區為辦理餘甘子及辣椒115年薔琵颱風農業天然災害現金救助地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10036"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10035",
-   "date": "2026-11-19",
-   "dept": "農業部",
-   "title": "公告美國馬里蘭州自高病原性家禽流行性感冒非疫區刪除，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10035"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10034",
-   "date": "2026-11-19",
-   "dept": "農業部",
-   "title": "預告修正「森林法施行細則」第五條之一",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10034"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10033",
-   "date": "2026-11-19",
-   "dept": "農業部",
-   "title": "修正「農業部農田水利署桃園管理處農田水利設施範圍」，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10033"
-  },
-  {
-   "id": "gazette-169583",
-   "date": "2026-11-19",
-   "dept": "環境部",
-   "title": "環境部公告：修正「限制含汞產品輸入」依據，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169583",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moenv"
-   ],
+   "url": "https://www.mohw.gov.tw/cp-18-88496-1.html",
    "dl": null
   },
   {
-   "id": "gazette-169593",
-   "date": "2026-11-19",
-   "dept": "農業部",
-   "title": "農業部公告：修正「農業部農田水利署桃園管理處農田水利設施範圍」，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169593",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169590",
-   "date": "2026-11-19",
-   "dept": "環境部",
-   "title": "環境部公告：預告「廢機動車輛回收貯存清除處理方法及設施標準」修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169590",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moenv"
-   ],
-   "dl": "2026-12-03"
-  },
-  {
-   "id": "gazette-169582",
-   "date": "2026-11-19",
-   "dept": "農業部",
-   "title": "農業部公告：預告「森林法施行細則」第5條之1修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169582",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
-   "dl": "2026-12-03"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200675",
-   "date": "2026-11-19",
-   "dept": "全國法規資料庫",
-   "title": "修正「臺南市政府衛生局組織規程」第三條、第四條、第十三條、「臺南市政府衛生局編制表」；「臺南市政府衛生局編制表」並自115年8月1日生效-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200675"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10041",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10041",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-19",
    "dept": "農業部",
    "title": "公告臺中市烏日區及大安區為辦理餘甘子及辣椒115年薔琵颱風農業天然災害低利貸款地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10041"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10041",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10040",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10040",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-19",
    "dept": "農業部",
    "title": "公告雲林縣臺西鄉為辦理香蕉115年薔琵颱風農業天然災害低利貸款地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10040"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10040",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10039",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10039",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-19",
    "dept": "農業部",
    "title": "公告彰化縣埔鹽鄉及二林鎮為辦理木瓜115年薔琵颱風農業天然災害低利貸款地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10039"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10039",
+   "dl": null
   },
   {
-   "id": "88517",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10038",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "公告雲林縣臺西鄉為辦理香蕉115年薔琵颱風農業天然災害現金救助地區",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10038",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10037",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "公告彰化縣埔鹽鄉及二林鎮為辦理木瓜115年薔琵颱風農業天然災害現金救助地區",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10037",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10036",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "公告臺中市烏日區及大安區為辦理餘甘子及辣椒115年薔琵颱風農業天然災害現金救助地區",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10036",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10035",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "公告美國馬里蘭州自高病原性家禽流行性感冒非疫區刪除，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10035",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10034",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "預告修正「森林法施行細則」第五條之一",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10034",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10033",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "修正「農業部農田水利署桃園管理處農田水利設施範圍」，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10033",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:gazette-169616",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "農業部公告：公告美國馬里蘭州自高病原性家禽流行性感冒非疫區刪除，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169616&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:gazette-169593",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "農業部公告：修正「農業部農田水利署桃園管理處農田水利設施範圍」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169593&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:gazette-169582",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-19",
+   "dept": "農業部",
+   "title": "農業部公告：預告「森林法施行細則」第5條之1修正草案",
+   "url": "https://join.gov.tw/policies/gazette/metaId/169582",
+   "dl": "2026-12-03"
+  },
+  {
+   "uid": "moenv:gazette-169590",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-19",
+   "dept": "環境部",
+   "title": "環境部公告：預告「廢機動車輛回收貯存清除處理方法及設施標準」修正草案",
+   "url": "https://join.gov.tw/policies/gazette/metaId/169590",
+   "dl": "2026-12-03"
+  },
+  {
+   "uid": "moenv:gazette-169583",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-19",
+   "dept": "環境部",
+   "title": "環境部公告：修正「限制含汞產品輸入」依據，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169583&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200675",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-19",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺南市政府衛生局組織規程」第三條、第四條、第十三條、「臺南市政府衛生局編制表」；「臺南市政府衛生局編制表」並自115年8月1日生效-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200675",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200639",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-19",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府都市發展局職場霸凌防治措施及申訴處理規範」第二點、第八點。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200639",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200638",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-19",
+   "dept": "全國法規資料庫",
+   "title": "「一百十四年農林漁牧業普查各級普查組織設置要點」自即日停止適用-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200638",
+   "dl": null
+  },
+  {
+   "uid": "mohw:88517",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-18",
-   "dept": "資訊處",
+   "dept": "衛生福利部・資訊處",
    "title": "公告「114年度臺灣智慧醫療學校培訓計畫」第二階段實務訓練甄選之審查結果",
-   "url": "https://www.mohw.gov.tw/cp-18-88517-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88517-1.html",
+   "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200634",
-   "date": "2026-11-18",
-   "dept": "全國法規資料庫",
-   "title": "新北市政府消防局115年11月18日新北消秘字第1152282036號函:修正「新北市政府消防局影音檔案分享平台使用管理要點」，並自即日生效。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200634"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200614",
-   "date": "2026-11-18",
-   "dept": "全國法規資料庫",
-   "title": "本所訂定「臺中市霧峰區公所監視錄影系統管理要點」，並自即日生效，請查照。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200614"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200613",
-   "date": "2026-11-18",
-   "dept": "全國法規資料庫",
-   "title": "修正「桃園市重大災害罹難者遺體處理作業規範」。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200613"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200610",
-   "date": "2026-11-18",
-   "dept": "全國法規資料庫",
-   "title": "本所訂定「臺中市霧峰區公所門禁管理要點」，並自即日生效，請查照。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200610"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200607",
-   "date": "2026-11-18",
-   "dept": "全國法規資料庫",
-   "title": "新北市政府115年11月18日新北府法規字第1152159668號令:修正「新北市政府綠美化環境景觀處組織規程」。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200607"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10032",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10032",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-18",
    "dept": "農業部",
    "title": "公告劃定「花蓮縣吉安鄉吉野休閒農業區」及其範圍，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10032"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10032",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10031",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10031",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-18",
    "dept": "農業部",
    "title": "預告修正「鮪延繩釣漁船赴大西洋作業管理辦法」部分條文及第五十條附件十",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10031"
-  },
-  {
-   "id": "gazette-169558",
-   "date": "2026-11-18",
-   "dept": "環境部",
-   "title": "環境部公告：修正「免洗餐具限制使用對象及實施方式」公告事項第4項，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169558",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moenv"
-   ],
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10031",
    "dl": null
   },
   {
-   "id": "gazette-169569",
+   "uid": "moalaw:gazette-169569",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-18",
    "dept": "農業部",
    "title": "農業部令：修正「漁船船員管理規則」",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169569",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169569&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169550",
-   "date": "2026-11-18",
-   "dept": "農業部",
-   "title": "農業部公告：公告美國科羅拉多州、賓夕法尼亞州、紐澤西州、密西根州、佛蒙特州、羅德島州為高病原性家禽流行性感冒非疫區，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169550",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169562",
-   "date": "2026-11-18",
-   "dept": "環境部",
-   "title": "環境部公告：預告「容器回收清除處理費費率」公告事項第4項及第1項附表修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169562",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moenv"
-   ],
-   "dl": "2026-12-02"
-  },
-  {
-   "id": "gazette-169568",
+   "uid": "moalaw:gazette-169568",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-18",
    "dept": "農業部",
    "title": "農業部公告：預告「鮪延繩釣漁船赴大西洋作業管理辦法」部分條文及第50條附件10修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169568",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169568",
    "dl": "2026-12-02"
   },
   {
-   "id": "gazette-169544",
-   "date": "2026-11-18",
-   "dept": "勞動部",
-   "title": "勞動部令：修正「勞工職業災害保險投保薪資分級表」，自116年1月1日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169544",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
-   "dl": null
-  },
-  {
-   "id": "lawsite-moenv-44255",
+   "uid": "moenv:lawsite-moenv-44255",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-18",
    "dept": "環境部",
    "title": "關於已註冊通過抵換專案，倘其專案邊界涵蓋應繳納碳費排放源且計入期涵蓋114年1月1日（碳費制度實施）以後者，其減量額度核發原則",
    "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44255",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
    "dl": null
   },
   {
-   "id": "88506",
+   "uid": "moenv:gazette-169562",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-18",
+   "dept": "環境部",
+   "title": "環境部公告：預告「容器回收清除處理費費率」公告事項第4項及第1項附表修正草案",
+   "url": "https://join.gov.tw/policies/gazette/metaId/169562",
+   "dl": "2026-12-02"
+  },
+  {
+   "uid": "moenv:gazette-169558",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-18",
+   "dept": "環境部",
+   "title": "環境部公告：修正「免洗餐具限制使用對象及實施方式」公告事項第4項，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169558&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200634",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-18",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府消防局115年11月18日新北消秘字第1152282036號函:修正「新北市政府消防局影音檔案分享平台使用管理要點」，並自即日生效。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200634",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200614",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-18",
+   "dept": "全國法規資料庫",
+   "title": "本所訂定「臺中市霧峰區公所監視錄影系統管理要點」，並自即日生效，請查照。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200614",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200613",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-18",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市重大災害罹難者遺體處理作業規範」。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200613",
+   "dl": null
+  },
+  {
+   "uid": "mohw:88506",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-17",
-   "dept": "心理健康司",
+   "dept": "衛生福利部・心理健康司",
    "title": "第2次公開徵求補助辦理115年度「布建兒童(青少年)專業精神醫療團隊及心智病房計畫」",
-   "url": "https://www.mohw.gov.tw/cp-18-88506-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88506-1.html",
+   "dl": null
   },
   {
-   "id": "88500",
+   "uid": "mohw:88500",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-17",
-   "dept": "心理健康司",
+   "dept": "衛生福利部・心理健康司",
    "title": "發布修正之「精神疾病嚴重病人強制處置費用支付作業要點第十點及第四點附表」",
-   "url": "https://www.mohw.gov.tw/cp-18-88500-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88500-1.html",
+   "dl": null
   },
   {
-   "id": "88497",
+   "uid": "mohw:88497",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-17",
-   "dept": "心理健康司",
+   "dept": "衛生福利部・心理健康司",
    "title": "公告115年度精神復健機構評鑑合格名單",
-   "url": "https://www.mohw.gov.tw/cp-18-88497-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88497-1.html",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31793",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31793",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-11-17",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "自116年1月1日至116年3月31日止，查驗登記啟動之GCP查核案件開放試行線上申辦，並於116年4月1日起採全面線上申辦",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31793"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31793",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31795",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31795",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-11-17",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "廢止「食品中動物用藥殘留量檢驗方法－Benzimidazole類多重殘留分析」及「食品中動物用藥殘留量檢驗方法－Triclabendazole及其代謝物之檢驗」，並自即日生效。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31795"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31795",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31794",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31794",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-11-17",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "修正「食品中動物用藥殘留量檢驗方法－Avermectin類抗生素之檢驗」，並自中華民國一百十六年七月一日生效。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31794"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31794",
+   "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200578",
-   "date": "2026-11-17",
-   "dept": "全國法規資料庫",
-   "title": "修正「臺中市食品藥物安全處生物安全會作業要點」第二點、第三點、第五點 ，並自即日起適用，請查照。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200578"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200636",
-   "date": "2026-11-17",
-   "dept": "全國法規資料庫",
-   "title": "修正「桃園市政府原住民族語言發展會設置要點」第二點。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200636"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200612",
-   "date": "2026-11-17",
-   "dept": "全國法規資料庫",
-   "title": "新北市政府115年11月17日新北府主公預字第1152279502號函:修正「新北市政府天然災害救災經費處理作業要點」第3點、第7點、第15點，並自即日生效。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200612"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200605",
-   "date": "2026-11-17",
-   "dept": "全國法規資料庫",
-   "title": "修正「臺中市政府勞工局補助辦理勞工休閒活動實施要點」第二點及第六點附表，並自中華民國116年1月1日生效，請查照。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200605"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200576",
-   "date": "2026-11-17",
-   "dept": "全國法規資料庫",
-   "title": "修正「桃園市政府殯葬事務審議諮詢會設置要點」部分規定。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200576"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10030",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10030",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-17",
    "dept": "農業部",
    "title": "公告美國科羅拉多州、賓夕法尼亞州、紐澤西州、密西根州、佛蒙特州、羅德島州為高病原性家禽流行性感冒非疫區，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10030"
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10030",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10029",
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10029",
+   "k": "moa",
+   "sn": "農業部公告",
    "date": "2026-11-17",
    "dept": "農業部",
    "title": "預告修正「農業部補助及獎勵農業保險保險人辦法」第四條",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10029"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200653",
-   "date": "2026-11-17",
-   "dept": "全國法規資料庫",
-   "title": "修正「桃園市政府及所屬各機關學校約用人員進用及管理要點」第十六點附表二規定。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200653"
-  },
-  {
-   "id": "gazette-169507",
-   "date": "2026-11-17",
-   "dept": "環境部",
-   "title": "環境部令：修正「事業及污水下水道系統水污染防治費收費辦法」第11條、第27條條文",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169507",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moenv"
-   ],
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10029",
    "dl": null
   },
   {
-   "id": "gazette-169506",
+   "uid": "moalaw:gazette-169550",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-17",
-   "dept": "環境部",
-   "title": "環境部公告：修正「照明光源販賣業者應設置資源回收設施及其它應遵行事項」公告事項第1項、第5項，名稱並修正為「照明光源販賣業者應設置資源回收設施及其他應遵行事項」，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169506",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moenv"
-   ],
+   "dept": "農業部",
+   "title": "農業部公告：公告美國科羅拉多州、賓夕法尼亞州、紐澤西州、密西根州、佛蒙特州、羅德島州為高病原性家禽流行性感冒非疫區，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169550&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169508",
-   "date": "2026-11-17",
-   "dept": "環境部",
-   "title": "環境部公告：預告「鋼鐵業集塵灰高溫冶煉設施戴奧辛管制及排放標準」修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169508",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moenv"
-   ],
-   "dl": "2026-12-17"
-  },
-  {
-   "id": "gazette-169533",
+   "uid": "moalaw:gazette-169533",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-17",
    "dept": "農業部",
    "title": "農業部公告：預告「農業部補助及獎勵農業保險保險人辦法」第4條修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169533",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169533",
    "dl": "2027-01-18"
   },
   {
-   "id": "gazette-169534",
-   "date": "2026-11-17",
-   "dept": "農業部",
-   "title": "農業部書函：更正第032卷第182期本部115年10月1日農綜字第1150013511號令「民間參與農業及資源循環再利用設施公共建設接管營運辦法」第3條至第6條、第8條、第10條、第11條、第15條、第16條、第18條修正條文對照表如勘誤表",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169534",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169517",
-   "date": "2026-11-17",
-   "dept": "衛生福利部",
-   "title": "衛生福利部公告：廢止「食品中動物用藥殘留量檢驗方法－Benzimidazole類多重殘留分析」、「食品中動物用藥殘留量檢驗方法－Triclabendazole及其代謝物之檢驗」，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169517",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169516",
-   "date": "2026-11-17",
-   "dept": "衛生福利部",
-   "title": "衛生福利部公告：修正「食品中動物用藥殘留量檢驗方法－Avermectin類抗生素之檢驗」，自116年7月1日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169516",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169537",
-   "date": "2026-11-17",
-   "dept": "勞動部",
-   "title": "勞動部令：修正「勞工職業災害保險及保護法第十條規定參加保險辦法」第12條條文及第8條附表",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169537",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169518",
-   "date": "2026-11-17",
-   "dept": "勞動部",
-   "title": "勞動部令：修正「不當勞動行為裁決委員案件審理給付報酬標準」",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169518",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169526",
-   "date": "2026-11-17",
-   "dept": "勞動部",
-   "title": "勞動部令：修正「勞工保險投保薪資分級表」，自116年1月1日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169526",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169522",
-   "date": "2026-11-17",
-   "dept": "勞動部",
-   "title": "勞動部令：訂定「友善職場育兒彈性工作安排措施獎勵及補助要點」，自116年1月1日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169522",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
-   "dl": null
-  },
-  {
-   "id": "gazette-169524",
+   "uid": "mof:gazette-169524",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-11-17",
    "dept": "財政部",
    "title": "財政部令：修正「民間參與公共建設甄審委員會組織及評審辦法」部分條文，名稱並修正為「民間參與公共建設甄審會組織及評審辦法」",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169524",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169524&log=detailLog",
    "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200637",
-   "date": "2026-11-16",
-   "dept": "全國法規資料庫",
-   "title": "修正「桃園市警察人員安全基金收支保管及運用辦法」第四條。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200637"
+   "uid": "moenv:gazette-169508",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-17",
+   "dept": "環境部",
+   "title": "環境部公告：預告「鋼鐵業集塵灰高溫冶煉設施戴奧辛管制及排放標準」修正草案",
+   "url": "https://join.gov.tw/policies/gazette/metaId/169508",
+   "dl": "2026-12-17"
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200611",
-   "date": "2026-11-16",
-   "dept": "全國法規資料庫",
-   "title": "修正「嘉義縣補助體育運動團隊及運動員出國參加運動競賽經費補助要點」名稱並修正為「嘉義縣補助體育運動團隊及運動員出國參加國際競賽經費要點」-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200611"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200606",
-   "date": "2026-11-16",
-   "dept": "全國法規資料庫",
-   "title": "訂定「高雄市檢舉違反藥事法及醫療器材管理法案件獎勵辦法」，自發布日施行。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200606"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200577",
-   "date": "2026-11-16",
-   "dept": "全國法規資料庫",
-   "title": "修正「臺南市公立游泳池使用管理辦法」第二條、第四條-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200577"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10028",
-   "date": "2026-11-16",
-   "dept": "農業部",
-   "title": "公告新竹縣新埔鎮等4鄉鎮為辦理塑膠布溫網室塑膠布（網）、大豆、茂谷柑及天王柑115年薔琵颱風農業天然災害低利貸款地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10028"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10027",
-   "date": "2026-11-16",
-   "dept": "農業部",
-   "title": "公告新竹縣新埔鎮等4鄉鎮為辦理塑膠布溫網室塑膠布(網)、大豆、茂谷柑及天王柑115年薔琵颱風農業天然災害現金救助地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10027"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10026",
-   "date": "2026-11-16",
-   "dept": "農業部",
-   "title": "公告苗栗縣苗栗市等6鄉（鎮、市）為辦理塑膠布溫網室-塑膠布（網）及胡瓜等作物115年薔琵颱風農業天然災害低利貸款地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10026"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10025",
-   "date": "2026-11-16",
-   "dept": "農業部",
-   "title": "公告苗栗縣苗栗市等6鄉(鎮、市)為辦理塑膠布溫網室-塑膠布(網)及胡瓜等作物115年薔琵颱風農業天然災害現金救助地區",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10025"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10024",
-   "date": "2026-11-16",
-   "dept": "農業部",
-   "title": "公告劃定「新竹縣關西鎮美里庄休閒農業區」及其範圍，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10024"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10023",
-   "date": "2026-11-16",
-   "dept": "農業部",
-   "title": "解除嘉義縣大埔鄉及番路鄉編號第1907號土砂捍止保安林一部面積2.888026公頃，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10023"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10022",
-   "date": "2026-11-16",
-   "dept": "農業部",
-   "title": "預告訂定「農業部農業試驗所辦理農機性能測定收費標準」",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10022"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10021",
-   "date": "2026-11-16",
-   "dept": "農業部",
-   "title": "公告變更「臺中市外埔區水流東休閒農業區」劃定範圍，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10021"
-  },
-  {
-   "id": "gazette-169498",
-   "date": "2026-11-16",
-   "dept": "農業部",
-   "title": "農業部令：修正「農業部因應美國關稅養殖產業支持措施作業原則」第3點、第8點規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169498",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
+   "uid": "moenv:gazette-169507",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-17",
+   "dept": "環境部",
+   "title": "環境部令：修正「事業及污水下水道系統水污染防治費收費辦法」第11條、第27條條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169507&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169499",
+   "uid": "moenv:gazette-169506",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-17",
+   "dept": "環境部",
+   "title": "環境部公告：修正「照明光源販賣業者應設置資源回收設施及其它應遵行事項」公告事項第1項、第5項，名稱並修正為「照明光源販賣業者應設置資源回收設施及其他應遵行事項」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169506&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200653",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-17",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府及所屬各機關學校約用人員進用及管理要點」第十六點附表二規定。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200653",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200636",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-17",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府原住民族語言發展會設置要點」第二點。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200636",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200612",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-17",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月17日新北府主公預字第1152279502號函:修正「新北市政府天然災害救災經費處理作業要點」第3點、第7點、第15點，並自即日生效。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200612",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:gazette-169499",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-16",
-   "dept": "農業部農業試驗所",
+   "dept": "農業部",
    "title": "農業部農業試驗所公告：預告「農業部農業試驗所辦理農機性能測定收費標準」草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169499",
-   "src": "gazette",
-   "via": [
-    "gazette",
-    "moalaw"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169499",
    "dl": "2027-01-15"
   },
   {
-   "id": "gazette-169497",
+   "uid": "moalaw:gazette-169498",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-16",
-   "dept": "衛生福利部",
-   "title": "衛生福利部令：修正「精神疾病嚴重病人強制處置費用支付作業要點」第10點規定及第4點附表，自115年9月1日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169497",
-   "src": "gazette",
-   "via": [
-    "gazette"
-   ],
+   "dept": "農業部",
+   "title": "農業部令：修正「農業部因應美國關稅養殖產業支持措施作業原則」第3點、第8點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169498&log=detailLog",
    "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200575",
-   "date": "2026-11-13",
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200637",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-16",
    "dept": "全國法規資料庫",
-   "title": "訂定「嘉義縣產業園區廣告物設置管理要點」-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200575"
+   "title": "修正「桃園市警察人員安全基金收支保管及運用辦法」第四條。-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200637",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10020",
-   "date": "2026-11-13",
-   "dept": "農業部",
-   "title": "解除嘉義縣竹崎鄉編號第1904號水源涵養保安林一部面積4.151400公頃，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10020"
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200611",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-16",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣補助體育運動團隊及運動員出國參加運動競賽經費補助要點」名稱並修正為「嘉義縣補助體育運動團隊及運動員出國參加國際競賽經費要點」-全國法規資料庫",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200611",
+   "dl": null
   },
   {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10019",
-   "date": "2026-11-13",
-   "dept": "農業部",
-   "title": "解除臺南市大內區及玉井區編號第2022號土砂捍止保安林一部面積4.529917公頃，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10019"
-  },
-  {
-   "id": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10018",
-   "date": "2026-11-13",
-   "dept": "農業部",
-   "title": "解除基隆市中正區、仁愛區及信義區編號第2803號土砂捍止保安林部分面積0.009027公頃，並自即日生效",
-   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10018"
-  },
-  {
-   "id": "gazette-169484",
+   "uid": "moalaw:gazette-169484",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-13",
    "dept": "農業部",
    "title": "農業部令：修正「非都市土地變更作專案輔導畜牧事業設施計畫審查作業要點」，自116年1月1日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169484",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169484&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169465",
+   "uid": "moenv:gazette-169465",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-13",
    "dept": "環境部",
    "title": "環境部公告：修正「照明光源回收清除處理費費率」，除另定生效日期者外，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169465",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169465&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169457",
+   "uid": "moalaw:gazette-169457",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-12",
    "dept": "農業部",
    "title": "農業部公告：公告加拿大安大略省自高病原性家禽流行性感冒非疫區刪除，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169457",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169457&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169431",
+   "uid": "moenv:gazette-169431",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-12",
    "dept": "環境部",
    "title": "環境部公告：預告「限制產品過度包裝檢驗收費標準」第1條修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169431",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169431",
    "dl": "2026-11-26"
   },
   {
-   "id": "gazette-169430",
+   "uid": "moenv:gazette-169430",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-12",
    "dept": "環境部",
    "title": "環境部公告：預告「限制產品過度包裝個案審查收費標準」第1條修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169430",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169430",
    "dl": "2026-11-26"
   },
   {
-   "id": "gazette-169429",
+   "uid": "moenv:gazette-169429",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-12",
    "dept": "環境部",
    "title": "環境部公告：預告「國外減量額度認可準則」草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169429",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169429",
    "dl": "2026-12-14"
   },
   {
-   "id": "88457",
+   "uid": "mohw:88457",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-11",
-   "dept": "口腔健康司",
+   "dept": "衛生福利部・口腔健康司",
    "title": "公告116年度「特殊需求者牙科醫療服務補助計畫」申請作業規定",
-   "url": "https://www.mohw.gov.tw/cp-18-88457-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88457-1.html",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31782",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31782",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-11-11",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "預告廢止「食品中甲醛之檢驗方法(二)(MOHWA0004.03)」。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31782"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31782",
+   "dl": null
   },
   {
-   "id": "gazette-169415",
+   "uid": "moalaw:gazette-169415",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-11",
    "dept": "農業部",
    "title": "農業部公告：預告「農田水利事業照舊使用土地與農田水利事業作業基金非事業用土地交換辦法」草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169415",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169415",
    "dl": "2027-01-11"
   },
   {
-   "id": "88431",
+   "uid": "mohw:88431",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-10",
-   "dept": "附屬醫療及社會福利機構管理會",
+   "dept": "衛生福利部・附屬醫療及社會福利機構管理會",
    "title": "本部旗山醫院115年10月20日舉辦「衛生福利部旗山醫院停車場新建營運移轉（BOT）案」可行性評估公聽會，會議紀錄如附件",
-   "url": "https://www.mohw.gov.tw/cp-18-88431-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88431-1.html",
+   "dl": null
   },
   {
-   "id": "88430",
+   "uid": "mohw:88430",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-10",
-   "dept": "心理健康司",
+   "dept": "衛生福利部・心理健康司",
    "title": "公告徵求辦理本部116年度「大眾政治暴力創傷知情教育計畫」",
-   "url": "https://www.mohw.gov.tw/cp-18-88430-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88430-1.html",
+   "dl": null
   },
   {
-   "id": "gazette-169377",
+   "uid": "moalaw:gazette-169377",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-10",
    "dept": "農業部",
    "title": "農業部令：修正「糧商登記規費收費標準」",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169377",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169377&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169376",
+   "uid": "moenv:gazette-169376",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-10",
    "dept": "環境部",
    "title": "環境部公告：修正「限制含壬基酚及壬基酚聚乙氧基醇之清潔劑輸入」依據，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169376",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169376&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169364",
+   "uid": "moenv:gazette-169364",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-10",
    "dept": "環境部",
    "title": "環境部公告：預告「老舊車輛汰舊換新空氣污染物減量補助辦法」第2條、第5條、第6條及第8條附表修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169364",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169364",
    "dl": "2026-11-24"
   },
   {
-   "id": "gazette-169363",
+   "uid": "moenv:gazette-169363",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-10",
    "dept": "環境部",
    "title": "環境部公告：預告「交通工具排放空氣污染物審查費證書費收費標準」第2條、第3條修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169363",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169363",
    "dl": "2027-01-11"
   },
   {
-   "id": "gazette-169349",
-   "date": "2026-11-09",
-   "dept": "環境部",
-   "title": "環境部公告：預告廢止「環境部資源回收費率審議委員會設置辦法」",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169349",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
-   "dl": "2026-11-23"
-  },
-  {
-   "id": "gazette-169333",
+   "uid": "moenv:gazette-169333",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-09",
    "dept": "環境部",
    "title": "環境部公告：修正「一般廢棄物清除處理方式」公告事項附表1，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169333",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169333&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169342",
+   "uid": "moalaw:gazette-169342",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-08",
    "dept": "農業部",
    "title": "農業部公告：公告加拿大魁北克省自高病原性家禽流行性感冒非疫區刪除，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169342",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169342&log=detailLog",
    "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31786",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31786",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-11-06",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "預告修正「適用罕見疾病防治及藥物法之藥物品項」草案",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31786"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31786",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31785",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31785",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-11-06",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "修正「適用罕見疾病防治及藥物法之藥物品項」",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31785"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31785",
+   "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200609",
-   "date": "2026-11-06",
-   "dept": "全國法規資料庫",
-   "title": "新北市政府115年11月6日新北府勞育字第1152135572號公告:預告修正「新北市各勞工中心場地使用收費標準」第2條附表。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200609"
-  },
-  {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200608",
-   "date": "2026-11-06",
-   "dept": "全國法規資料庫",
-   "title": "新北市政府115年11月6日新北府教中字第1152197927號令:修正「新北市高級中等以上學校原住民學生獎學金發給要點」第2點、第5點，並自即日生效。-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200608"
-  },
-  {
-   "id": "gazette-169343",
+   "uid": "moalaw:gazette-169343",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-06",
    "dept": "農業部",
    "title": "農業部公告：公告美國奧勒岡州自高病原性家禽流行性感冒非疫區刪除，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169343",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169343&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169322",
+   "uid": "moenv:gazette-169322",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-06",
    "dept": "環境部",
    "title": "環境部令：修正「廢容器回收貯存清除處理方法及設施標準」部分條文",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169322",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169322&log=detailLog",
    "dl": null
   },
   {
-   "id": "88389",
+   "uid": "mohw:88389",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-05",
-   "dept": "心理健康司",
+   "dept": "衛生福利部・心理健康司",
    "title": "公告徵求辦理本部116年度「大眾政治暴力創傷知情教育計畫」",
-   "url": "https://www.mohw.gov.tw/cp-18-88389-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88389-1.html",
+   "dl": null
   },
   {
-   "id": "88385",
+   "uid": "mohw:88385",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-05",
-   "dept": "口腔健康司",
+   "dept": "衛生福利部・口腔健康司",
    "title": "公告116年度「原住民族地區口腔衛生教育計畫」申請作業須知",
-   "url": "https://www.mohw.gov.tw/cp-18-88385-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88385-1.html",
+   "dl": null
   },
   {
-   "id": "88378",
+   "uid": "mohw:88378",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-11-05",
-   "dept": "科技發展組",
+   "dept": "衛生福利部・科技發展組",
    "title": "116年度「衛生福利科技交流及環境建置計畫」補（捐）助科技發展計畫公開徵求",
-   "url": "https://www.mohw.gov.tw/cp-18-88378-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88378-1.html",
+   "dl": null
   },
   {
-   "id": "gazette-169275",
+   "uid": "moenv:gazette-169275",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-11-05",
    "dept": "環境部",
    "title": "環境部令：修正「廢乾電池回收貯存清除處理方法及設施標準」",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169275",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169275&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169261",
+   "uid": "moalaw:gazette-169261",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-04",
    "dept": "農業部",
    "title": "農業部令：修正「種苗業者應具備條件及設備標準」第2條、第4條、第8條條文",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169261",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169261&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169254",
+   "uid": "moalaw:gazette-169254",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-04",
    "dept": "農業部",
    "title": "農業部令：修正「動物及其產品進出金門馬祖地區檢查規則」部分條文",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169254",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169254&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169239",
+   "uid": "moalaw:gazette-169239",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-11-03",
    "dept": "農業部",
    "title": "農業部公告：修正「遠洋漁業條例第十七條第一項所定與我國相互執行公海登檢之國家及指定船舶」，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169239",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169239&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169173",
+   "uid": "mof:gazette-169173",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-30",
    "dept": "財政部",
    "title": "財政部公告：預告「民間機構參與重大公共建設適用免納營利事業所得稅辦法」部分條文修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169173",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169173",
    "dl": "2026-12-29"
   },
   {
-   "id": "gazette-169151",
+   "uid": "moalaw:gazette-169151",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-10-29",
    "dept": "農業部",
    "title": "農業部農田水利署令：修正「農業部農田水利署推廣管路灌溉作業要點」部分規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169151",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169151&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169136",
+   "uid": "mof:gazette-169136",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-29",
    "dept": "財政部",
    "title": "財政部關務署令：修正「船舶需用物品申請驗放作業要點」第4點附件3，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169136",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169136&log=detailLog",
    "dl": null
   },
   {
-   "id": "lawsite-moenv-44234",
+   "uid": "moenv:lawsite-moenv-44234",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-29",
    "dept": "環境部",
    "title": "廢棄物清理法115年7月15日修正公布後，有關「違反廢棄物清理法罰鍰額度裁罰準則」之適用，應分別依相關規定有無實質變更及是否牴觸修正後法律予以判斷",
    "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44234",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
    "dl": null
   },
   {
-   "id": "lawsite-moenv-44233",
+   "uid": "moenv:lawsite-moenv-44233",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-29",
    "dept": "環境部",
    "title": "有關公私場所固定污染源使用草酸水溶液之揮發性有機物空氣污染防制費排放量計量原則",
    "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44233",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
    "dl": null
   },
   {
-   "id": "gazette-169137",
+   "uid": "moenv:gazette-169137",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-29",
    "dept": "環境部",
    "title": "環境部公告：修正「乾電池回收清除處理費費率」依據，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169137",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169137&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169117",
+   "uid": "moalaw:gazette-169117",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-10-28",
    "dept": "農業部",
    "title": "農業部令：修正「廚餘養豬場輔導轉型飼料補助要點」第4點、第8點、第9點規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169117",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169117&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169116",
+   "uid": "moalaw:gazette-169116",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-10-28",
    "dept": "農業部",
    "title": "農業部令：修正「乳品加工廠收購酪農原料生乳驗收及計價要點」，名稱並修正為「乳品工廠收購酪農原料生乳驗收及計價要點」，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169116",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169116&log=detailLog",
    "dl": null
   },
   {
-   "id": "lawsite-mof-77048",
+   "uid": "mof:lawsite-mof-77048",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-28",
    "dept": "財政部",
    "title": "財政部函：訂定「財政部辦理採購案件保密作業原則」，並自即日生效",
    "url": "https://law-out.mof.gov.tw/NewsContent.aspx?id=77048",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
    "dl": null
   },
   {
-   "id": "gazette-169084",
+   "uid": "moalaw:gazette-169084",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-10-27",
    "dept": "農業部",
    "title": "農業部公告：預告「政府部門執勤犬照護管理規則」修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169084",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169084",
    "dl": "2026-12-28"
   },
   {
-   "id": "gazette-169082",
+   "uid": "mof:gazette-169082",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-27",
    "dept": "財政部",
    "title": "財政部令：修正「財政部獎勵使用統一發票及電子發票績優營業人實施要點」，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169082",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169082&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169081",
+   "uid": "mof:gazette-169081",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-27",
    "dept": "財政部",
    "title": "財政部令：修正「軍用物品進口免稅辦法」第3條、第8條條文",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169081",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169081&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169083",
+   "uid": "moalaw:gazette-169083",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-10-25",
    "dept": "農業部",
    "title": "農業部令：修正「漁業天然災害災情查報及救助作業程序」第5點規定，自115年10月22日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169083",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169083&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169076",
+   "uid": "moalaw:gazette-169076",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-10-24",
    "dept": "農業部",
    "title": "農業部公告：公告美國內布拉斯加州自高病原性家禽流行性感冒非疫區刪除，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169076",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169076&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169052",
+   "uid": "moalaw:gazette-169052",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-10-22",
    "dept": "農業部",
    "title": "農業部令：修正「違反動物傳染病防治條例第二十八條第一項第一款公告禁止搬運廢棄物案件裁罰基準」第2點規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169052",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169052&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-169048",
+   "uid": "mof:gazette-169048",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-22",
    "dept": "財政部",
    "title": "財政部令：訂定115年版「關稅海關緝私法令彙編」發行後相關釋示函令適用原則",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169048",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169048&log=detailLog",
    "dl": null
   },
   {
-   "id": "88266",
+   "uid": "mohw:88266",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-10-21",
-   "dept": "醫事司",
+   "dept": "衛生福利部・醫事司",
    "title": "公告第4次修正「⼆年期醫師畢業後⼀般醫學訓練計畫」114學年度PGY2四分組訓練容額，如附件",
-   "url": "https://dep.mohw.gov.tw/DOMA/cp-964-88265-106.html"
+   "url": "https://dep.mohw.gov.tw/DOMA/cp-964-88265-106.html",
+   "dl": null
   },
   {
-   "id": "gazette-169026",
+   "uid": "moalaw:gazette-169026",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-10-21",
    "dept": "農業部",
    "title": "農業部令：修正「飼料管理法第二十九條第二款所定使用禁止搬運至豬隻飼養場所之廢棄物案件裁罰基準」第2點規定，自115年10月22日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169026",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169026&log=detailLog",
    "dl": null
   },
   {
-   "id": "moalaw-httpslawmoagovtwNewsContentaspxid9387",
+   "uid": "moalaw:moalaw-httpslawmoagovtwNewsContentaspxid9387",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
    "date": "2026-10-21",
    "dept": "農業部",
    "title": "「農業部農村發展及水土保持署保育治理及農路設施改善工程提報審查作業要點」修正為「保育治理及農路設施改善工程提報審查作業要點」，並修正第二點、第三點、第七點",
    "url": "https://law.moa.gov.tw/NewsContent.aspx?id=9387",
-   "src": "moalaw",
-   "via": [
-    "moalaw"
-   ],
    "dl": null
   },
   {
-   "id": "gazette-169010",
+   "uid": "mof:gazette-169010",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-21",
    "dept": "財政部",
    "title": "財政部公告：預告「國有非公用不動產出租管理辦法」第20條修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169010",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/169010",
    "dl": "2026-12-21"
   },
   {
-   "id": "lawsite-moenv-44225",
+   "uid": "moenv:lawsite-moenv-44225",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-21",
    "dept": "環境部",
    "title": "修正「土壤及地下水污染改善貸款信用保證實施要點」第23點，自即日生效",
    "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44225",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
    "dl": null
   },
   {
-   "id": "88253",
+   "uid": "mohw:88253",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-10-20",
-   "dept": "心理健康司",
+   "dept": "衛生福利部・心理健康司",
    "title": "公告116年度「精神復健機構改善公共安全設施設備補助計畫」申請作業須知",
-   "url": "https://www.mohw.gov.tw/cp-18-88253-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88253-1.html",
+   "dl": null
   },
   {
-   "id": "88248",
+   "uid": "mohw:88248",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-10-20",
-   "dept": "口腔健康司",
+   "dept": "衛生福利部・口腔健康司",
    "title": "公告115-116年度「口腔親善之家模式試辦計畫」 申請作業須知(第二次)",
-   "url": "https://www.mohw.gov.tw/cp-18-88248-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88248-1.html",
+   "dl": null
   },
   {
-   "id": "88244",
+   "uid": "mohw:88244",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-10-20",
-   "dept": "社會及家庭署",
+   "dept": "衛生福利部・社會及家庭署",
    "title": "公告衛生福利部116年度老人福利機構評鑑實施計畫",
-   "url": "https://www.mohw.gov.tw/cp-18-88244-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88244-1.html",
+   "dl": null
   },
   {
-   "id": "gazette-168996",
+   "uid": "mof:gazette-168996",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-20",
    "dept": "財政部",
    "title": "財政部公告：預告「產業創新條例緩課所得稅適用辦法」第6條、第8條、第11條修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168996",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/168996",
    "dl": "2026-12-21"
   },
   {
-   "id": "gazette-168995",
+   "uid": "mof:gazette-168995",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-20",
    "dept": "財政部",
    "title": "財政部令：修正「納稅者權利保護官辦理納稅者權利保護事項作業要點」部分規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168995",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168995&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168992",
+   "uid": "moenv:gazette-168992",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-20",
    "dept": "環境部",
    "title": "環境部公告：預告廢止「空氣中臭氧自動檢驗方法－紫外光吸收法（NIEA A420.13C）」",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168992",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/168992",
    "dl": "2026-12-21"
   },
   {
-   "id": "gazette-168990",
+   "uid": "moenv:gazette-168990",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-20",
    "dept": "環境部",
    "title": "環境部公告：預告「土壤中重金屬檢測方法－王水消化法（NIEA S321.66B）」草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168990",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/168990",
    "dl": "2026-12-21"
   },
   {
-   "id": "gazette-168989",
+   "uid": "moenv:gazette-168989",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-20",
    "dept": "環境部",
    "title": "環境部公告：預告廢止「土壤中重金屬檢測方法－王水消化法（NIEA S321.65B）」",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168989",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/168989",
    "dl": "2026-12-21"
   },
   {
-   "id": "gazette-168985",
+   "uid": "moenv:gazette-168985",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-20",
    "dept": "環境部",
    "title": "環境部公告：預告「空氣中臭氧自動檢驗方法－紫外光吸收法（NIEA A420.14C）」草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168985",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/168985",
    "dl": "2026-12-21"
   },
   {
-   "id": "88241",
+   "uid": "mohw:88241",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-10-19",
-   "dept": "資訊處",
+   "dept": "衛生福利部・資訊處",
    "title": "衛生福利部「115年度在宅醫療科技計畫資訊標準與執行規劃」說明會",
-   "url": "https://www.mohw.gov.tw/cp-18-88241-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88241-1.html",
+   "dl": null
   },
   {
-   "id": "88228",
+   "uid": "mohw:88228",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-10-19",
-   "dept": "心理健康司",
+   "dept": "衛生福利部・心理健康司",
    "title": "公告116年度疑似或社區精神病人照護優化計畫申請作業須知",
-   "url": "https://www.mohw.gov.tw/cp-18-88228-1.html"
+   "url": "https://www.mohw.gov.tw/cp-18-88228-1.html",
+   "dl": null
   },
   {
-   "id": "gazette-168973",
+   "uid": "mof:gazette-168973",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-19",
    "dept": "財政部",
    "title": "財政部令：修正「遺產稅納稅義務人查詢被繼承人財產參考資料作業要點」、「稽徵機關單一窗口受理查詢被繼承人金融遺產資料作業要點」第2點規定、「遺產稅申報稅額試算服務作業要點」部分規定、「遺產稅跨局臨櫃申辦作業要點」第3點、第4點、第6點規定及「遺產及贈與稅電子申辦作業要點」第10點規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168973",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168973&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168970",
+   "uid": "mof:gazette-168970",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-19",
    "dept": "財政部",
    "title": "財政部公告：預告「遺產及贈與稅法施行細則」部分條文修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168970",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/168970",
    "dl": "2026-12-18"
   },
   {
-   "id": "gazette-168964",
+   "uid": "mof:gazette-168964",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-19",
    "dept": "財政部",
    "title": "財政部公告：預告「稅務違章案件減免處罰標準」第13條、第14條修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168964",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://join.gov.tw/policies/gazette/metaId/168964",
    "dl": "2026-12-18"
   },
   {
-   "id": "gazette-168961",
+   "uid": "mof:gazette-168961",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-19",
    "dept": "財政部",
    "title": "財政部令：修正「遺產稅案件同意移轉證明書申請及核發作業要點」，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168961",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168961&log=detailLog",
    "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31778",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31778",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-15",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "預告修正「全民健康保險西醫醫療資源不足地區改善方案巡迴地點列屬藥事法第一百零二條所稱無藥事人員執業之偏遠地區列表」附表六、附表七草案。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31778"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31778",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31777",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31777",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-15",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "預告修正「藥事法第一百零二條所稱無藥事人員執業之偏遠地區與非屬上述偏遠地區列表」附表二、附表十一草案。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31777"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31777",
+   "dl": null
   },
   {
-   "id": "lawsite-moenv-44217",
+   "uid": "moenv:lawsite-moenv-44217",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-15",
    "dept": "環境部",
    "title": "訂定「溫室氣體管理基金專案貸款信用保證及利息補貼實施要點」，自115年11月30日生效",
    "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44217",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
    "dl": null
   },
   {
-   "id": "lawsite-moenv-44215",
+   "uid": "moenv:lawsite-moenv-44215",
+   "k": "moenv",
+   "sn": "環境部主管法規",
    "date": "2026-10-14",
    "dept": "環境部",
    "title": "訂定「環境部及所屬機關（構）文件資料使用 AI 管理原則」，並自即日生效",
    "url": "https://oaout.moenv.gov.tw/law/NewsContent.aspx?id=44215",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
    "dl": null
   },
   {
-   "id": "gazette-168871",
+   "uid": "mof:gazette-168871",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-13",
    "dept": "財政部",
    "title": "財政部令：訂定115年版「印花稅使用牌照稅娛樂稅法令彙編」發行後相關釋示函令適用原則",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168871",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168871&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168854",
-   "date": "2026-10-13",
-   "dept": "環境部",
-   "title": "環境部公告：預告「事業廢棄物貯存清除處理方法及設施標準」第27條修正草案",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168854",
-   "src": "lawsite",
-   "via": [
-    "moenv"
-   ],
-   "dl": "2026-12-14"
-  },
-  {
-   "id": "88174",
+   "uid": "mohw:88174",
+   "k": "mohw",
+   "sn": "衛福部公告訊息",
    "date": "2026-10-12",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "公告徵求辦理本部116年度補(捐)助「中藥藥用植物種植計畫」",
    "url": "https://www.mohw.gov.tw/cp-18-88174-1.html",
-   "via": [
-    "mohw",
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "88167",
-   "date": "2026-10-08",
-   "dept": "醫事司",
-   "title": "安泰淞鶴診所(新北市)C肝群聚感染事件醫療事故專案調查初步報告",
-   "url": "https://www.mohw.gov.tw/cp-18-88167-1.html"
+   "uid": "tcm:88174",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
+   "date": "2026-10-12",
+   "dept": "衛生福利部・中醫藥司",
+   "title": "公告徵求辦理本部116年度補(捐)助「中藥藥用植物種植計畫」",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-88174-108.html",
+   "dl": null
   },
   {
-   "id": "gazette-168799",
+   "uid": "mof:gazette-168799",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-08",
    "dept": "財政部",
    "title": "財政部公告：公告機動調降大豆沙拉油及飼料用豆粉（粕）等2項貨品關稅稅率，實施期間自115年10月1日至116年3月31日，實施期間如遇稅則修正，機動稅率自動終止實施，改依修正後稅率課徵",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168799",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168799&log=detailLog",
    "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31744",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31744",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-07",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "公告修訂「醫療器材臨床試驗計畫案申請須知」， 並自115年10月5日生效。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31744"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31744",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31742",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31742",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-06",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "修正「食品添加物規格檢驗方法－鹿角菜膠」，並自即日生效。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31742"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31742",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31741",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31741",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-06",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "修正「食品添加物規格檢驗方法－L-麩酸鈉」，並自即日生效。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31741"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31741",
+   "dl": null
   },
   {
-   "id": "gazette-168743",
+   "uid": "mof:gazette-168743",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-06",
    "dept": "財政部",
    "title": "財政部關務署令：修正「自主管理保稅倉庫稽核作業規定」，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168743",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168743&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168742",
+   "uid": "mof:gazette-168742",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-06",
    "dept": "財政部",
    "title": "財政部關務署令：修正「自主管理保稅倉庫審查作業規定」第6點規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168742",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168742&log=detailLog",
    "dl": null
   },
   {
-   "id": "88139",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31739",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-05",
-   "dept": "口腔健康司",
-   "title": "公告115年度特殊需求者口腔醫學科專科醫師訓練機構第2次認定合格名單及訓練容量",
-   "url": "https://www.mohw.gov.tw/cp-18-88139-1.html"
-  },
-  {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31739",
-   "date": "2026-10-05",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "預告修正「特定藥品專案核准製造及輸入辦法」第二條、第三條、第六條及「藥物樣品贈品管理辦法」草案",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31739"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31739",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31738",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31738",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-05",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "公告「116-117年度血液製劑（人類免疫球蛋白靜脈注射劑、血清白蛋白注射劑、第八凝血因子注射劑）預估需求計畫」",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31738"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31738",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31740",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31740",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-05",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "預告修訂「藥品臨床試驗計畫-技術性文件指引」(草案)",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31740"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31740",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31737",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31737",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-02",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "公告自115年10月1日起，指定「數位化醫療器材臨床試驗平台」，供試驗委託者登錄醫療器材臨床試驗相關資料。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31737"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31737",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31736",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31736",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-10-02",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "公告「ICH Q5A(R2)：人類或動物來源細胞株衍生之生物技術產品病毒安全性評估(Viral Safety Evaluation of Biotechnology Products Derived from Cell Lines of Human or Animal Origin)」。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31736"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31736",
+   "dl": null
   },
   {
-   "id": "gazette-168678",
+   "uid": "mof:gazette-168678",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-02",
    "dept": "財政部",
    "title": "財政部關務署令：修正「海關管理保稅工廠業務執行注意事項」第11點、第19點、第20點規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168678",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168678&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168642",
+   "uid": "mof:gazette-168642",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-01",
    "dept": "財政部",
    "title": "財政部公告：公告機動調降牛肉、烘焙用奶粉、奶油、無水奶油及小麥等22項貨品關稅稅率，實施期間自115年10月1日至116年3月31日，實施期間如遇稅則修正，機動稅率自動終止實施，改依修正後稅率課徵",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168642",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168642&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168641",
+   "uid": "mof:gazette-168641",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-10-01",
    "dept": "財政部",
    "title": "財政部令：修正「國有不動產撥用要點」第7點、第14點規定，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168641",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168641&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168624",
+   "uid": "mof:gazette-168624",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-09-30",
    "dept": "財政部",
    "title": "財政部公告：公告機動調降卜特蘭一型水泥、汽油、柴油及液化石油氣4項貨品貨物稅應徵稅額",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168624",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168624&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168618",
+   "uid": "mof:gazette-168618",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-09-30",
    "dept": "財政部",
    "title": "財政部令：修正「海關管理保稅運貨工具辦法」",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168618",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168618&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168585",
+   "uid": "mof:gazette-168585",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-09-24",
    "dept": "財政部",
    "title": "行政院公告：公告自115年10月1日至116年3月31日，機動調減進口黃豆、小麥、玉米3項貨物應徵之營業稅100％",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168585",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168585&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168567",
+   "uid": "mof:gazette-168567",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-09-24",
    "dept": "財政部",
    "title": "財政部令：有關財政部95年3月17日台財稅字第09504717030號函等63則釋示函令",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168567",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168567&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168566",
+   "uid": "mof:gazette-168566",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-09-24",
    "dept": "財政部",
    "title": "財政部令：取得中華民國居留證車主之車輛供身心障礙者使用且符合相關規定者免徵使用牌照稅，自115年1月30日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168566",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168566&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168565",
+   "uid": "mof:gazette-168565",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-09-24",
    "dept": "財政部",
    "title": "財政部令：修正「免稅商店設置管理辦法」部分條文",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168565",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168565&log=detailLog",
    "dl": null
   },
   {
-   "id": "gazette-168561",
+   "uid": "mof:gazette-168561",
+   "k": "mof",
+   "sn": "財政部主管法規",
    "date": "2026-09-24",
    "dept": "財政部",
    "title": "財政部令：修正「緝私案件裁罰金額或倍數參考表」「海關緝私條例」第27條第1項、第28條、第35條、第36條、第37條第3項規定部分，自即日生效",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168561",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168561&log=detailLog",
    "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31735",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31735",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-09-23",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "公告廢止「中山醫學大學附設醫院(實驗室名稱：藥物檢測中心)」為本部認證之濫用藥物尿液檢驗機構，並自即日生效。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31735"
-  },
-  {
-   "id": "gazette-168501",
-   "date": "2026-09-22",
-   "dept": "財政部",
-   "title": "財政部令：修正「海關緝私案件減免處罰標準」第4條條文",
-   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168501",
-   "src": "lawsite",
-   "via": [
-    "mof"
-   ],
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31735",
    "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31733",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31733",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-09-16",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "公告「ICH M12：藥物交互作用研究指引(Drug Interaction Studies)」及「ICH M12：藥物交互作用研究指引問答集(Drug Interaction Studies Q&As)」。",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31733"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31733",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31728",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31728",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-09-11",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "公告修正管制藥品品項(增列Ethyl N-formyl-N-(1-phenylethyl)glycinate等2項管制藥品)",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31728"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31728",
+   "dl": null
   },
   {
-   "id": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31726",
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31726",
+   "k": "fda",
+   "sn": "食藥署公告",
    "date": "2026-09-10",
-   "dept": "食品藥物管理署",
+   "dept": "衛生福利部・食品藥物管理署",
    "title": "公告修正「醫療器材回收處理辦法 」第四條、第十四條",
-   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31726"
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31726",
+   "dl": null
   },
   {
-   "id": "87566",
+   "uid": "tcm:87566",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2026-08-24",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "訂定「國家中醫研究院籌備推動小組設置要點」，並自115年8月18日生效，請查照。",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-87566-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "87012",
+   "uid": "tcm:87012",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2026-06-26",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "公告展延112年及114年度中醫醫院評鑑合格醫院之評鑑效期",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-87012-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "86153",
+   "uid": "tcm:86153",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2026-04-17",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "115年度「推動中藥查驗登記法規優化暨中藥廠合規專業輔導計畫」採購案招標公告",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-86153-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "86095",
+   "uid": "tcm:86095",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2026-04-13",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "得供食品原料使用之中藥材品項及其產品屬性認定基準(草案)",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-754-86095-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200635",
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200635",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
    "date": "2026-03-13",
    "dept": "全國法規資料庫",
    "title": "修正「臺南市災害防救會報設置要點」第三點，並自即日生效-全國法規資料庫",
-   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200635"
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200635",
+   "dl": null
   },
   {
-   "id": "84679",
+   "uid": "tcm:84679",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-12-01",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "公告115年度「中醫臨床技能測驗及師資培訓計畫」",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84679-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "84617",
+   "uid": "tcm:84617",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-11-24",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "公告徵求辦理本部115年度「中醫專科醫師訓練試辦計畫」。",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84617-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "84251",
+   "uid": "tcm:84251",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-10-17",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "115年度「精進中藥典品質規範及國際推廣交流」採購案公告",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84251-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "84132",
+   "uid": "tcm:84132",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-10-02",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "114年度「中西藥交互作用資料探勘與分析」採購案招標公告",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84132-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "84108",
+   "uid": "tcm:84108",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-09-30",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "公告徵求辦理本部115年度補(捐)助「中藥藥用植物種植計畫」",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84108-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "84026",
+   "uid": "tcm:84026",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-09-22",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "公告115年度「中醫醫療機構負責醫師訓練計畫」",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-84026-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "83007",
+   "uid": "tcm:83007",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-07-09",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "公告「114年度中醫醫院評鑑作業程序」及「114年度中醫醫院評鑑基準」",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-83007-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "82622",
+   "uid": "tcm:82622",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-05-29",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "「健康臺灣深耕計畫」中醫相關績效指標說明會",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-82622-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "82217",
+   "uid": "tcm:82217",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-04-18",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "114 年度「推動中藥新藥法規優化暨精進中藥新藥臨床試驗審查機制」採購案招標公告",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-82217-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "82192",
+   "uid": "tcm:82192",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-04-15",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "中藥材農藥殘留檢驗方法",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-752-82192-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "81912",
+   "uid": "tcm:81912",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-03-18",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "新增核釋藥事法第103第2項後段「領有經營中藥證明文件之中藥從業人員，並修習中藥課程達適當標準，得繼續經營中藥販 賣業務」規定",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-755-81912-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "81503",
+   "uid": "tcm:81503",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-02-12",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "第3次公告徵求辦理本部114-115年度「建立中醫社區健康照護網絡計畫」（臺北區）",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-81503-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   },
   {
-   "id": "81070",
+   "uid": "tcm:81070",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
    "date": "2025-01-03",
-   "dept": "中醫藥司",
+   "dept": "衛生福利部・中醫藥司",
    "title": "第2次公告徵求辦理本部114-115年度「建立中醫社區健康照護網絡計畫」（北區）",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-81070-108.html",
-   "src": "tcm",
-   "via": [
-    "tcm"
-   ]
+   "dl": null
   }
  ]
 }
