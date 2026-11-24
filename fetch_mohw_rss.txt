@@ -15,11 +15,10 @@ from datetime import datetime
 from email.utils import parsedate_to_datetime
 
 FEEDS = {
-    "衛福部公告訊息": "https://www.mohw.gov.tw/rss-18-1.html",
     "食藥署公告": "https://www.fda.gov.tw/tc/rssAnnouncement.ashx",
     "農業部公告": "https://www.moa.gov.tw/open_data.php?format=rss&func=publication",
 }
-UA = "food-reg-platform-test/0.1 (contact: grterry125-stack@example.com)"   # ← 改成你的聯絡方式
+UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 改成你的聯絡方式
 
 FOOD = ["食品", "食安", "餐飲", "添加物", "農藥", "動物用藥", "健康食品", "包裝飲用水",
         "屠宰", "乳品", "過敏原", "營養標示", "衛生標準", "進口查驗"]

@@ -107,7 +107,7 @@ footer{border-top:1px solid var(--line);color:var(--mute);font-size:13px;padding
 <input type="date" id="d1" aria-label="起始日期"> <span>～</span> <input type="date" id="d2" aria-label="結束日期"></div>
 <div class="list" id="llist"></div>
 <h3 style="margin-top:28px">匯入最新 RSS</h3>
-<p class="sub">網頁無法直接連到政府網站。請在瀏覽器開啟 <a href="https://www.mohw.gov.tw/rss-18-1.html" target="_blank" rel="noopener">衛福部公告 RSS</a> 或 <a href="https://www.fda.gov.tw/tc/rssAnnouncement.ashx" target="_blank" rel="noopener">食藥署公告 RSS</a>，全選複製頁面內容，貼到下方後按「解析」。</p>
+<p class="sub">網頁無法直接連到政府網站。請在瀏覽器開啟 <a href="https://www.fda.gov.tw/tc/rssAnnouncement.ashx" target="_blank" rel="noopener">食藥署公告 RSS</a>，全選複製頁面內容，貼到下方後按「解析」。</p>
 <div class="f" style="max-width:none"><textarea id="lx" rows="5" placeholder="貼上 RSS XML" style="width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surf);color:inherit;font:inherit"></textarea><div class="row"><button class="btn" id="lb">解析</button><button class="btn sec" id="lr0">清除匯入的資料</button></div><div id="lm" role="status"></div></div>
 </section>
 
@@ -141,7 +141,6 @@ var RK=/預告|廢止|訂定|辦法|標準|規定|草案|修正/;
 function lt(t){return /預告/.test(t)?"預告":/廢止/.test(t)?"廢止":/訂定/.test(t)?"新增":/修正/.test(t)?"修正":"公告"}
 function mk(x){var t=x.title||"";return{uid:x.uid,k:x.k,sn:x.sn,date:x.date||"",dept:x.dept||"",title:t,url:x.url,dl:x.dl,ty:lt(t),food:FK.some(function(k){return t.indexOf(k)>=0}),reg:RK.test(t)}}
 var SRC=[
-{k:"mohw",n:"衛生福利部 公告訊息",u:"https://www.mohw.gov.tw/rss-18-1.html",c:"衛福部各司署公告、法規預告",m:"官方 RSS"},
 {k:"fda",n:"衛生福利部 食品藥物管理署 公告",u:"https://www.fda.gov.tw/tc/rssAnnouncement.ashx",c:"食品、藥品、醫材公告與法規預告",m:"官方 RSS"},
 {k:"tcm",n:"衛生福利部 中醫藥司 公告訊息",u:"https://dep.mohw.gov.tw/DOCMAP/lp-890-108.html",c:"中醫藥司公告（含得供食品原料使用之中藥材等）",m:"網頁公告清單"},
 {k:"moa",n:"農業部 公告",u:"https://www.moa.gov.tw/theme_list.php?theme=publication",c:"農業部公告、法規預告、動植物疫情區域公告",m:"官方 RSS"},

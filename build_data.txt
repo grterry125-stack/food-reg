@@ -6,7 +6,7 @@ import json, re
 from datetime import datetime, timezone, timedelta
 
 OUT = "data.json"
-FEEDS = {"衛福部公告訊息": ("mohw", "衛福部公告訊息"), "食藥署公告": ("fda", "食藥署公告"),
+FEEDS = {"食藥署公告": ("fda", "食藥署公告"),
          "農業部公告": ("moa", "農業部公告")}
 SITES = {"mof": "財政部主管法規", "moenv": "環境部主管法規"}
 
@@ -25,14 +25,19 @@ def norm_date(s):
         y += 1911
     return f"{y:04d}-{mo:02d}-{d:02d}"
 
-items = {i["uid"]: i for i in load(OUT).get("items", []) if i.get("uid") and i.get("k")}
+old = load(OUT)
+JUNK = ("系統訊息", "")
+items = {i["uid"]: i for i in old.get("items", []) if i.get("uid") and i.get("k") and (i.get("title") or "").strip() not in JUNK and i.get("k") != "mohw"}
+bad = set(old.get("moj_bad", []))
 
 def put(k, sn, id_, date, dept, title, url, dl=None):
     uid = f"{k}:{id_}"
     items[uid] = {"uid": uid, "k": k, "sn": sn, "date": date, "dept": dept, "title": title, "url": url, "dl": dl}
 
 for i in load("out/mohw_items.json").get("all_new", []):
-    k, sn = FEEDS.get(i.get("source_feed"), ("mohw", "衛福部公告訊息"))
+    if i.get("source_feed") not in FEEDS:
+        continue
+    k, sn = FEEDS[i["source_feed"]]
     put(k, sn, i["news_id"], i["publish_date"], i["agency"], i["title"], i["source_url"])
 
 for i in load("out/gazette_items.json").get("items", []):
@@ -47,11 +52,15 @@ for i in load("out/lawsites_items.json").get("items", []):
 for i in load("out/dep_items.json").get("items", []):
     put("tcm", "中醫藥司公告訊息", i["id"], i["date"], "衛生福利部・中醫藥司", i["title"], i["url"])
 
-for i in load("out/moj_news_food.json").get("food_related", []):
+moj = load("out/moj_news_food.json")
+bad |= set(moj.get("bad", []))
+for i in moj.get("food_related", []):
+    if (i.get("title") or "").strip() in JUNK:
+        continue
     put("moj", "全國法規資料庫最新訊息", i["url"], norm_date(i.get("date")) or norm_date(i.get("lastmod")),
         "全國法規資料庫", i["title"], i["url"])
 
 rows = sorted(items.values(), key=lambda x: (x.get("date") or ""), reverse=True)[:1500]
 tw = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
-json.dump({"updated": tw, "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+json.dump({"updated": tw, "moj_bad": sorted(bad)[-3000:], "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"共 {len(rows)} 則，更新時間 {tw}")
