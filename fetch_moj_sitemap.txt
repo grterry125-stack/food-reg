@@ -20,7 +20,7 @@ from urllib.parse import urlparse
 
 BASE = "https://law.moj.gov.tw"
 SITEMAP = BASE + "/SearchEngineSitemap.aspx"
-UA = "food-reg-platform-test/0.1 (contact: grterry125-stack@example.com)"   # ← 請改成你的 Email
+UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
 KEYWORDS = ["食品", "食安", "餐飲", "添加物", "農藥", "動物用藥", "動物藥品", "健康食品",
             "包裝飲用水", "屠宰", "乳品", "過敏原", "營養標示", "衛生標準", "衛生福利部"]
 
@@ -105,9 +105,16 @@ def main():
     rules = load_rules()
     if a.debug: print("robots 規則：", rules)
     urls = sitemap_urls(SITEMAP, rules, debug=a.debug)
-    news = sorted({u for u, m in urls if "NewsDetail.aspx" in u}, key=msgid, reverse=True)   # 編號越大越新
+    pairs = {u: m for u, m in urls if "NewsDetail.aspx" in u}
+    by_id = sorted(pairs, key=msgid, reverse=True)                       # 編號越大越新
+    by_mod = sorted(pairs, key=lambda u: pairs[u], reverse=True)         # 最近有更新的
     have = known_urls()
-    todo = [u for u in news if u not in have][:a.limit]
+    todo, seen = [], set()
+    for u in [x for pair in zip(by_id, by_mod) for x in pair]:          # 兩種排序交錯取，漏掉的機會最小
+        if u not in have and u not in seen:
+            seen.add(u); todo.append(u)
+    todo = todo[:a.limit]
+    news = by_id
     print(f"網站地圖共 {len(news)} 則訊息，已蒐集 {len(have)} 則，本次讀取新的 {len(todo)} 則")
 
     items = []
