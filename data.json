@@ -1,7 +1,57 @@
 {
- "updated": "2026-11-24 15:23",
+ "updated": "2026-11-24 18:16",
  "moj_bad": [],
  "items": [
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10058",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-24",
+   "dept": "農業部",
+   "title": "公告委託東港區漁會、台東區漁會、新港區漁會及澎湖區漁會辦理「漁船船員管理規則」第十二條第一項之見習船員訓練",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10058",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10057",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-24",
+   "dept": "農業部",
+   "title": "公告本部一百一十六年度「智慧農業生態系整合推動及國際布局輸出」業界參與計畫補助申請",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10057",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169689",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-24",
+   "dept": "環境部",
+   "title": "環境部公告：預告「應設置紙餐具回收設施之販賣業者範圍、設施設置、規格及其他應遵行事項」公告事項第1項修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169689",
+   "dl": "2026-12-08"
+  },
+  {
+   "uid": "gazette:gazette-169703",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-24",
+   "dept": "衛生福利部",
+   "title": "衛生福利部函：更正第032卷第198期本部115年10月28日衛部人字第1152261631號令「衛生福利部基隆醫院編制表」等23個編制表如勘誤表",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169703",
+   "dl": null
+  },
+  {
+   "uid": "tcm:88581",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
+   "date": "2026-11-24",
+   "dept": "衛生福利部・中醫藥司",
+   "title": "公告徵求辦理本部116年度補(捐)助「中醫專科醫師訓練試辦計畫」",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-88581-108.html",
+   "dl": null
+  },
   {
    "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10056",
    "k": "moa",
