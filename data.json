@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24 09:22",
+ "updated": "2026-11-24 12:09",
  "items": [
   {
    "uid": "mohw:88560",
@@ -242,6 +242,16 @@
    "dl": null
   },
   {
+   "uid": "moalaw:gazette-169655",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-23",
+   "dept": "農業部",
+   "title": "農業部令：訂定「一百十五年度及一百十六年度遠洋漁船配置藥品及器材補助作業要點」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169655&log=detailLog",
+   "dl": null
+  },
+  {
    "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10044",
    "k": "moa",
    "sn": "農業部公告",
@@ -419,6 +429,56 @@
    "dept": "勞動部",
    "title": "勞動部令：修正「勞工退休金月提繳分級表」，自116年1月1日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169634",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:moalaw-tplawmojgovtwNewsnews_detailaspxid200681",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "增訂並修正農業發展條例條文",
+   "url": "http://law.moj.gov.tw/News/news_detail.aspx?id=200681",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:moalaw-tplawmojgovtwNewsnews_detailaspxid200680",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "修正水土保持法條文",
+   "url": "http://law.moj.gov.tw/News/news_detail.aspx?id=200680",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:moalaw-tplawmojgovtwNewsnews_detailaspxid200678",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "修正山坡地保育利用條例條文",
+   "url": "http://law.moj.gov.tw/News/news_detail.aspx?id=200678",
+   "dl": null
+  },
+  {
+   "uid": "moalaw:gazette-169653",
+   "k": "moalaw",
+   "sn": "農業部主管法規",
+   "date": "2026-11-20",
+   "dept": "農業部",
+   "title": "農業部公告：公告美國佛羅里達州自高病原性家禽流行性感冒非疫區刪除，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169653&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200695",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-20",
+   "dept": "全國法規資料庫",
+   "title": "訂定「高雄市政府所屬各機關學校公有建築物及設施以歷史人物命名作業要點」規定，並自即日起生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200695",
    "dl": null
   },
   {
@@ -2382,6 +2442,16 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200272",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-27",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市社會團體或個人成立市區汽車客運業經營和平區偏遠路線作業要點」，名稱並修正為「臺中市社會團體或個人成立市區汽車客運業經營和平區偏遠路線兼營貨運作業要點」，自即日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200272",
+   "dl": null
+  },
+  {
    "uid": "moalaw:gazette-169083",
    "k": "moalaw",
    "sn": "農業部主管法規",
@@ -2469,6 +2539,36 @@
    "dept": "全國法規資料庫",
    "title": "修正「嘉義縣勞工職業災害慰問金發給實施要點」第4點、第6點及第7點；並自中華民國一百十五年十一月一日起生效",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200321",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200273",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-22",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府原住民族發展委員會設置要點」第三點。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200273",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200230",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-22",
+   "dept": "全國法規資料庫",
+   "title": "修正「中央政府各機關派赴大陸地區、香港及澳門出差人員生活費日支數額表」，並自中華民國一百十六年一月一日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200230",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200229",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-22",
+   "dept": "全國法規資料庫",
+   "title": "修正「中央政府各機關派赴國外各地區出差人員生活費日支數額表」，並自中華民國一百十六年一月一日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200229",
    "dl": null
   },
   {
@@ -2792,6 +2892,16 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200271",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-16",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣政府及所屬機關學校公務人員及聘僱人員健康檢查補助原則」第 2 點；並自中華民國一百十五年七月一日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200271",
+   "dl": null
+  },
+  {
    "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=5072&id=31778",
    "k": "fda",
    "sn": "食藥署公告",
@@ -2849,6 +2959,16 @@
    "dept": "全國法規資料庫",
    "title": "修正「臺北市政府各機關學校約用人員進用及運用要點」",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200354",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200270",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-15",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣政府辦理民間參與公共建設案件獎勵金支用原則」及第4點附表一、附表二",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200270",
    "dl": null
   },
   {
@@ -2952,6 +3072,16 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200269",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-07",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣傑出演藝團隊徵選與獎勵作業要點」第1點、第4點及第6點",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200269",
+   "dl": null
+  },
+  {
    "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31742",
    "k": "fda",
    "sn": "食藥署公告",
@@ -2989,6 +3119,16 @@
    "dept": "財政部",
    "title": "財政部關務署令：修正「自主管理保稅倉庫審查作業規定」第6點規定，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168742&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200268",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-06",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣消防局組織規程」第7條及編制表，並自中華民國一百十五年十月十六日施行",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200268",
    "dl": null
   },
   {
@@ -3082,6 +3222,16 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200228",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-01",
+   "dept": "全國法規資料庫",
+   "title": "訂定「桃園市政府交通局補助電動大客車及充電設施作業要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200228",
+   "dl": null
+  },
+  {
    "uid": "mof:gazette-168624",
    "k": "mof",
    "sn": "財政部主管法規",
@@ -3099,6 +3249,26 @@
    "dept": "財政部",
    "title": "財政部令：修正「海關管理保稅運貨工具辦法」",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=168618&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200267",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-09-30",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣政府支援風災、水災、震災、火災、爆炸災害處理作業規定」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200267",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200264",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-09-29",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣財政稅務局組織規程」第4條條文及編制表；並自115年11月1日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200264",
    "dl": null
   },
   {
@@ -3162,6 +3332,26 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200262",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-09-22",
+   "dept": "全國法規資料庫",
+   "title": "新增「嘉義縣政府推動福利服務補（捐）助民間團體及個人經費作業要點」第12點",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200262",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200261",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-09-21",
+   "dept": "全國法規資料庫",
+   "title": "訂定「嘉義縣智慧永續農業補助要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200261",
+   "dl": null
+  },
+  {
    "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31733",
    "k": "fda",
    "sn": "食藥署公告",
@@ -3202,6 +3392,46 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200260",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-09-01",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣各機關構學校使用焚化再生粒料作業要點」，並自中華民國一百十六年一月一日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200260",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200259",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-09-01",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣立國民中小學校長及教師進修研習管理作業要點」，名稱並修正為「嘉義縣國民中小學校長及教師研習管理要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200259",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200258",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-09-01",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣社區大學評鑑及獎勵實施辦法」第9條",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200258",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200257",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-09-01",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣社區大學課程開設及審查辦法」第8條、第10條",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200257",
+   "dl": null
+  },
+  {
    "uid": "tcm:87566",
    "k": "tcm",
    "sn": "中醫藥司公告訊息",
@@ -3212,6 +3442,146 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200256",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-08-18",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣消防局組織規程」第4條、第12條、第14條及編制表，並自中華民國一百十五年二月一日施行",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200256",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200255",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-08-18",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣兒童及少年家庭寄養辦法」第3條條文",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200255",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200254",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-08-11",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣政府災害防救辦公室設置要點」第 4 點附表二",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200254",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200252",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-31",
+   "dept": "全國法規資料庫",
+   "title": "訂定「嘉義縣精神復健機構收費標準」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200252",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200250",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-27",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣陸上魚塭養殖漁業登記及管理規則」修正第3條、第4條、第5條",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200250",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200247",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-24",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣立高級中等以下學校兼任代課代理教師及教學支援工作人員聘任補充規定」第 4 點、第 8 點、第 12 點及第 12 點附表；並自中華民國一百十五年八月一日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200247",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200249",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-23",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣政府獎勵警察人員查緝廢棄物非法棄置重大專案獎勵金發放作業要點」第 4 點",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200249",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200248",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-23",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣政府獎勵警察人員查緝廢棄物非法棄置重大專案獎勵金發放作業要點」第 4 點",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200248",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200246",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-20",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣交通安全教育發展輔導團設置要點」第2點至第4點、第 6 點及第 7 點",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200246",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200245",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-15",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣國民小學處室組別名稱及總額標準表」，並自一百十五年八月一日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200245",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200244",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-13",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣國民中學教師每週授課節數編排標準表」第10點及第11點",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200244",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200240",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-09",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣漁筏監理自治條例」第10條、第14條、第20條",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200240",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200243",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-07",
+   "dept": "全國法規資料庫",
+   "title": "訂定「嘉義縣政府職場霸凌防治與申訴作業要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200243",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200242",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-07-07",
+   "dept": "全國法規資料庫",
+   "title": "停止適用「嘉義縣政府職場霸凌防治處理作業規定」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200242",
+   "dl": null
+  },
+  {
    "uid": "tcm:87012",
    "k": "tcm",
    "sn": "中醫藥司公告訊息",
@@ -3219,6 +3589,36 @@
    "dept": "衛生福利部・中醫藥司",
    "title": "公告展延112年及114年度中醫醫院評鑑合格醫院之評鑑效期",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-87012-108.html",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200241",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-06-22",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣災害應變中心作業要點」第 3 點至第 7 點及第 6 點附表一至附表三",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200241",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200239",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-06-18",
+   "dept": "全國法規資料庫",
+   "title": "訂定「嘉義縣國民中小學合聘專任教師作業要點」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200239",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200238",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-06-15",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣政府暨所屬各地政機關測量助理名額設置基準」，名稱並修正為「嘉義縣政府及所屬各地政機關測量助理名額設置基準」",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200238",
    "dl": null
   },
   {
@@ -3239,6 +3639,56 @@
    "dept": "衛生福利部・中醫藥司",
    "title": "得供食品原料使用之中藥材品項及其產品屬性認定基準(草案)",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-754-86095-108.html",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200266",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-04-13",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣社會局組織規程」第4條、第9條條文及編制表；並自115年2月1日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200266",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200265",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-04-13",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣社會局組織規程」第4條、第9條條文及編制表；並自115年2月1日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200265",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200253",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-04-09",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣環境保護局組織規程」編制表；並自115年9月16日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200253",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200263",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-04-02",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣衛生局編制表」；並自115年10月16日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200263",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200251",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-03-27",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義縣政府編制表」；並自中華民國115年10月16日生效",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200251",
    "dl": null
   },
   {
@@ -4669,6 +5119,406 @@
    "dept": "全國法規資料庫",
    "title": "系統訊息",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161993",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161996",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161996",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161997",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161997",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161999",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161999",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162000",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162000",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162001",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162001",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162003",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162003",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162004",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162004",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162005",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162005",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162006",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162006",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162007",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162007",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162009",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162009",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162018",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162018",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162019",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162019",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162020",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162020",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162021",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162021",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162022",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162022",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162023",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162023",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162024",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162024",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162026",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162026",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162028",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162028",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162029",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162029",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162032",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162032",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162041",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162041",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162042",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162042",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162043",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162043",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162045",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162045",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162046",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162046",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162047",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162047",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162048",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162048",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162049",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162049",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162054",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162054",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162059",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162059",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162060",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162060",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162061",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162061",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162064",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162064",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162065",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162065",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162072",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162072",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162073",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162073",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162075",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162075",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162078",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=162078",
    "dl": null
   }
  ]
