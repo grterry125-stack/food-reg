@@ -83,9 +83,21 @@ class Text(HTMLParser):
         if s._in: s.title += d
         elif not s.skip: s.t.append(d)
 
+def known_urls():
+    """讀專案裡已有的 data.json，找出全國法規資料庫已蒐集過的網址，下次就不用重抓。"""
+    try:
+        d = json.load(open("data.json", encoding="utf-8"))
+        return {x["url"] for x in d.get("items", []) if x.get("k") == "moj"}
+    except Exception:
+        return set()
+
+def msgid(u):
+    m = re.search(r"msgid=(\d+)", u, re.I) or re.search(r"(\d+)\s*$", u)
+    return int(m[1]) if m else 0
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--limit", type=int, default=20)
+    ap.add_argument("--limit", type=int, default=80)      # 每次最多讀幾則「新的」訊息
     ap.add_argument("--delay", type=float, default=3.0)
     ap.add_argument("--debug", action="store_true")
     a = ap.parse_args()
@@ -93,13 +105,13 @@ def main():
     rules = load_rules()
     if a.debug: print("robots 規則：", rules)
     urls = sitemap_urls(SITEMAP, rules, debug=a.debug)
-    news = [(u, m) for u, m in urls if "NewsDetail.aspx" in u]
-    num = lambda u: int((re.search(r"(\d+)\s*$", u) or [0, 0])[1])      # 網址最後的編號，越大越新
-    news.sort(key=lambda x: (x[1], num(x[0])), reverse=True)
-    if a.debug: print(f"最新訊息頁 {len(news)} 個，取前 {a.limit} 個"); print(news[:3])
+    news = sorted({u for u, m in urls if "NewsDetail.aspx" in u}, key=msgid, reverse=True)   # 編號越大越新
+    have = known_urls()
+    todo = [u for u in news if u not in have][:a.limit]
+    print(f"網站地圖共 {len(news)} 則訊息，已蒐集 {len(have)} 則，本次讀取新的 {len(todo)} 則")
 
     items = []
-    for u, m in news[:a.limit]:
+    for u in todo:
         if not allowed(u, rules): continue
         time.sleep(a.delay)
         try:
@@ -107,16 +119,16 @@ def main():
         except Exception as e:
             print("失敗：", u, e); continue
         body = "\n".join(p.t)
-        d = re.search(r"(\d{2,4}[-./]\d{1,2}[-./]\d{1,2})", body)
-        items.append({"title": p.title or body[:40], "url": u, "lastmod": m,
-                      "date": d.group(1) if d else "", "body": body[:3000]})
+        d = (re.search(r"(?:公\(發\)布日期|發文日期)[：: \n]*(\d{2,4}[-./]\d{1,2}[-./]\d{1,2})", body)
+             or re.search(r"(\d{2,4}[-./]\d{1,2}[-./]\d{1,2})", body))
+        title = re.sub(r"\s*[-－]\s*全國法規資料庫.*$", "", p.title or "").strip() or body[:40]
+        items.append({"title": title, "url": u, "msgid": msgid(u), "date": d.group(1) if d else "", "body": body[:3000]})
 
-    food = items
     os.makedirs("out", exist_ok=True)
     json.dump({"fetched_at": datetime.now().isoformat(timespec="seconds"),
-               "source": "全國法規資料庫（法務部）最新訊息", "total": len(items), "food_related": food},
+               "source": "全國法規資料庫（法務部）最新訊息", "total": len(items), "food_related": items},
               open("out/moj_news_food.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"讀取 {len(items)} 則，食品相關 {len(food)} 則 → out/moj_news_food.json")
+    print(f"讀取 {len(items)} 則 → out/moj_news_food.json")
     for i in items[:10]: print(" -", i["date"], i["title"][:40])
 
 if __name__ == "__main__":
