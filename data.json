@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24 08:31",
+ "updated": "2026-11-24 08:46",
  "items": [
   {
    "uid": "mohw:88560",
@@ -2332,6 +2332,16 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=160534",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-10-08",
+   "dept": "全國法規資料庫",
+   "title": "修正2「高雄市推動環境教育補助辦法」，自發布日施行。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=160534",
+   "dl": null
+  },
+  {
    "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31744",
    "k": "fda",
    "sn": "食藥署公告",
@@ -2769,6 +2779,796 @@
    "dept": "衛生福利部・中醫藥司",
    "title": "第2次公告徵求辦理本部114-115年度「建立中醫社區健康照護網絡計畫」（北區）",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-81070-108.html",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161707",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161707",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161708",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161708",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161709",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161709",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161710",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161710",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161711",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161711",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161719",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161719",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161721",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161721",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161722",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161722",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161724",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161724",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161726",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161726",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161727",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161727",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161728",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161728",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161730",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161730",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161731",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161731",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161732",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161732",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161744",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161744",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161746",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161746",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161752",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161752",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161753",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161753",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161754",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161754",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161755",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161755",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161756",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161756",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161757",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161757",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161758",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161758",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161759",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161759",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161760",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161760",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161761",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161761",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161762",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161762",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161764",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161764",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161765",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161765",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161766",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161766",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161769",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161769",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161773",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161773",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161775",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161775",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161778",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161778",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161779",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161779",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161781",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161781",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161782",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161782",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161785",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161785",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161786",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161786",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161788",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161788",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161801",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161801",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161822",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161822",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161823",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161823",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161827",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161827",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161828",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161828",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161829",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161829",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161833",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161833",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161834",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161834",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161836",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161836",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161837",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161837",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161838",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161838",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161839",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161839",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161840",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161840",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161841",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161841",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161842",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161842",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161844",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161844",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161845",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161845",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161847",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161847",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161849",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161849",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161860",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161860",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161861",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161861",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161864",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161864",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161865",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161865",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161866",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161866",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161873",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161873",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161874",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161874",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161875",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161875",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161877",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161877",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161878",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161878",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161879",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161879",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161880",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161880",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161881",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161881",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161883",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161883",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161885",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161885",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161886",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161886",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161888",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161888",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161892",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161892",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161894",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "",
+   "dept": "全國法規資料庫",
+   "title": "系統訊息",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=161894",
    "dl": null
   }
  ]
