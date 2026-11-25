@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 18:18",
+ "updated": "2026-11-25 21:26",
  "moj_bad": [],
  "moj_cooldown_until": "2026-11-25T22:18:11",
  "gazette_done": [
@@ -412,6 +412,16 @@
    "dept": "勞動部",
    "title": "勞動部對最高租賃有限公司（負責人：熊達光）違反勞工保險條例、就業保險法、勞工職業災害保險及保護法罰鍰裁處書公示送達",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169713&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10062",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-25",
+   "dept": "農業部",
+   "title": "公告美國德拉瓦州自高病原性家禽流行性感冒非疫區刪除，並自即日生效",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10062",
    "dl": null
   },
   {
