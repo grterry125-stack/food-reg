@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-25 15:26",
+ "updated": "2026-11-25 18:18",
  "moj_bad": [],
- "moj_cooldown_until": "",
+ "moj_cooldown_until": "2026-11-25T22:18:11",
  "gazette_done": [
   "2026-11-13",
   "2026-11-16",
@@ -10,7 +10,8 @@
   "2026-11-19",
   "2026-11-20",
   "2026-11-23",
-  "2026-11-24"
+  "2026-11-24",
+  "2026-11-25"
  ],
  "items": [
   {
@@ -31,6 +32,386 @@
    "dept": "衛生福利部・中醫藥司",
    "title": "116年度「臺灣中藥典規範與釋義編修及國際推廣交流」採購案招標公告",
    "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-88580-108.html",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10061",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-25",
+   "dept": "農業部",
+   "title": "預告訂定「鮪延繩釣漁船赴南印度洋漁業協定海域從事油魚漁撈作業管理辦法」",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10061",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10060",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-25",
+   "dept": "農業部",
+   "title": "預告修正「鮪延繩釣漁船赴印度洋作業管理辦法」部分條文",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10060",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10059",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-25",
+   "dept": "農業部",
+   "title": "公告116年度印度洋海域大目鮪及黃鰭鮪之年度漁獲總配額及單船漁獲配額",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10059",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169731",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "考試院、行政院",
+   "title": "考試院、行政院令：修正「各機關職稱及官等職等員額配置準則」第7條條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169731&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169737",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "行政院",
+   "title": "行政院對江正華等因結婚文件證明及簽證事件訴願案訴願決定書節本公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169737&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169738",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "行政院",
+   "title": "行政院對程敏因申請來臺團聚事件訴願案訴願決定書節本公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169738&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169729",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "原住民族委員會",
+   "title": "原住民族委員會公告：預告「馬卡道族群民族成員身分要件」草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169729&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169707",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "內政部",
+   "title": "內政部對大陸地區人民劉在芹廢止居留許可並註銷居留證處分書公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169707&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169741",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "僑務委員會",
+   "title": "僑務委員會公告：訂定「一百十六年度永久居留權取得困難之國家或地區及其居留資格認定基準」，生效日期自116年1月1日至116年12月31日",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169741&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169727",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "經濟部標準檢驗局",
+   "title": "經濟部標準檢驗局公告：廢止「應施檢驗螢光燈管（泡）商品之相關檢驗規定」，自117年1月1日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169727&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169726",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "經濟部",
+   "title": "經濟部令：修正「中小企業加速投資行動方案審查作業要點」第9點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169726&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169728",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "經濟部產業發展署",
+   "title": "經濟部產業發展署公告：公告本署116年「IDDI設計驅動產業創新補助」之補助資格條件及補助科目範圍",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169728&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169723",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "文化部",
+   "title": "文化部令：修正「文化部推動公共圖書館辦理優化圖書採購及閱讀推廣計畫」第3點、第4點、第6點規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169723&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169710",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局臺北區監理所",
+   "title": "交通部公路局臺北區監理所對呂念英等8人舉發違反道路交通管理事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169710&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169712",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局臺北區監理所",
+   "title": "交通部公路局臺北區監理所對王逸龍等7人舉發違反道路交通管理事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169712&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169735",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局新竹區監理所",
+   "title": "交通部公路局新竹區監理所對施○文等412件舉發違反強制汽車責任保險事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169735&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169739",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局新竹區監理所",
+   "title": "交通部公路局新竹區監理所對羅○蓮等507件違反強制汽車責任保險事件裁決書公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169739&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169718",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局新竹區監理所",
+   "title": "交通部公路局新竹區監理所對陳○月等5件違反強制汽車責任保險事件裁決書公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169718&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169740",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局新竹區監理所",
+   "title": "交通部公路局新竹區監理所對阮○成等10件舉發違反強制汽車責任保險事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169740&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169736",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局新竹區監理所",
+   "title": "交通部公路局新竹區監理所對金聯豐水電工程有限公司負責人羅○蘭等2件違反道路交通管理事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169736&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169714",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局臺中區監理所",
+   "title": "交通部公路局臺中區監理所對職業汽車駕駛人董○治等8件違反道路交通管理事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169714&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169715",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局臺中區監理所",
+   "title": "交通部公路局臺中區監理所對職業汽車駕駛人許○誠違反道路交通管理事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169715&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169719",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局臺中區監理所",
+   "title": "交通部公路局臺中區監理所對職業汽車駕駛人陳○如職業駕駛執照逾齡換照通知書公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169719&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169730",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局高雄區監理所",
+   "title": "交通部公路局高雄區監理所對陳○金等59件公路使用養護安全管理費逾期未繳納違反公路法事件處分書公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169730&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169734",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局高雄區監理所",
+   "title": "交通部公路局高雄區監理所對林俊賢等13件舉發違反道路交通管理事件通知單暨道路交通安全講習通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169734&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169711",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局高雄區監理所",
+   "title": "交通部公路局高雄區監理所對林○龍等20件舉發違反道路交通管理事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169711&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169717",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局高雄區監理所",
+   "title": "交通部公路局高雄區監理所對陳榮發等38件道路交通安全講習通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169717&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169709",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局臺北區監理所",
+   "title": "交通部公路局臺北區監理所公告：註銷凌士雄等19人職業駕駛執照",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169709&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169708",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局臺北區監理所",
+   "title": "交通部公路局臺北區監理所公告：註銷朱庭妤汽車駕駛執照",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169708&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169720",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "交通部公路局臺中區監理所",
+   "title": "交通部公路局臺中區監理所公告：註銷張○瑞職業汽車駕駛執照",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169720&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169725",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "行政院公共工程委員會",
+   "title": "行政院公共工程委員會公告：核准禾唐工程顧問有限公司申請換發工程技術顧問公司登記證，並變更登記事項之營業範圍之科別",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169725&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169732",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "農業部",
+   "title": "農業部公告：預告「鮪延繩釣漁船赴印度洋作業管理辦法」部分條文修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169732&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169742",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "農業部",
+   "title": "農業部公告：預告「鮪延繩釣漁船赴南印度洋漁業協定海域從事油魚漁撈作業管理辦法」草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169742&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169722",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "核能安全委員會",
+   "title": "核能安全委員會公告：公告台灣電力股份有限公司「第二核能發電廠除役低放射性廢棄物貯存庫」建造執照申請案審查結論",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169722&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169721",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "農業部",
+   "title": "農業部公告：公告本部116年度「智慧農業生態系整合推動及國際布局輸出」業界參與計畫補助申請",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169721&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169716",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "農業部",
+   "title": "農業部公告：公告116年度印度洋海域大目鮪及黃鰭鮪之年度漁獲總配額及單船漁獲配額",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169716&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169733",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "勞動部",
+   "title": "勞動部公告：預告「勞資爭議法律及生活費用扶助辦法」第6條、第46條修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169733&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169713",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-25",
+   "dept": "勞動部",
+   "title": "勞動部對最高租賃有限公司（負責人：熊達光）違反勞工保險條例、就業保險法、勞工職業災害保險及保護法罰鍰裁處書公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169713&log=detailLog",
    "dl": null
   },
   {
