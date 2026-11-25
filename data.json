@@ -1,7 +1,28 @@
 {
- "updated": "2026-11-25 06:03",
+ "updated": "2026-11-25 08:08",
  "moj_bad": [],
+ "gazette_done": [],
  "items": [
+  {
+   "uid": "tcm:88579",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
+   "date": "2026-11-25",
+   "dept": "衛生福利部・中醫藥司",
+   "title": "116年度「臺灣中藥典第六版新增與編修作業啟動計畫」採購案招標公告",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-88579-108.html",
+   "dl": null
+  },
+  {
+   "uid": "tcm:88580",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
+   "date": "2026-11-25",
+   "dept": "衛生福利部・中醫藥司",
+   "title": "116年度「臺灣中藥典規範與釋義編修及國際推廣交流」採購案招標公告",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-88580-108.html",
+   "dl": null
+  },
   {
    "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10058",
    "k": "moa",
