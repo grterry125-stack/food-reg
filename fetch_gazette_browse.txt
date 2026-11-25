@@ -19,7 +19,7 @@ BASE = "https://gazette.nat.gov.tw/egFront/"
 START = BASE + "browseVolume.do?action=doQuery&log=browseLog&clickfunc=01"
 ISSUE = BASE + "browseVolume.do?action=doSearch&pubdate={}&log=browseLog&clickfunc=01"
 PAGE = BASE + "browseVolume.do?action=doChangePage&pageNum={}"
-UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
+UA = "food-reg-platform-test/0.1 (contact: grterry125-stack@example.com)"   # ← 請改成你的 Email
 TYPES = {"法規", "行政規則", "公告及送達", "處分", "其他", "特載", "專載", "轉載"}
 
 JAR = http.cookiejar.CookieJar()
