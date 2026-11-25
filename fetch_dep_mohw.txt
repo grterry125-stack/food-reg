@@ -14,7 +14,7 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
 
 BASE = "https://dep.mohw.gov.tw"
-UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
+UA = "food-reg-platform-test/0.1 (+https://github.com/grterry125-stack/food-reg)"   # 聯絡方式＝本專案的 GitHub 頁面
 DEPT = "中醫藥司"
 PAGE = BASE + "/DOCMAP/lp-890-108{}.html"          # 第 1 頁：lp-890-108.html；第 n 頁：lp-890-108-n-20.html
 

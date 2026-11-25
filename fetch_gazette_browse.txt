@@ -11,7 +11,7 @@
 用法：python fetch_gazette_browse.txt [--issues 8] [--debug]
 """
 import argparse, html, http.cookiejar, json, os, re, time, urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from urllib.parse import urljoin
 
@@ -19,7 +19,7 @@ BASE = "https://gazette.nat.gov.tw/egFront/"
 START = BASE + "browseVolume.do?action=doQuery&log=browseLog&clickfunc=01"
 ISSUE = BASE + "browseVolume.do?action=doSearch&pubdate={}&log=browseLog&clickfunc=01"
 PAGE = BASE + "browseVolume.do?action=doChangePage&pageNum={}"
-UA = "food-reg-platform-test/0.1 (contact: grterry125-stack@example.com)"   # ← 請改成你的 Email
+UA = "food-reg-platform-test/0.1 (+https://github.com/grterry125-stack/food-reg)"   # 聯絡方式＝本專案的 GitHub 頁面
 TYPES = {"法規", "行政規則", "公告及送達", "處分", "其他", "特載", "專載", "轉載"}
 
 JAR = http.cookiejar.CookieJar()
@@ -89,18 +89,27 @@ def main():
     a = ap.parse_args()
 
     first = get(START)
+    tm = re.search(r"<title>(.*?)</title>", first, re.S)
+    text = " ".join(re.sub(r"<[^>]+>", " ", re.sub(r"(?s)<(script|style).*?</\1>", " ", first)).split())
+    print(f"[診斷] 回應長度 {len(first)}，網頁標題：{' '.join((tm.group(1) if tm else '無').split())[:60]}")
     dates = sorted(set(re.findall(r"pubdate=(\d{4}-\d{2}-\d{2})", first)), reverse=True)
-    print("選單上的出刊日期：", ", ".join(dates[:10]) or "（沒有找到）")
-    if not dates:
-        print("沒有找到出刊日期，請用 --debug 並把輸出貼給我。"); 
-        if a.debug: print(first[:1500])
-        return
+    if dates:
+        print("選單上的出刊日期：", ", ".join(dates[:10]))
+    else:
+        print("選單上沒有找到出刊日期；頁面開頭內容：", text[:300])
+        # 備援：公報每個上班日出一期，直接用日期逐日嘗試（用台灣時間）
+        today = datetime.now(timezone(timedelta(hours=8))).date()
+        dates = [(today - timedelta(days=k)).isoformat() for k in range(0, 14)
+                 if (today - timedelta(days=k)).weekday() < 5]
+        print("改用日期逐日嘗試：", ", ".join(dates))
     done = known_done()
-    todo = [d for d in dates if d not in done][:a.issues]
-    print(f"已完整蒐集 {len(done)} 期，本次讀取 {len(todo)} 期：{', '.join(todo)}")
+    todo = [d for d in dates if d not in done]
+    print(f"已完整蒐集 {len(done)} 期，待檢查 {len(todo)} 個日期（每次最多讀 {a.issues} 期有內容的）")
 
-    items, done_now = [], []
+    items, done_now, nonempty = [], [], 0
     for d in todo:
+        if nonempty >= a.issues:
+            break
         time.sleep(a.delay)
         try:
             page = get(ISSUE.format(d))
@@ -120,6 +129,8 @@ def main():
             print(f"注意：{d} 網站標示 {total} 筆，只讀到 {len(uniq)} 筆")
             ok = False
         print(f"{d}：{len(uniq)} 則（{pages} 頁）")
+        if uniq:
+            nonempty += 1
         for i in uniq.values():
             items.append({"id": "gazette-" + i["metaid"], "date": i["date"] or d, "dept": dept_of(i["title"]),
                           "title": i["title"], "src": "gazette", "type": i["type"],
