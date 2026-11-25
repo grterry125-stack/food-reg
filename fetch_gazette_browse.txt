@@ -1,0 +1,139 @@
+#!/usr/bin/env python3
+"""
+行政院公報資訊網「卷期瀏覽」→ 每一期的全部公報（只用 Python 標準函式庫）
+
+做法：每天一期。程式用「出刊日期」打開那一期，再逐頁讀完（網站每頁 10 則，共 1～4 頁），
+包含法規、行政規則、公告及送達、處分等全部類型，補足開放資料沒有收錄的部分。
+- 先打開卷期瀏覽頁取得網站的連線狀態（cookie），再依選單上的出刊日期逐期讀取。
+- 已經完整讀過的出刊日期記錄在 data.json 的 gazette_done，不會重讀。
+- 每次請求間隔 3 秒，連線失敗會重試；公報網站沒有 robots.txt 限制。
+輸出：out/gazette_items.json（格式與舊版相同，id 也相同，所以不會重複）
+用法：python fetch_gazette_browse.txt [--issues 8] [--debug]
+"""
+import argparse, html, http.cookiejar, json, os, re, time, urllib.request
+from datetime import datetime
+from html.parser import HTMLParser
+from urllib.parse import urljoin
+
+BASE = "https://gazette.nat.gov.tw/egFront/"
+START = BASE + "browseVolume.do?action=doQuery&log=browseLog&clickfunc=01"
+ISSUE = BASE + "browseVolume.do?action=doSearch&pubdate={}&log=browseLog&clickfunc=01"
+PAGE = BASE + "browseVolume.do?action=doChangePage&pageNum={}"
+UA = "food-reg-platform-test/0.1 (contact: your-email@example.com)"   # ← 請改成你的 Email
+TYPES = {"法規", "行政規則", "公告及送達", "處分", "其他", "特載", "專載", "轉載"}
+
+JAR = http.cookiejar.CookieJar()
+OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(JAR))
+
+def get(url, tries=3):
+    last = None
+    for k in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "zh-TW"})
+            with OPENER.open(req, timeout=90) as r:
+                return r.read().decode(r.headers.get_content_charset() or "utf-8", "replace")
+        except Exception as e:
+            last = e
+            if k < tries - 1:
+                time.sleep(20)
+    raise last
+
+class Items(HTMLParser):
+    """依出現順序讀：類型文字 → 標題連結（detail.do?metaid=）→ 出刊日期"""
+    def __init__(s):
+        super().__init__(); s.items = []; s.type = ""; s.cur = None; s.in_a = False
+    def handle_starttag(s, t, a):
+        if t == "a":
+            href = dict(a).get("href") or ""
+            m = re.search(r"detail\.do\?[^\"]*metaid=(\d+)", href)
+            if m:
+                s.cur = {"metaid": m[1], "title": "", "type": s.type, "date": ""}; s.items.append(s.cur); s.in_a = True
+    def handle_endtag(s, t):
+        if t == "a": s.in_a = False
+    def handle_data(s, d):
+        d = " ".join(d.split())
+        if not d: return
+        if s.in_a and s.cur is not None:
+            s.cur["title"] += d
+        elif d in TYPES:
+            s.type = d
+        elif s.cur is not None and not s.cur["date"]:
+            m = re.match(r"(\d{4}-\d{2}-\d{2})", d)
+            if m: s.cur["date"] = m[1]
+
+def parse(page):
+    p = Items(); p.feed(page)
+    seen, out = set(), []
+    for i in p.items:
+        if i["metaid"] in seen or not i["title"].strip():
+            continue
+        seen.add(i["metaid"]); out.append(i)
+    m = re.search(r"共\s*(\d+)\s*筆資料[，,]\s*第\s*(\d+)\s*/\s*(\d+)\s*頁", re.sub(r"<[^>]+>", " ", page))
+    return out, (int(m[1]), int(m[3])) if m else (None, 1)
+
+def dept_of(title):
+    m = re.match(r"^(.{2,24}?)(?:公告|令|函|通知|核定|決定|對|廢止|修正|訂定)", title)
+    return m[1] if m else "行政院公報"
+
+def known_done():
+    try:
+        return set(json.load(open("data.json", encoding="utf-8")).get("gazette_done", []))
+    except Exception:
+        return set()
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--issues", type=int, default=8)
+    ap.add_argument("--delay", type=float, default=3.0)
+    ap.add_argument("--debug", action="store_true")
+    a = ap.parse_args()
+
+    first = get(START)
+    dates = sorted(set(re.findall(r"pubdate=(\d{4}-\d{2}-\d{2})", first)), reverse=True)
+    print("選單上的出刊日期：", ", ".join(dates[:10]) or "（沒有找到）")
+    if not dates:
+        print("沒有找到出刊日期，請用 --debug 並把輸出貼給我。"); 
+        if a.debug: print(first[:1500])
+        return
+    done = known_done()
+    todo = [d for d in dates if d not in done][:a.issues]
+    print(f"已完整蒐集 {len(done)} 期，本次讀取 {len(todo)} 期：{', '.join(todo)}")
+
+    items, done_now = [], []
+    for d in todo:
+        time.sleep(a.delay)
+        try:
+            page = get(ISSUE.format(d))
+        except Exception as e:
+            print("失敗：", d, e); continue
+        got, (total, pages) = parse(page)
+        ok = True
+        for n in range(2, pages + 1):
+            time.sleep(a.delay)
+            try:
+                g2, _ = parse(get(PAGE.format(n)))
+            except Exception as e:
+                print(f"失敗：{d} 第 {n} 頁", e); ok = False; break
+            got += g2
+        uniq = {i["metaid"]: i for i in got}
+        if total is not None and len(uniq) < total:
+            print(f"注意：{d} 網站標示 {total} 筆，只讀到 {len(uniq)} 筆")
+            ok = False
+        print(f"{d}：{len(uniq)} 則（{pages} 頁）")
+        for i in uniq.values():
+            items.append({"id": "gazette-" + i["metaid"], "date": i["date"] or d, "dept": dept_of(i["title"]),
+                          "title": i["title"], "src": "gazette", "type": i["type"],
+                          "url": f"https://gazette.nat.gov.tw/egFront/detail.do?metaid={i['metaid']}&log=detailLog",
+                          "deadline": None})
+        if ok and uniq:
+            done_now.append(d)
+
+    os.makedirs("out", exist_ok=True)
+    json.dump({"fetched_at": datetime.now().isoformat(timespec="seconds"), "source": "行政院公報資訊網（卷期瀏覽）",
+               "total": len(items), "items": items, "done_dates": done_now},
+              open("out/gazette_items.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"讀取 {len(items)} 則公報 → out/gazette_items.json")
+    for i in items[:8]: print(" -", i["date"], i["type"], i["title"][:36])
+
+if __name__ == "__main__":
+    main()

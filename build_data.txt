@@ -29,6 +29,7 @@ old = load(OUT)
 JUNK = ("系統訊息", "")
 items = {i["uid"]: i for i in old.get("items", []) if i.get("uid") and i.get("k") and (i.get("title") or "").strip() not in JUNK and i.get("k") != "mohw"}
 bad = set(old.get("moj_bad", []))
+gazette_done = set(old.get("gazette_done", []))
 
 def put(k, sn, id_, date, dept, title, url, dl=None):
     uid = f"{k}:{id_}"
@@ -40,7 +41,9 @@ for i in load("out/mohw_items.json").get("all_new", []):
     k, sn = FEEDS[i["source_feed"]]
     put(k, sn, i["news_id"], i["publish_date"], i["agency"], i["title"], i["source_url"])
 
-for i in load("out/gazette_items.json").get("items", []):
+gz = load("out/gazette_items.json")
+gazette_done |= set(gz.get("done_dates", []))
+for i in gz.get("items", []):
     put("gazette", "行政院公報資訊網", i["id"], i["date"], i["dept"], i["title"], i["url"], i.get("deadline"))
 
 for i in load("out/moalaw_items.json").get("items", []):
@@ -62,5 +65,5 @@ for i in moj.get("food_related", []):
 
 rows = sorted(items.values(), key=lambda x: (x.get("date") or ""), reverse=True)[:1500]
 tw = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
-json.dump({"updated": tw, "moj_bad": sorted(bad)[-3000:], "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+json.dump({"updated": tw, "moj_bad": sorted(bad)[-3000:], "gazette_done": sorted(gazette_done)[-400:], "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"共 {len(rows)} 則，更新時間 {tw}")
