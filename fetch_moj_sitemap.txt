@@ -13,10 +13,14 @@
       python fetch_moj_sitemap.py --debug    （顯示細節）
 輸出：out/moj_news_food.json
 """
+import socket
 import argparse, html, json, os, re, time, urllib.request
 from datetime import datetime
 from html.parser import HTMLParser
 from urllib.parse import urlparse
+
+_orig_getaddrinfo = socket.getaddrinfo
+socket.getaddrinfo = lambda host, port, family=0, *a, **k: _orig_getaddrinfo(host, port, socket.AF_INET, *a, **k)   # 只用 IPv4，避免 IPv6 造成的誤導錯誤
 
 BASE = "https://law.moj.gov.tw"
 SITEMAP = BASE + "/SearchEngineSitemap.aspx"
@@ -189,5 +193,28 @@ def main():
         print("全部都連線失敗，疑似被網站暫時限制，請等幾個小時、不要手動連續執行。")
     for i in sorted(items, key=lambda x: x["msgid"], reverse=True)[:10]: print(" -", i["msgid"], i["date"], i["title"][:36])
 
+COOLDOWN_HOURS = 12
+
+def cooldown_until():
+    try:
+        return json.load(open("data.json", encoding="utf-8")).get("moj_cooldown_until", "")
+    except Exception:
+        return ""
+
+def write_flag(**flag):
+    os.makedirs("out", exist_ok=True)
+    json.dump({"fetched_at": datetime.now().isoformat(timespec="seconds"), "total": 0, "food_related": [], "bad": [], **flag},
+              open("out/moj_news_food.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
 if __name__ == "__main__":
-    main()
+    until = cooldown_until()
+    if until and datetime.utcnow().isoformat(timespec="seconds") < until:
+        print(f"全國法規資料庫目前冷卻中（到 {until} UTC 前不再嘗試），避免一直敲門。")
+        write_flag(cooldown_keep=until)
+    else:
+        try:
+            main()
+        except Exception as e:
+            print(f"連不上全國法規資料庫：{type(e).__name__}: {e}")
+            print(f"疑似網站對 GitHub 主機有限制或暫時無法連線。{COOLDOWN_HOURS} 小時內不再嘗試，請不要手動連續執行。")
+            write_flag(blocked=True)

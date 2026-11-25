@@ -57,6 +57,12 @@ for i in load("out/dep_items.json").get("items", []):
 
 moj = load("out/moj_news_food.json")
 bad |= set(moj.get("bad", []))
+if moj.get("cooldown_keep"):
+    moj_cool = moj["cooldown_keep"]
+elif moj.get("blocked"):
+    moj_cool = (datetime.now(timezone.utc) + timedelta(hours=12)).strftime("%Y-%m-%dT%H:%M:%S")
+else:
+    moj_cool = ""
 for i in moj.get("food_related", []):
     if (i.get("title") or "").strip() in JUNK:
         continue
@@ -65,5 +71,5 @@ for i in moj.get("food_related", []):
 
 rows = sorted(items.values(), key=lambda x: (x.get("date") or ""), reverse=True)[:1500]
 tw = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
-json.dump({"updated": tw, "moj_bad": sorted(bad)[-3000:], "gazette_done": sorted(gazette_done)[-400:], "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+json.dump({"updated": tw, "moj_bad": sorted(bad)[-3000:], "moj_cooldown_until": moj_cool, "gazette_done": sorted(gazette_done)[-400:], "items": rows}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"共 {len(rows)} 則，更新時間 {tw}")
