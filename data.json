@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 21:31",
+ "updated": "2026-11-27 00:11",
  "moj_bad": [],
  "moj_cooldown_until": "",
  "gazette_done": [
@@ -264,6 +264,16 @@
    "title": "環境部公告：修正「一次用塑膠吸管限制使用對象及實施方式」依據，自即日生效",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169753&log=detailLog",
    "dl": null
+  },
+  {
+   "uid": "moenv:gazette-169755",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-26",
+   "dept": "環境部",
+   "title": "環境部公告：預告「以網路傳輸方式申報再生資源之產出、貯存、清運、再使用、再生利用、輸入或輸出情形之申報格式、項目、內容及頻率」修正草案",
+   "url": "https://join.gov.tw/policies/gazette/metaId/169755",
+   "dl": "2026-12-10"
   },
   {
    "uid": "tcm:88579",
