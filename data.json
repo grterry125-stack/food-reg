@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-26 06:00",
+ "updated": "2026-11-26 08:21",
  "moj_bad": [],
- "moj_cooldown_until": "2026-11-25T22:18:11",
+ "moj_cooldown_until": "",
  "gazette_done": [
   "2026-11-13",
   "2026-11-16",
@@ -14,6 +14,16 @@
   "2026-11-25"
  ],
  "items": [
+  {
+   "uid": "tcm:88610",
+   "k": "tcm",
+   "sn": "中醫藥司公告訊息",
+   "date": "2026-11-26",
+   "dept": "衛生福利部・中醫藥司",
+   "title": "116年度「中藥供應監控及處理計畫」採購案招標公告",
+   "url": "https://dep.mohw.gov.tw/DOCMAP/cp-890-88610-108.html",
+   "dl": null
+  },
   {
    "uid": "tcm:88579",
    "k": "tcm",
