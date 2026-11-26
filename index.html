@@ -79,6 +79,10 @@ del{background:var(--hit);color:var(--hi)}ins{background:var(--lot);color:var(--
 .flow li::before{content:counter(s) ". ";font-weight:700;color:var(--brand)}
 .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
 .chip input{margin-right:4px}
+mark{background:var(--midt);color:inherit;border-radius:3px;padding:0 2px}
+.kwc{display:inline-flex;gap:0}
+.kwc .chip:first-child{border-top-right-radius:0;border-bottom-right-radius:0}
+.kwc .chip+.chip{border-left:0;border-top-left-radius:0;border-bottom-left-radius:0;padding:4px 8px}
 input[type=date]{padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surf);color:inherit;font:inherit}
 .item a{color:var(--brand);font-weight:500}
 footer{border-top:1px solid var(--line);color:var(--mute);font-size:13px;padding:20px;text-align:center}
@@ -102,6 +106,10 @@ footer{border-top:1px solid var(--line);color:var(--mute);font-size:13px;padding
 <label class="chip"><input type="checkbox" id="lf"> 只看食品相關</label>
 <label class="chip"><input type="checkbox" id="lr"> 只看法規類</label>
 </div>
+<div class="row" style="align-items:center;margin:0 0 8px"><span>關鍵字：</span><button class="chip" id="kwall" aria-pressed="false">符合關鍵字清單</button><button class="chip" id="kwclr">清除選取</button><input id="kwin" type="text" placeholder="自訂關鍵字，按 Enter 新增" aria-label="自訂關鍵字" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surf);color:inherit;font:inherit;min-width:220px"><span style="color:var(--mute);font-size:14px">選多個時，符合任一個就顯示</span></div>
+<details id="kwd" style="margin:0 0 14px"><summary style="cursor:pointer">個別關鍵字（點開選擇）</summary>
+<label style="display:block;margin:8px 0;font-size:14px;color:var(--mute)"><input type="checkbox" id="kwzero"> 同時顯示目前沒有符合結果的關鍵字</label>
+<span id="kw" class="row" style="margin:0"></span></details>
 <div class="row" style="align-items:center;margin:0 0 14px" id="drow"><span>發布日期：</span>
 <button class="chip" data-r="0" aria-pressed="false">今天</button><button class="chip" data-r="7" aria-pressed="false">近 7 天</button><button class="chip" data-r="30" aria-pressed="false">近 30 天</button><button class="chip" data-r="all" aria-pressed="true">全部</button>
 <input type="date" id="d1" aria-label="起始日期"> <span>～</span> <input type="date" id="d2" aria-label="結束日期"></div>
@@ -149,19 +157,50 @@ var SRC=[
 {k:"mof",n:"財政部主管法規共用系統",u:"https://law-out.mof.gov.tw/index.aspx",c:"財政部（含關務署）法規訊息與草案預告",m:"網頁最新訊息表"},
 {k:"moenv",n:"環境部主管法規共用系統",u:"https://oaout.moenv.gov.tw/law/",c:"環境部法規、行政函釋與草案預告",m:"網頁最新訊息表"},
 {k:"moj",n:"全國法規資料庫（法務部）最新訊息",u:"https://law.moj.gov.tw/Index.aspx",c:"各機關法規訂定、修正、廢止訊息（中央與地方）",m:"網站地圖＋最新訊息內文頁（NewsDetail.aspx）。因網站規範無法讀取完整清單，此來源可能不齊全，完整清單請至官網「最新訊息」頁"}];
+var KWL=["CAS", "CNS", "七葉膽", "二溴乙烷", "人造奶油", "大腸菌群", "小米", "中藥材", "公平交易委員會", "分析方法", "化粧品", "尤加利葉", "巴氏殺菌", "方便麵", "木薯", "水產品", "牛肉", "牛乳", "加工助劑", "包裝商品", "可食性內臟", "奶油", "奶粉", "奶精", "巧克力", "母乳", "玉米", "生乳", "生鮮肉品", "再生水", "冰類", "污染物", "米", "米粉", "肉類", "色素", "免洗筷", "卵磷脂", "芒果", "乳品", "乳粉", "乳脂", "乳業", "乳製品", "抽樣", "林產品", "果蔬汁", "油脂", "肥料", "芝麻", "花生", "阿勃勒", "保久乳", "保麗龍", "品名標示", "屎腸球菌", "毒性化學物質", "毒性物質", "氟唑菌醯胺", "珍珠栗粉", "美容", "重金屬", "重組肉", "食用", "食用牛羊脂", "食用氫化油", "食用植物油", "食用豬油", "食用藻類", "食用鹽", "食字第", "食安", "食品", "食鹽", "原產地標示", "家禽", "海苔", "特定豆類", "特定物質", "畜牧場", "畜禽產品", "畜禽類", "純淨水", "紙杯", "紙盒", "紙碗", "紙餐盒", "脂肪抹醬", "酒類", "動物", "動植物体", "屠宰", "屠體內臟", "掛麵", "瓶裝水", "產銷履歷", "蛋", "規定代號", "貨品分類表", "貨品分類號列表", "速食麵", "魚油", "魚產品", "單氯丙二醇", "棕梠油", "植物油", "氯黴素", "發酵乳", "菇蕈", "菇類", "量測不確定度", "飲用水", "飲品", "飲料", "塑膠袋", "微生物", "新城病", "禽類", "葵花籽油", "蜂蜜", "農防字第", "農產品", "農糧", "農藥", "零售業", "飼料", "實驗室", "漁產品", "漁貨", "碳水化合物", "廣告規範", "標示", "歐盟", "熟肉製品", "熱處理奶", "穀物", "穀類", "蔬果植物類", "蔬菜汁", "衛生標準", "衛生講習", "豬瘟", "醋", "濃縮橙汁", "糖漿", "糖類", "輸入規定", "輻射", "餐具", "餐飲", "餐館", "餐廳", "營養師", "營養標示", "營養諮詢", "糞腸球菌", "鮮乳", "點心", "檸檬酸三乙酯", "醬油", "雙酚A", "藥物殘留", "關注化學物質", "礦泉水", "藻類製品", "麵食", "麵粉", "麵條"];
+var SEL={},CUSTOM=[],ALLKW=false,SHOWZERO=false;
+try{CUSTOM=JSON.parse(localStorage.getItem("kw_custom")||"[]")}catch(e){}
+function saveCustom(){try{localStorage.setItem("kw_custom",JSON.stringify(CUSTOM))}catch(e){}}
+function has(t,k){return t.toLowerCase().indexOf(k.toLowerCase())>=0}
+function kwTerms(){var o=[];KWL.forEach(function(k){if(SEL[k])o.push(k)});CUSTOM.forEach(function(c){if(SEL[c])o.push(c)});
+if(o.length)return o;return ALLKW?KWL.concat(CUSTOM):[]}
+function kwRender(){var rows=KWL.map(function(k,i){return{k:k,i:i,c:LIVE.filter(function(d){return has(d.title,k)}).length}});
+rows.sort(function(a,b){return b.c-a.c||a.i-b.i});var h="";
+rows.forEach(function(r){if(r.c||SHOWZERO||SEL[r.k])h+='<button class="chip" data-kw="'+r.i+'" aria-pressed="'+(!!SEL[r.k])+'">'+esc(r.k)+' ('+r.c+')</button>'});
+CUSTOM.forEach(function(c,i){h+='<span class="kwc"><button class="chip" data-kc="'+i+'" aria-pressed="'+(!!SEL[c])+'">'+esc(c)+' ('+LIVE.filter(function(d){return has(d.title,c)}).length+')</button><button class="chip" data-kx="'+i+'" aria-label="移除 '+esc(c)+'">✕</button></span>'});
+$("kw").innerHTML=h;$("kwall").setAttribute("aria-pressed",String(ALLKW));
+$("kwall").textContent="符合關鍵字清單（"+LIVE.filter(function(d){return KWL.some(function(k){return has(d.title,k)})}).length+" 則）"}
+function kwMatch(title){var lt=title.toLowerCase(),r=[];KWL.concat(CUSTOM).forEach(function(k){var i=lt.indexOf(k.toLowerCase());if(i>=0&&!r.some(function(x){return x.k===k}))r.push({k:k,i:i})});
+r.sort(function(a,b){return a.i-b.i||b.k.length-a.k.length});return r.map(function(x){return x.k})}
+function kwLine(m){return m.length?'<div class="meta"><span>關鍵字：</span>'+m.map(function(k){return'<span class="tag">'+esc(k)+'</span>'}).join("")+'</div>':'<div class="meta"><span>關鍵字：無關鍵字</span></div>'}
+function hl(title,terms){var r=[];terms.forEach(function(t){if(!t)return;var lt=title.toLowerCase(),tt=t.toLowerCase(),i=lt.indexOf(tt);while(i>=0){r.push([i,i+t.length]);i=lt.indexOf(tt,i+t.length)}});
+if(!r.length)return esc(title);r.sort(function(a,b){return a[0]-b[0]});var m=[r[0].slice()];
+for(var j=1;j<r.length;j++){var l=m[m.length-1];if(r[j][0]<=l[1])l[1]=Math.max(l[1],r[j][1]);else m.push(r[j].slice())}
+var o="",p=0;m.forEach(function(x){o+=esc(title.slice(p,x[0]))+"<mark>"+esc(title.slice(x[0],x[1]))+"</mark>";p=x[1]});return o+esc(title.slice(p))}
 var LIVE=[],UPD="";
 SRC.forEach(function(s){$("ls").insertAdjacentHTML("beforeend",'<option value="'+s.k+'">'+esc(s.n)+'</option>')});
 function route(){var v=(location.hash||"#live").slice(1);if(!$("v-"+v))v="live";
 document.querySelectorAll(".view").forEach(function(s){s.classList.toggle("on",s.id==="v-"+v)});
 document.querySelectorAll("nav a").forEach(function(a){a.classList.toggle("on",a.dataset.v===v)})}
-function lrender(){var q=$("lq").value.trim(),f=$("lf").checked,r=$("lr").checked,s=$("ls").value,d1=$("d1").value,d2=$("d2").value;
-var L=LIVE.filter(function(d){return(!s||d.k===s)&&(!d1||(d.date&&d.date>=d1))&&(!d2||(d.date&&d.date<=d2))&&(!f||d.food)&&(!r||d.reg)&&(!q||(d.title+d.dept+d.sn).indexOf(q)>=0)});
+function lrender(){var q=$("lq").value.trim(),f=$("lf").checked,r=$("lr").checked,s=$("ls").value,d1=$("d1").value,d2=$("d2").value,kt=kwTerms();
+var L=LIVE.filter(function(d){return(!s||d.k===s)&&(!kt.length||kt.some(function(t){return has(d.title,t)}))&&(!d1||(d.date&&d.date>=d1))&&(!d2||(d.date&&d.date<=d2))&&(!f||d.food)&&(!r||d.reg)&&(!q||(d.title+d.dept+d.sn).indexOf(q)>=0)});
 $("lnote").textContent="共 "+LIVE.length+" 則；符合目前條件 "+L.length+" 則。每個來源各自列出，同一則公告在不同來源出現時會分別顯示。"+(UPD?"最後自動更新："+UPD+"（時間以台灣為準）。":"")+(s==="moj"?" 注意：全國法規資料庫的網站規範不允許讀取完整的最新訊息清單，這個來源可能缺漏，請以官網為準：https://law.moj.gov.tw/":"");
-var h="";L.slice(0,300).forEach(function(d){h+='<div class="item" style="cursor:default"><h3>'+esc(d.title)+'</h3><div class="meta"><span class="tag '+tcls[d.ty]+'">'+d.ty+'</span>'+(d.food?'<span class="tag final">食品相關</span>':'')+'<span class="tag">來源：'+esc(d.sn)+'</span><span>'+esc(d.dept)+'</span><span>發布 '+esc(d.date)+'</span>'+(d.dl?'<span>意見截止 '+esc(d.dl)+'</span>':'')+'<a href="'+esc(d.url)+'" target="_blank" rel="noopener">官方原文</a></div></div>'});
+var h="";L.slice(0,300).forEach(function(d){var m=kwMatch(d.title);h+='<div class="item" style="cursor:default"><h3>'+hl(d.title,m)+'</h3>'+kwLine(m)+'<div class="meta"><span class="tag '+tcls[d.ty]+'">'+d.ty+'</span>'+(d.food?'<span class="tag final">食品相關</span>':'')+'<span class="tag">來源：'+esc(d.sn)+'</span><span>'+esc(d.dept)+'</span><span>發布 '+esc(d.date)+'</span>'+(d.dl?'<span>意見截止 '+esc(d.dl)+'</span>':'')+'<a href="'+esc(d.url)+'" target="_blank" rel="noopener">官方原文</a></div></div>'});
 if(L.length>300)h+='<div class="empty">只顯示前 300 則，請用搜尋或來源篩選縮小範圍。</div>';
+kwRender();
 $("llist").innerHTML=h||'<div class="empty">沒有符合的公告。試試清除篩選或換一個關鍵字。</div>';
 var t="";SRC.forEach(function(x){t+='<tr><td>'+esc(x.n)+'</td><td><a href="'+x.u+'" target="_blank" rel="noopener">'+esc(x.u)+'</a></td><td>'+esc(x.c)+'</td><td>'+esc(x.m)+'</td><td>'+LIVE.filter(function(d){return d.k===x.k}).length+'</td></tr>'});$("srcb").innerHTML=t}
 ["lq","lf","lr","ls"].forEach(function(i){$(i).addEventListener("input",lrender)});
+document.addEventListener("click",function(e){var b=e.target.closest("[data-kw],[data-kc],[data-kx],#kwclr,#kwall");if(!b)return;
+if(b.id==="kwclr"){SEL={};ALLKW=false}
+else if(b.id==="kwall"){ALLKW=!ALLKW;if(ALLKW)SEL={}}
+else if(b.dataset.kw!==undefined){var n=KWL[+b.dataset.kw];SEL[n]=!SEL[n];if(SEL[n])ALLKW=false}
+else if(b.dataset.kc!==undefined){var c=CUSTOM[+b.dataset.kc];SEL[c]=!SEL[c];if(SEL[c])ALLKW=false}
+else if(b.dataset.kx!==undefined){var x=CUSTOM.splice(+b.dataset.kx,1)[0];delete SEL[x];saveCustom()}
+lrender()});
+$("kwzero").addEventListener("input",function(){SHOWZERO=this.checked;lrender()});
+$("kwin").addEventListener("keydown",function(e){if(e.key!=="Enter")return;var v=this.value.trim();if(!v)return;
+if(CUSTOM.indexOf(v)<0&&KWL.indexOf(v)<0)CUSTOM.push(v);SEL[v]=true;ALLKW=false;saveCustom();this.value="";lrender()});
 function twToday(){return new Intl.DateTimeFormat("sv-SE",{timeZone:"Asia/Taipei"}).format(new Date())}
 function shift(days){var p=twToday().split("-"),d=new Date(Date.UTC(+p[0],+p[1]-1,+p[2]));d.setUTCDate(d.getUTCDate()-days);return d.toISOString().slice(0,10)}
 function setRange(r){var a="",b="";if(r!=="all"){a=shift(+r);b=twToday()}$("d1").value=a;$("d2").value=b;
