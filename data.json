@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-26 18:17",
+ "updated": "2026-11-26 21:31",
  "moj_bad": [],
- "moj_cooldown_until": "2026-11-26T13:20:13",
+ "moj_cooldown_until": "",
  "gazette_done": [
   "2026-11-13",
   "2026-11-16",
@@ -253,6 +253,16 @@
    "dept": "財政部",
    "title": "運動部、財政部令：修正「營利事業捐贈體育運動發展事項費用列支實施辦法」第2條、第7條之1、第10條條文",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169757&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moenv:gazette-169753",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-26",
+   "dept": "環境部",
+   "title": "環境部公告：修正「一次用塑膠吸管限制使用對象及實施方式」依據，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169753&log=detailLog",
    "dl": null
   },
   {
