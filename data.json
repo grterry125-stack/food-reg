@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 06:00",
+ "updated": "2026-11-27 08:09",
  "moj_bad": [],
  "moj_cooldown_until": "",
  "gazette_done": [
@@ -274,6 +274,16 @@
    "title": "環境部公告：預告「以網路傳輸方式申報再生資源之產出、貯存、清運、再使用、再生利用、輸入或輸出情形之申報格式、項目、內容及頻率」修正草案",
    "url": "https://join.gov.tw/policies/gazette/metaId/169755",
    "dl": "2026-12-10"
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200725",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-26",
+   "dept": "全國法規資料庫",
+   "title": "訂定本區中正紀念館場地租用管理要點，並自中華民國116年1月1日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200725",
+   "dl": null
   },
   {
    "uid": "tcm:88579",
@@ -686,6 +696,46 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200715",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-25",
+   "dept": "全國法規資料庫",
+   "title": "「臺中市政府應用健康保險資料管理要點」自即日起停止適用，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200715",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200707",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-25",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月25日新北府法規字第1152236593號令:修正「新北市政府動物保護防疫處組織規程」部分條文。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200707",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200706",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-25",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月25日新北府法規字第1152234733號令:訂定「新北市營建剩餘土石方管理基金收支保管及運用辦法」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200706",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200705",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-25",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月25日新北府法規字第1152218205號令:修正「新北市高級中等以下學校多元資優教育方案實施辦法」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200705",
+   "dl": null
+  },
+  {
    "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10058",
    "k": "moa",
    "sn": "農業部公告",
@@ -1013,6 +1063,36 @@
    "dept": "衛生福利部中央健康保險署",
    "title": "衛生福利部中央健康保險署對吳○一等被保險人積欠全民健康保險保險費暨滯納金繳款單公示送達",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169698&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200714",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-24",
+   "dept": "全國法規資料庫",
+   "title": "「臺中市社區大學結業證書授予要點」自即日起停止適用，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200714",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200710",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-24",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市政府研究發展考核委員會節約能源推動小組設置要點」部分規定，並自即日生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200710",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200703",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-24",
+   "dept": "全國法規資料庫",
+   "title": "修正「嘉義市政府推展社區發展業務補助作業要點」部分規定，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200703",
    "dl": null
   },
   {
@@ -1573,6 +1653,16 @@
    "dept": "總統",
    "title": "總統令：修正「中華民國刑法」第185條之3條文",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169675&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200696",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-23",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市政府教育局暨所屬各級學校醫事人員職務請（遷）調作業要點」第6點附表，並自即日起生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200696",
    "dl": null
   },
   {
@@ -3056,6 +3146,16 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200708",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-18",
+   "dept": "全國法規資料庫",
+   "title": "新北市政府115年11月18日新北府交管字第1152289347號令:修正「新北市政府市區公車服務路線營運虧損補貼計畫執行管理要點」第3點及第5點附件一，並自即日生效。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200708",
+   "dl": null
+  },
+  {
    "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31793",
    "k": "fda",
    "sn": "食藥署公告",
@@ -4226,6 +4326,16 @@
    "dl": null
   },
   {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200709",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-13",
+   "dept": "全國法規資料庫",
+   "title": "預告修正「桃園市高級中等以下學校特殊教育推行委員會設置辦法」第四條草案。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200709",
+   "dl": null
+  },
+  {
    "uid": "moalaw:gazette-169457",
    "k": "moalaw",
    "sn": "農業部主管法規",
@@ -4323,6 +4433,36 @@
    "dept": "全國法規資料庫",
    "title": "修正「桃園市精神復健機構收費標準核定作業原則」第一點及第四點附表。",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200534",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200713",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府教育局辦理吳鴻森先生清寒優秀學生獎學金實施要點」第二點、第三點、第四點。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200713",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200712",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市政府教育局辦理吳鴻麟先生紀念獎學金實施要點」第二點、第三點、第四點。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200712",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200711",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市高級中等以上學校清寒優秀學生獎學金實施要點」第二點、第三點、第四點。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200711",
    "dl": null
   },
   {
