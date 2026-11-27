@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 15:25",
+ "updated": "2026-11-27 18:15",
  "schema": 2,
  "moj_bad": [],
  "moj_cooldown_until": "",
@@ -11,7 +11,8 @@
   "2026-11-23",
   "2026-11-24",
   "2026-11-25",
-  "2026-11-26"
+  "2026-11-26",
+  "2026-11-27"
  ],
  "items": [
   {
@@ -32,6 +33,266 @@
    "dept": "農業部",
    "title": "公開蝴蝶蘭‘展壯黃金戀人’等5件植物品種權申請案如附件一覽表",
    "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10065",
+   "dl": null
+  },
+  {
+   "uid": "fda:http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31796",
+   "k": "fda",
+   "sn": "食藥署公告",
+   "date": "2026-11-27",
+   "dept": "衛生福利部・食品藥物管理署",
+   "title": "公布有關本署管制藥品製藥工廠規畫引進管制藥品專案輸入藥品「MORFiA 15 mg tablet」及「MORFiA 30mg CR film coated tablet」事宜。",
+   "url": "http://www.fda.gov.tw/tc/newsContent.aspx?cid=3&id=31796",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10070",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-27",
+   "dept": "農業部",
+   "title": "公告屏東縣長治鄉、九如鄉及枋寮鄉為辦理香蕉及蓮霧115年薔琵颱風農業天然災害低利貸款地區",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10070",
+   "dl": null
+  },
+  {
+   "uid": "moa:https://www.moa.gov.tw/theme_data.php?theme=publication&id=10069",
+   "k": "moa",
+   "sn": "農業部公告",
+   "date": "2026-11-27",
+   "dept": "農業部",
+   "title": "公告屏東縣長治鄉、九如鄉及枋寮鄉為辦理香蕉及蓮霧115年薔琵颱風農業天然災害現金救助地區",
+   "url": "https://www.moa.gov.tw/theme_data.php?theme=publication&id=10069",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169766",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "內政部移民署",
+   "title": "內政部移民署對盧博葵等99人禁止出國函公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169766&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169782",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "財政部",
+   "title": "財政部令：修正「財政部優質酒類認證評審基準－共通規範」，名稱並修正為「財政部優質酒類認證評審基準之共通規範」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169782&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169770",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "金融監督管理委員會",
+   "title": "金融監督管理委員會公告：公告延長公開發行公司116年1月份營運情形之公告申報期限，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169770&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169774",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "國家科學及技術委員會",
+   "title": "國家科學及技術委員會令：修正「國家科學及技術委員會編制表」，自115年11月27日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169774&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169775",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "運動部、財政部",
+   "title": "運動部、財政部令：修正「體育團體舉辦運動賽事或活動免徵營業稅認定辦法」第2條條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169775&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169783",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "教育部國民及學前教育署",
+   "title": "教育部國民及學前教育署令：修正「教育部國民及學前教育署補助高級中等學校充實建置學生學習歷程檔案要點」第2點規定，自115年7月1日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169783&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169767",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "國立傳統藝術中心",
+   "title": "國立傳統藝術中心令：修正「傳藝金曲獎獎勵要點」部分規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169767&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169784",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部鐵道局",
+   "title": "交通部鐵道局公告：委託國營臺灣鐵路股份有限公司辦理國營鐵路列車駕駛人員術科檢定業務，自116年1月1日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169784&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169785",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部鐵道局",
+   "title": "交通部鐵道局公告：委託台灣高速鐵路股份有限公司辦理高速鐵路列車駕駛人員術科檢定業務，自116年1月1日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169785&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169786",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部鐵道局",
+   "title": "交通部鐵道局公告：委託農業部林業及自然保育署辦理專用（林業）鐵路列車駕駛人員術科檢定業務，自116年1月1日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169786&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169787",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部鐵道局",
+   "title": "交通部鐵道局公告：委託台灣糖業股份有限公司辦理專用（糖業）鐵路列車駕駛人員術科檢定業務，自116年1月1日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169787&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169772",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部公路局新竹區監理所",
+   "title": "交通部公路局新竹區監理所對曾○英等2件公路使用養護安全管理費逾期未繳納違反公路法事件處分書公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169772&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169777",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部公路局嘉義區監理所",
+   "title": "交通部公路局嘉義區監理所對職業駕駛人蔡兆民等5人逾期審驗超過1個月以上舉發違反道路交通管理事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169777&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169778",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部公路局嘉義區監理所",
+   "title": "交通部公路局嘉義區監理所對職業駕駛人陳柏宏等5人逾期審驗超過1年以上舉發違反道路交通管理事件通知單公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169778&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169769",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部公路局臺北市區監理所",
+   "title": "交通部公路局臺北市區監理所對陳興安名下車輛牌照登記外籍人士離境催告異動登記書公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169769&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169765",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部公路局臺北市區監理所",
+   "title": "交通部公路局臺北市區監理所對簡○瑜等6件違反道路交通管理事件歸責駕駛人通知書公示送達",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169765&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169779",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部公路局嘉義區監理所",
+   "title": "交通部公路局嘉義區監理所公告：註銷崔善德等2人職業汽車駕駛執照",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169779&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169776",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "交通部公路局嘉義區監理所",
+   "title": "交通部公路局嘉義區監理所公告：註銷蔡○蘭等147人汽（機）車駕駛執照",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169776&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169780",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "農業部",
+   "title": "農業部公告：修正「供獸醫師（佐）治療犬貓及非經濟動物之人用藥物類別品項」部分規定，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169780&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169771",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "環境部",
+   "title": "環境部公告：預告「物品或其包裝容器及其應負回收清除處理責任之業者範圍」公告事項第13項修正草案",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169771&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169781",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "農業部",
+   "title": "農業部公告：公告新北市貢寮區為辦理魚塭養殖－九孔、海膽115年薔琵颱風農業天然災害低利貸款地區",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169781&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169773",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "農業部",
+   "title": "農業部公告：公告新北市貢寮區為辦理魚塭養殖九孔、海膽115年薔琵颱風農業天然災害現金救助地區",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169773&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "gazette:gazette-169768",
+   "k": "gazette",
+   "sn": "行政院公報資訊網",
+   "date": "2026-11-27",
+   "dept": "行政院第4030次會議院長提示暨院會",
+   "title": "行政院第4030次會議院長提示暨院會決定決議事項",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169768&log=detailLog",
    "dl": null
   },
   {
@@ -372,6 +633,16 @@
    "dept": "全國法規資料庫",
    "title": "修正「嘉義市身心障礙者臨時及短期照顧服務實施要點」，並自116年1月1日生效。",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200735",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200738",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-26",
+   "dept": "全國法規資料庫",
+   "title": "修正「臺中市社區大學借用機關學校場地作業要點」第一點、第四點，自即日起生效，請查照。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200738",
    "dl": null
   },
   {
@@ -822,6 +1093,16 @@
    "dept": "全國法規資料庫",
    "title": "新北市政府115年11月25日新北府法規字第1152218205號令:修正「新北市高級中等以下學校多元資優教育方案實施辦法」。",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200705",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200737",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-25",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市合法登記砂石碎解洗選場等作為營建剩餘土石方收容處理場所審查作業要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200737",
    "dl": null
   },
   {
@@ -4562,6 +4843,16 @@
    "dept": "全國法規資料庫",
    "title": "修正「桃園市高級中等以上學校清寒優秀學生獎學金實施要點」第二點、第三點、第四點。",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200711",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200736",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-12",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市弱勢民眾安置服務補助作業要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200736",
    "dl": null
   },
   {
