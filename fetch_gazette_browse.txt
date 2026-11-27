@@ -77,10 +77,7 @@ def dept_of(title):
 
 def known_done():
     try:
-        d = json.load(open("data.json", encoding="utf-8"))
-        if d.get("schema") != 2:          # 舊資料沒有「類型」欄位，所以只重讀一次最近幾期
-            return set()
-        return set(d.get("gazette_done", []))
+        return set(json.load(open("data.json", encoding="utf-8")).get("gazette_done", []))
     except Exception:
         return set()
 

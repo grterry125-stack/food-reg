@@ -27,9 +27,9 @@ def norm_date(s):
 
 old = load(OUT)
 JUNK = ("系統訊息", "")
-items = {i["uid"]: i for i in old.get("items", []) if i.get("uid") and i.get("k") and (i.get("title") or "").strip() not in JUNK and i.get("k") != "mohw"}
+items = {i["uid"]: i for i in old.get("items", []) if i.get("uid") and i.get("k") and not str(i["uid"]).startswith("moj:gz-") and (i.get("title") or "").strip() not in JUNK and i.get("k") != "mohw"}
 bad = set(old.get("moj_bad", []))
-gazette_done = set(old.get("gazette_done", [])) if old.get("schema") == 2 else set()
+gazette_done = set(old.get("gazette_done", []))
 
 def put(k, sn, id_, date, dept, title, url, dl=None):
     uid = f"{k}:{id_}"
@@ -43,14 +43,8 @@ for i in load("out/mohw_items.json").get("all_new", []):
 
 gz = load("out/gazette_items.json")
 gazette_done |= set(gz.get("done_dates", []))
-MOJ_TYPES = ("法規", "行政規則")
 for i in gz.get("items", []):
     put("gazette", "行政院公報資訊網", i["id"], i["date"], i["dept"], i["title"], i["url"], i.get("deadline"))
-    # 全國法規資料庫「最新訊息」裡的中央機關項目，連結本來就指向公報（沒有自己的內文頁可讀）。
-    # 所以把公報裡同類型（法規、行政規則、法規草案預告）的項目，也列在全國法規資料庫這個來源底下。
-    ty = i.get("type") or ""
-    if ty in MOJ_TYPES or (ty == "公告及送達" and "預告" in i["title"] and "草案" in i["title"]):
-        put("moj", "全國法規資料庫最新訊息", "gz-" + str(i["id"]), i["date"], i["dept"], i["title"], i["url"], i.get("deadline"))
 
 for i in load("out/moalaw_items.json").get("items", []):
     put("moalaw", "農業部主管法規", i["id"], i["date"], "農業部", i["title"], i["url"], i.get("dl"))
