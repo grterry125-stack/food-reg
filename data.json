@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 21:21",
+ "updated": "2026-11-28 00:14",
  "schema": 2,
  "moj_bad": [],
  "moj_cooldown_until": "",
@@ -314,6 +314,16 @@
    "title": "運動部、財政部令：修正「體育團體舉辦運動賽事或活動免徵營業稅認定辦法」第2條條文",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169775&log=detailLog",
    "dl": null
+  },
+  {
+   "uid": "moenv:gazette-169771",
+   "k": "moenv",
+   "sn": "環境部主管法規",
+   "date": "2026-11-27",
+   "dept": "環境部",
+   "title": "環境部公告：預告「物品或其包裝容器及其應負回收清除處理責任之業者範圍」公告事項第13項修正草案",
+   "url": "https://join.gov.tw/policies/gazette/metaId/169771",
+   "dl": "2026-12-11"
   },
   {
    "uid": "tcm:88610",
