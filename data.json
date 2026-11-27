@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 18:15",
+ "updated": "2026-11-27 21:21",
  "schema": 2,
  "moj_bad": [],
  "moj_cooldown_until": "",
@@ -293,6 +293,26 @@
    "dept": "行政院第4030次會議院長提示暨院會",
    "title": "行政院第4030次會議院長提示暨院會決定決議事項",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169768&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "mof:gazette-169782",
+   "k": "mof",
+   "sn": "財政部主管法規",
+   "date": "2026-11-27",
+   "dept": "財政部",
+   "title": "財政部令：修正「財政部優質酒類認證評審基準－共通規範」，名稱並修正為「財政部優質酒類認證評審基準之共通規範」，自即日生效",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169782&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "mof:gazette-169775",
+   "k": "mof",
+   "sn": "財政部主管法規",
+   "date": "2026-11-27",
+   "dept": "財政部",
+   "title": "運動部、財政部令：修正「體育團體舉辦運動賽事或活動免徵營業稅認定辦法」第2條條文",
+   "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169775&log=detailLog",
    "dl": null
   },
   {
