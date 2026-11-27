@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 09:25",
+ "updated": "2026-11-27 12:10",
  "moj_bad": [],
  "moj_cooldown_until": "",
  "gazette_done": [
@@ -283,6 +283,26 @@
    "dept": "全國法規資料庫",
    "title": "訂定本區中正紀念館場地租用管理要點，並自中華民國116年1月1日生效，請查照。",
    "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200725",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200734",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-26",
+   "dept": "全國法規資料庫",
+   "title": "廢止「桃園市外送平台業者管理自治條例」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200734",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200733",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-26",
+   "dept": "全國法規資料庫",
+   "title": "修正「桃園市殯葬管理自治條例」部分條文。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200733",
    "dl": null
   },
   {
@@ -2723,6 +2743,16 @@
    "dept": "衛生福利部中央健康保險署",
    "title": "衛生福利部中央健康保險署對黃○銘（嘉安廣告事業有限公司之負責人）等投保單位負責人全民健康保險保險費暨滯納金繳款單公示送達",
    "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=169576&log=detailLog",
+   "dl": null
+  },
+  {
+   "uid": "moj:https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200732",
+   "k": "moj",
+   "sn": "全國法規資料庫最新訊息",
+   "date": "2026-11-19",
+   "dept": "全國法規資料庫",
+   "title": "訂定「桃園市桃園航空城附近地區第一期特定區區段徵收案選配安置土地對象申請承租中繼住宅作業要點」。",
+   "url": "https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=200732",
    "dl": null
   },
   {
